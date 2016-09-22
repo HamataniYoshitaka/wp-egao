@@ -13,14 +13,14 @@ body {
     background-color: #ffffff;
 }
 
-.header-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: $header-height;
-    width: 100%;
-    background-color: #fff;
+.hr-dotted {
+    border: none;
+    background-image: linear-gradient(to right, #000000, #000000 30%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 100%);
+    background-size: 6px 5px;
+    height: 2px;
 }
+
+
 .bg-flag {
     position: relative;
     width: 300px;

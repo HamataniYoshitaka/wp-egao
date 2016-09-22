@@ -2377,7 +2377,7 @@ pre code {
 @media (min-width: 1200px) {
   /* line 10, ../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 1170px;
+    width: 970px;
   }
 }
 
@@ -8808,13 +8808,11 @@ body {
 }
 
 /* line 16, ../sass/components/global.scss */
-.header-nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 156px;
-  width: 100%;
-  background-color: #fff;
+.hr-dotted {
+  border: none;
+  background-image: linear-gradient(to right, #000000, #000000 30%, transparent 20%, transparent 100%);
+  background-size: 6px 5px;
+  height: 2px;
 }
 
 /* line 24, ../sass/components/global.scss */
@@ -9807,4 +9805,44 @@ body {
   -webkit-animation: anim-20 1.3s linear infinite;
   -moz-animation: anim-20 1.3s linear infinite;
   animation: anim-20 1.3s linear infinite;
+}
+
+/* line 1, ../sass/components/navigation.scss */
+.nav-fixed {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* line 7, ../sass/components/navigation.scss */
+.nav-fixed .tab {
+  background-color: #ffffff;
+  width: 220px;
+  height: 116px;
+  border-radius: 0px 0px 100px 100px / 0px 0px 70px 70px;
+  text-align: center;
+  padding-top: 16px;
+}
+/* line 15, ../sass/components/navigation.scss */
+.nav-fixed .menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  height: 46px;
+  padding: 14px 20px;
+}
+/* line 22, ../sass/components/navigation.scss */
+.nav-fixed .menu > a {
+  color: #231815;
+  font-weight: bold;
+  transition: color 0.3s;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+/* line 28, ../sass/components/navigation.scss */
+.nav-fixed .menu > a:hover {
+  text-decoration: none;
+  color: #63443b;
 }
