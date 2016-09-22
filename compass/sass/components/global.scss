@@ -9,30 +9,8 @@ body {
   font-smoothing: antialiased;
 }
 
-.josefin {
-    font-family: 'Josefin Sans', sans-serif;
-}
-.roboto-condensed{
-    font-family: 'Roboto Condensed', sans-serif;
-}
-.bold {
-  font-weight: 700;
-}
-
-// letter-spacing
-.tracking-1 {
-  letter-spacing: 0.1em;
-}
-.tracking-2 {
-  letter-spacing: 0.2em;
-}
-
-// line-height
-.line-height-2 {
-  line-height: 2;
-}
-.line-height-15 {
-  line-height: 1.5;
+.bg-white {
+    background-color: #ffffff;
 }
 
 .header-nav {
@@ -222,8 +200,10 @@ body {
         height: 500px;
     }
 }
+
 .footer {
-    background-color: #efefef;
+    background-color: #cacbca;
+    color: #ffffff;
     padding-top: 60px;
     padding-bottom: 50px;
 }
@@ -248,38 +228,5 @@ body {
 
     &:hover{
     background-color: #dcdcdc;
-    }
-}
-
-.recruit-box{
-    border: 2px solid #000000;
-    padding: 15px;
-    font-size: 15px;
-}
-
-.btn-staff{
-    color: #333;
-    background-color: rgba(0,0,0,0.8);
-    border-color: #ffffff;
-    border-radius: 0px;
-    border-width: 3px;
-    padding: 15px 20px;
-    color: #ffffff;
-
-    @media only screen and (min-width: $screen-sm) {
-        padding: 15px 60px;
-    }
-
-    &:hover{
-        background-color: #dcdcdc;
-    }
-}
-
-.staff-offer{
-    margin-top: -200px;
-    height: 280px;
-    width: 100%;
-    @media only screen and (min-width: $screen-sm) {
-        margin-top: -70px;
     }
 }
