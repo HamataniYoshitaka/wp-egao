@@ -1,0 +1,285 @@
+$header-height: 156px;
+
+html, body {
+    height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.josefin {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.roboto-condensed{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.bold {
+  font-weight: 700;
+}
+
+// letter-spacing
+.tracking-1 {
+  letter-spacing: 0.1em;
+}
+.tracking-2 {
+  letter-spacing: 0.2em;
+}
+
+// line-height
+.line-height-2 {
+  line-height: 2;
+}
+.line-height-15 {
+  line-height: 1.5;
+}
+
+.header-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: $header-height;
+    width: 100%;
+    background-color: #fff;
+}
+.bg-flag {
+    position: relative;
+    width: 300px;
+    height: 142px;
+    @media only screen and (min-width: $screen-sm) {
+        width: 319px;
+    }
+    background-image: url('../../images/bg-flag-white@2x.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    .cover-flag {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 300px;
+        height: 139px;
+        @media only screen and (min-width: $screen-sm) {
+            width: 318px;
+        }
+        background-image: url('../../images/bg-flag-yellow.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        mix-blend-mode: multiply;
+    }
+    h1, h2, h3 {
+        position: absolute;
+        color: #000;
+    }
+    .year {
+        font-size: 20px;
+        top: 15px;
+        left: 30px;
+    }
+    .month {
+        font-size: 20px;
+        top: 50px;
+        left: 44px;
+    }
+    .place {
+        font-size: 18px;
+        top: 22px;
+        left: 157px;
+    }
+    .open {
+        font-size: 25px;
+        top: 55px;
+        left: 153px;
+    }
+}
+#p2 {
+    padding-top: 60px;
+    width: 100%;
+    background-color: #efefef;
+    @media only screen and(min-width: $screen-sm) {
+        padding: 60px;
+    }
+}
+.col-p2 {
+    position: relative;
+    min-height: 500px;
+    .p2-illust-1,.p2-illust-2,.p2-illust-3,.p2-illust-4,.p2-illust-5,.p2-illust-6,.p2-illust-7,.p2-illust-8,.p2-illust-9,.p2-illust-10,.p2-illust-11,.p2-illust-12,.p2-illust-13,.p2-illust-20 {
+        position: absolute;
+        transform: scale(0.75);
+        @media only screen and (min-width: $screen-sm) {
+            transform: scale(1.0);
+        }
+    }
+    .p2-illust-1 {  // 葉
+        top: 60px;
+        left: 15px;
+        @media only screen and (min-width: $screen-sm) {
+            left: 30px;
+        }
+    }
+    .p2-illust-2 {  // ◎
+        top: 270px;
+        left: inherit;
+        right: 0px;
+        @media only screen and (min-width: $screen-sm) {
+            left: 280px;
+            right: inherit;
+        }
+    }
+    .p2-illust-3 {  // バネ
+        top: 30px;
+        right: 10px;
+        left: inherit;
+        @media only screen and (min-width: $screen-sm) {
+            left: 330px;
+            right: inherit;
+        }
+    }
+    .p2-illust-4 {  // バネ
+        top: 380px;
+        right: 0px;
+        left: inherit;
+        @media only screen and (min-width: $screen-sm) {
+            left: 330px;
+            right: inherit;
+        }
+    }
+    .p2-illust-5 {  // 木
+        top: 70px;
+        right: 80px;
+        left:inherit;
+        @media only screen and (min-width: $screen-sm) {
+            left: 220px;
+            right: inherit;
+        }
+    }
+    .p2-illust-6 {  // インディケータ
+        top: 185px;
+        left: 190px;
+    }
+    .p2-illust-7 {  // 雪だるま
+        top: 280px;
+        left: 175px;
+    }
+    .p2-illust-8 {  // ★
+        top: 390px;
+        left:10px;
+        @media only screen and (min-width: $screen-sm) {
+            top: 190px;
+            left: 330px;
+        }
+    }
+    .p2-illust-9 {  // カプセル
+        top: 130px;
+        left: 130px;
+        .anim-9-1 {
+            position: absolute;
+            top: 0;
+        }
+        .anim-9-2 {
+            position: absolute;
+            top: 40px;
+        }
+
+    }
+    .p2-illust-10 {  // さくら
+        top: 300px;
+        left: 30px;
+    }
+    .p2-illust-11 {  // 歯ブラシ
+        top: 190px;
+        left: 30px;
+    }
+    .p2-illust-12 {  // 斜線
+        top: 410px;
+        left: 280px;
+    }
+    .p2-illust-13 {  // チューブ
+        top: 400px;
+        left: 110px;
+    }
+    .p2-illust-20 {  // のれん
+        top: 0px;
+        left: 50px;
+    }
+}
+
+.col-map {
+    padding-left: 0px;
+    padding-right: 0px;
+    @media only screen and (min-width: $screen-sm) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+#map-canvas {
+    width: 100%;
+    height: 300px;
+    @media only screen and (min-width: $screen-sm) {
+        height: 500px;
+    }
+}
+.footer {
+    background-color: #efefef;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.hr-black{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border: 0;
+    border-top: 3px solid #000000;
+}
+
+
+
+.btn-egao{
+    color: #333;
+    background-color: #fff;
+    border-color: #000000;
+    border-radius: 0px;
+    border-width: 3px;
+    padding: 15px 60px;
+
+    &:hover{
+    background-color: #dcdcdc;
+    }
+}
+
+.recruit-box{
+    border: 2px solid #000000;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.btn-staff{
+    color: #333;
+    background-color: rgba(0,0,0,0.8);
+    border-color: #ffffff;
+    border-radius: 0px;
+    border-width: 3px;
+    padding: 15px 20px;
+    color: #ffffff;
+
+    @media only screen and (min-width: $screen-sm) {
+        padding: 15px 60px;
+    }
+
+    &:hover{
+        background-color: #dcdcdc;
+    }
+}
+
+.staff-offer{
+    margin-top: -200px;
+    height: 280px;
+    width: 100%;
+    @media only screen and (min-width: $screen-sm) {
+        margin-top: -70px;
+    }
+}

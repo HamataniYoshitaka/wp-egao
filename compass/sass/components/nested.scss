@@ -1,0 +1,361 @@
+
+.bg-nested {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    #content-nested {
+        width:110%;
+        height: 100%;
+        background-color:#ffffff;
+        .box-img {
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
+
+.top-illust-1,.top-illust-2,.top-illust-3,.top-illust-4,.top-illust-5,.top-illust-6,.top-illust-7,.top-illust-8,.top-illust-9,.top-illust-10,.top-illust-11,.top-illust-12,.top-illust-13 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(0.7);
+    @media only screen and (min-width: $screen-sm) {
+        transform: scale(1.0);
+    }
+}
+.top-illust-1 {
+   >.anim-1 {
+       margin-top: -41px;
+       margin-left: -18px;
+   }
+}
+.top-illust-2 {
+   >.anim-2 {
+       margin-top: -23px;
+       margin-left: -23px;
+   }
+}
+.top-illust-3 {
+   >.anim-3 {
+       margin-top: -35px;
+       margin-left: -15px;
+   }
+}
+.top-illust-4 {
+   >.anim-4 {
+       margin-top: -13px;
+       margin-left: -40px;
+   }
+}
+.top-illust-5 {
+   >.anim-5 {
+       margin-top: -34px;
+       margin-left: -23px;
+   }
+}
+.top-illust-6 {
+   >.anim-6 {
+       margin-top: -31px;
+       margin-left: -31px;
+   }
+}
+.top-illust-7 {
+   >.anim-7 {
+       margin-top: -45px;
+       margin-left: -17px;
+   }
+}
+.top-illust-8 {
+   >.anim-8 {
+       margin-top: -28px;
+       margin-left: -28px;
+   }
+}
+.top-illust-9 {
+   >.anim-9-1 {
+       margin-top: -70px;
+       margin-left: -15px;
+   }
+   >.anim-9-2 {
+       margin-top: 18px;
+       margin-left: -25px;
+   }
+}
+.top-illust-10 {
+   >.anim-10-1 {
+       margin-top: -50px;
+       margin-left: -40px;
+   }
+   >.anim-10-2 {
+       margin-top: -0px;
+       margin-left: 4px;
+   }
+}
+.top-illust-11 {
+   >.anim-11 {
+       margin-top: -28px;
+       margin-left: -28px;
+   }
+}
+.top-illust-12 {
+   >.anim-12 {
+       margin-top: -22px;
+       margin-left: -18px;
+   }
+}
+.top-illust-13 {
+   >.anim-13-1 {
+       margin-top: -20px;
+       margin-left: -40px;
+   }
+   >.anim-13-2 {
+       margin-top: -20px;
+       margin-left: -3px;
+   }
+}
+
+@mixin keyframes($animation-name: animaton) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($animation-name) {
+  -webkit-animation: $animation-name;
+  -moz-animation: $animation-name;
+  animation: $animation-name;
+}
+
+// 葉っぱ
+@include keyframes(anim-1) {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(30deg);
+    }
+    75% {
+        transform: rotate(-30deg);
+    }
+}
+.anim-1 {
+    @include animation(anim-1 3.0s linear infinite);
+}
+
+// ◎
+@include keyframes(anim-2) {
+    0%, 100% {
+        transform: scale(0.8, 0.8);
+    }
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+}
+.anim-2 {
+    @include animation(anim-2 2.0s ease infinite);
+}
+
+// バネ
+@include keyframes(anim-3) {
+    0%, 100% {
+        transform: scale(1.0, 0.8);
+    }
+    50% {
+        transform: scale(1.0, 1.2);
+    }
+}
+.anim-3 {
+    @include animation(anim-3 1.0s linear infinite);
+}
+
+// ウインナー
+@include keyframes(anim-4) {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+}
+.anim-4 {
+    @include animation(anim-4 1.0s linear infinite);
+}
+// 木
+@include keyframes(anim-5) {
+    0%, 100% {
+        transform: scale(1.0, 0.9);
+    }
+    50% {
+        transform: scale(1.0, 1.1);
+    }
+}
+.anim-5 {
+    @include animation(anim-5 3.0s linear infinite);
+}
+
+// インディケータ
+@include keyframes(anim-6) {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.anim-6 {
+    @include animation(anim-6 4.0s linear infinite);
+}
+
+// 雪だるま
+@include keyframes(anim-7) {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+}
+.anim-7 {
+    @include animation(anim-7 4.6s linear infinite);
+}
+
+// インディケータ
+@include keyframes(anim-8) {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+.anim-8 {
+    @include animation(anim-8 10.0s linear infinite);
+}
+
+// 上唇
+@include keyframes(anim-9-1) {
+    0%, 100% {
+        transform: translate(0px, 3px);
+    }
+    50% {
+        transform: translate(0px, 10px);
+    }
+}
+.anim-9-1 {
+    @include animation(anim-9-1 1.0s linear infinite);
+}
+// 下唇
+@include keyframes(anim-9-2) {
+    0%, 100% {
+        transform: translate(0px, -3px);
+    }
+    50% {
+        transform: translate(0px, -10px);
+    }
+}
+.anim-9-2 {
+    @include animation(anim-9-2 1.0s linear infinite);
+}
+
+// 花
+@include keyframes(anim-10-1) {
+    0%, 100% {
+        transform: scale(0.8, 0.8);
+    }
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+}
+.anim-10-1 {
+    @include animation(anim-10-1 2.0s ease infinite);
+}
+@include keyframes(anim-10-2) {
+    0%, 100% {
+        transform: scale(1.2, 1.2);
+    }
+    50% {
+        transform: scale(0.8, 0.8);
+    }
+}
+.anim-10-2 {
+    @include animation(anim-10-2 2.0s ease infinite);
+}
+
+// 歯ブラシ
+@include keyframes(anim-11) {
+    0%, 100% {
+        transform: translate(-3px, 0px);
+    }
+    50% {
+        transform: translate(3px, 0px);
+    }
+}
+.anim-11 {
+    @include animation(anim-11 0.5s linear infinite);
+}
+
+// 斜線
+@include keyframes(anim-12) {
+    0%, 100% {
+        transform: rotate3d(1,1,0,0deg);
+    }
+    50% {
+        transform: rotate3d(1,1,0,360deg);
+    }
+}
+.anim-12 {
+    @include animation(anim-12 8.0s linear infinite);
+}
+
+// キャップ
+@include keyframes(anim-13-1) {
+    0%, 100% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(-3px, 0px);
+    }
+}
+.anim-13-1 {
+    @include animation(anim-13-1 0.8s linear infinite);
+}
+// チューブ
+@include keyframes(anim-13-2) {
+    0%, 100% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(3px, 0px);
+    }
+}
+.anim-13-2 {
+    @include animation(anim-13-2 0.8s linear infinite);
+}
+
+// のれん
+@include keyframes(anim-20) {
+    0%, 100% {
+        transform: translate(0px, -3px);
+    }
+    50% {
+        transform: translate(0px, 4px);
+    }
+}
+.anim-20 {
+    @include animation(anim-20 1.3s linear infinite);
+}
