@@ -4,6 +4,10 @@
     top: 0;
     left: 0;
     width: 100%;
+    transition: top 1.0s;
+    &.up {
+        top: -120px;
+    }
     .tab {
         background-color: #ffffff;
         width: 220px;

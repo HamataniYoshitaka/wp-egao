@@ -9845,8 +9845,13 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  transition: top 1.0s;
 }
-/* line 7, ../sass/components/navigation.scss */
+/* line 8, ../sass/components/navigation.scss */
+.nav-fixed.up {
+  top: -120px;
+}
+/* line 11, ../sass/components/navigation.scss */
 .nav-fixed .tab {
   background-color: #ffffff;
   width: 220px;
@@ -9855,7 +9860,7 @@ body {
   text-align: center;
   padding-top: 16px;
 }
-/* line 15, ../sass/components/navigation.scss */
+/* line 19, ../sass/components/navigation.scss */
 .nav-fixed .menu {
   position: absolute;
   top: 0;
@@ -9864,7 +9869,7 @@ body {
   height: 46px;
   padding: 14px 20px;
 }
-/* line 22, ../sass/components/navigation.scss */
+/* line 26, ../sass/components/navigation.scss */
 .nav-fixed .menu > a {
   color: #231815;
   font-weight: bold;
@@ -9872,13 +9877,13 @@ body {
   margin-left: 12px;
   margin-right: 12px;
 }
-/* line 28, ../sass/components/navigation.scss */
+/* line 32, ../sass/components/navigation.scss */
 .nav-fixed .menu > a:hover {
   text-decoration: none;
   color: #63443b;
 }
 
-/* line 36, ../sass/components/navigation.scss */
+/* line 40, ../sass/components/navigation.scss */
 .footer {
   position: relative;
   background-color: #cacbca;
@@ -9886,7 +9891,7 @@ body {
   padding-top: 60px;
   padding-bottom: 50px;
 }
-/* line 42, ../sass/components/navigation.scss */
+/* line 46, ../sass/components/navigation.scss */
 .footer .btn-footer {
   width: 80px;
   height: 80px;
@@ -9894,15 +9899,15 @@ body {
   border: none;
   border-radius: 40px;
 }
-/* line 48, ../sass/components/navigation.scss */
+/* line 52, ../sass/components/navigation.scss */
 .footer .btn-footer:focus {
   outline: none;
 }
-/* line 52, ../sass/components/navigation.scss */
+/* line 56, ../sass/components/navigation.scss */
 .footer .btn-footer:hover img {
   transform: translate(0px, -6px);
 }
-/* line 56, ../sass/components/navigation.scss */
+/* line 60, ../sass/components/navigation.scss */
 .footer .btn-footer img {
   width: 20px;
   height: auto;
@@ -10129,20 +10134,7 @@ body {
   height: 400px;
 }
 
-/* line 15, ../sass/components/introduction.scss */
-.container-slick {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-@media only screen and (min-width: 768px) {
-  /* line 15, ../sass/components/introduction.scss */
-  .container-slick {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
-/* line 24, ../sass/components/introduction.scss */
+/* line 16, ../sass/components/introduction.scss */
 .slick-arrow {
   font-size: 0;
   line-height: 0;
@@ -10165,20 +10157,20 @@ body {
   z-index: 1;
 }
 @media only screen and (min-width: 768px) {
-  /* line 24, ../sass/components/introduction.scss */
+  /* line 16, ../sass/components/introduction.scss */
   .slick-arrow {
     opacity: 1;
   }
 }
-/* line 47, ../sass/components/introduction.scss */
+/* line 39, ../sass/components/introduction.scss */
 .slick-arrow:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
-/* line 50, ../sass/components/introduction.scss */
+/* line 42, ../sass/components/introduction.scss */
 .slick-arrow:focus {
   outline: none;
 }
-/* line 53, ../sass/components/introduction.scss */
+/* line 45, ../sass/components/introduction.scss */
 .slick-arrow:before {
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 30px;
@@ -10188,21 +10180,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 63, ../sass/components/introduction.scss */
+/* line 55, ../sass/components/introduction.scss */
 .slick-next {
   right: 136px;
 }
-/* line 65, ../sass/components/introduction.scss */
+/* line 57, ../sass/components/introduction.scss */
 .slick-next:before {
   content: '\f105';
   letter-spacing: -0.1em;
 }
 
-/* line 70, ../sass/components/introduction.scss */
+/* line 62, ../sass/components/introduction.scss */
 .slick-prev {
   left: 136px;
 }
-/* line 72, ../sass/components/introduction.scss */
+/* line 64, ../sass/components/introduction.scss */
 .slick-prev:before {
   content: '\f104';
   letter-spacing: 0.1em;

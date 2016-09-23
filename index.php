@@ -2,7 +2,10 @@
 /**
 * インデックスページのテンプレート
 */
-get_header(); ?>
+get_header();
+require_once(dirname(__FILE__) . '/parts/nav-pc.php');
+?>
+
 <div class="p1" style="position: relative; width; 100%; height: 100%;">
     <? require_once(dirname(__FILE__) . '/parts/nested.php'); ?>
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.2);">
@@ -202,5 +205,16 @@ while ( have_posts() ) : the_post();
     </h4>
 
 </div><!-- /.container -->
-
+<script>
+$(window).scroll(function() {
+  var windowH = $(window).height();
+  var scrollTop = $(this).scrollTop();
+  if (scrollTop > windowH) {
+      $('.nav-fixed').removeClass('up');
+  }
+  else {
+      $('.nav-fixed').addClass('up');
+  }
+});
+</script>
 <? get_footer(); ?>

@@ -1,4 +1,4 @@
-<nav class="nav-fixed">
+<nav class="nav-fixed <? if (is_home() || is_front_page()) echo 'up' ?> ">
     <div class="container clearfix">
         <div class="pull-left tab">
             <a href="<? echo home_url(); ?>">
