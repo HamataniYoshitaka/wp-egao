@@ -10112,3 +10112,98 @@ body {
   background-color: #ffffff;
   vertical-align: middle !important;
 }
+
+/* line 1, ../sass/components/introduction.scss */
+.slick-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 640px;
+  height: 400px;
+}
+
+/* line 11, ../sass/components/introduction.scss */
+.slick-slide {
+  height: 400px;
+}
+
+/* line 15, ../sass/components/introduction.scss */
+.container-slick {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media only screen and (min-width: 768px) {
+  /* line 15, ../sass/components/introduction.scss */
+  .container-slick {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* line 24, ../sass/components/introduction.scss */
+.slick-arrow {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  opacity: 0;
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 24px;
+  padding: 0;
+  margin-top: -10px\9;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  z-index: 1;
+}
+@media only screen and (min-width: 768px) {
+  /* line 24, ../sass/components/introduction.scss */
+  .slick-arrow {
+    opacity: 1;
+  }
+}
+/* line 47, ../sass/components/introduction.scss */
+.slick-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+/* line 50, ../sass/components/introduction.scss */
+.slick-arrow:focus {
+  outline: none;
+}
+/* line 53, ../sass/components/introduction.scss */
+.slick-arrow:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 30px;
+  line-height: 1;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 63, ../sass/components/introduction.scss */
+.slick-next {
+  right: 136px;
+}
+/* line 65, ../sass/components/introduction.scss */
+.slick-next:before {
+  content: '\f105';
+  letter-spacing: -0.1em;
+}
+
+/* line 70, ../sass/components/introduction.scss */
+.slick-prev {
+  left: 136px;
+}
+/* line 72, ../sass/components/introduction.scss */
+.slick-prev:before {
+  content: '\f104';
+  letter-spacing: 0.1em;
+}

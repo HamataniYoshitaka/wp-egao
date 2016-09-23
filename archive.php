@@ -2,7 +2,10 @@
 /**
 * アーカイブページのテンプレート
 */
-get_header(); ?>
+get_header();
+require_once(dirname(__FILE__) . '/parts/nav-pc.php');
+?>
+
 <div class="bg-white bg-pattern">
 
     <div class="container" style="padding-top: 100px; padding-bottom: 100px;">

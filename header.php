@@ -11,7 +11,6 @@ header('X-UA-Compatible: IE=edge,chrome=1');
 
 	<!-- Google fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700|Roboto+Condensed' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="<?php bloginfo('template_directory')?>/compass/stylesheets/styles.css">
 	<script src="<?php bloginfo('template_directory')?>/compass/javascripts/jquery-2.2.0.min.js" type="text/javascript"></script>
 	<script src="<? bloginfo('template_directory') ?>/compass/javascripts/bootstrap.min.js" type="text/javascript"></script>
 
@@ -22,6 +21,12 @@ header('X-UA-Compatible: IE=edge,chrome=1');
 	<script src="<? bloginfo('template_directory') ?>/compass/javascripts/nested/makeboxes.js" type="text/javascript"></script>
 <? endif; ?>
 
+<? if (get_page(get_the_ID())->post_name == 'introduction') : ?>
+	<link rel="stylesheet" type="text/css" href="<? bloginfo('template_directory') ?>/compass/javascripts/slick/slick/slick.css">
+	<script type="text/javascript" src="<? bloginfo('template_directory') ?>/compass/javascripts/slick/slick/slick.min.js"></script>
+<? endif; ?>
+
+	<link rel="stylesheet" href="<?php bloginfo('template_directory')?>/compass/stylesheets/styles.css">
 	<?php wp_head(); ?>
 </head>
 
