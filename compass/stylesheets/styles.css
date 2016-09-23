@@ -8832,7 +8832,16 @@ body {
   width: 100%;
 }
 
-/* line 39, ../sass/components/global.scss */
+/* line 38, ../sass/components/global.scss */
+.round-border-title {
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 3px solid #231815;
+  border-radius: 26px;
+  padding: 10px 30px;
+}
+
+/* line 46, ../sass/components/global.scss */
 .bg-flag {
   position: relative;
   width: 300px;
@@ -8843,12 +8852,12 @@ body {
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 768px) {
-  /* line 39, ../sass/components/global.scss */
+  /* line 46, ../sass/components/global.scss */
   .bg-flag {
     width: 319px;
   }
 }
-/* line 50, ../sass/components/global.scss */
+/* line 57, ../sass/components/global.scss */
 .bg-flag .cover-flag {
   position: absolute;
   top: 10px;
@@ -8862,222 +8871,222 @@ body {
   mix-blend-mode: multiply;
 }
 @media only screen and (min-width: 768px) {
-  /* line 50, ../sass/components/global.scss */
+  /* line 57, ../sass/components/global.scss */
   .bg-flag .cover-flag {
     width: 318px;
   }
 }
-/* line 65, ../sass/components/global.scss */
+/* line 72, ../sass/components/global.scss */
 .bg-flag h1, .bg-flag h2, .bg-flag h3 {
   position: absolute;
   color: #000;
 }
-/* line 69, ../sass/components/global.scss */
+/* line 76, ../sass/components/global.scss */
 .bg-flag .year {
   font-size: 20px;
   top: 15px;
   left: 30px;
 }
-/* line 74, ../sass/components/global.scss */
+/* line 81, ../sass/components/global.scss */
 .bg-flag .month {
   font-size: 20px;
   top: 50px;
   left: 44px;
 }
-/* line 79, ../sass/components/global.scss */
+/* line 86, ../sass/components/global.scss */
 .bg-flag .place {
   font-size: 18px;
   top: 22px;
   left: 157px;
 }
-/* line 84, ../sass/components/global.scss */
+/* line 91, ../sass/components/global.scss */
 .bg-flag .open {
   font-size: 25px;
   top: 55px;
   left: 153px;
 }
 
-/* line 90, ../sass/components/global.scss */
+/* line 97, ../sass/components/global.scss */
 #p2 {
   padding-top: 60px;
   width: 100%;
   background-color: #efefef;
 }
 @media only screen and (min-width: 768px) {
-  /* line 90, ../sass/components/global.scss */
+  /* line 97, ../sass/components/global.scss */
   #p2 {
     padding: 60px;
   }
 }
 
-/* line 98, ../sass/components/global.scss */
+/* line 105, ../sass/components/global.scss */
 .col-p2 {
   position: relative;
   min-height: 500px;
 }
-/* line 101, ../sass/components/global.scss */
+/* line 108, ../sass/components/global.scss */
 .col-p2 .p2-illust-1, .col-p2 .p2-illust-2, .col-p2 .p2-illust-3, .col-p2 .p2-illust-4, .col-p2 .p2-illust-5, .col-p2 .p2-illust-6, .col-p2 .p2-illust-7, .col-p2 .p2-illust-8, .col-p2 .p2-illust-9, .col-p2 .p2-illust-10, .col-p2 .p2-illust-11, .col-p2 .p2-illust-12, .col-p2 .p2-illust-13, .col-p2 .p2-illust-20 {
   position: absolute;
   transform: scale(0.75);
 }
 @media only screen and (min-width: 768px) {
-  /* line 101, ../sass/components/global.scss */
+  /* line 108, ../sass/components/global.scss */
   .col-p2 .p2-illust-1, .col-p2 .p2-illust-2, .col-p2 .p2-illust-3, .col-p2 .p2-illust-4, .col-p2 .p2-illust-5, .col-p2 .p2-illust-6, .col-p2 .p2-illust-7, .col-p2 .p2-illust-8, .col-p2 .p2-illust-9, .col-p2 .p2-illust-10, .col-p2 .p2-illust-11, .col-p2 .p2-illust-12, .col-p2 .p2-illust-13, .col-p2 .p2-illust-20 {
     transform: scale(1);
   }
 }
-/* line 108, ../sass/components/global.scss */
+/* line 115, ../sass/components/global.scss */
 .col-p2 .p2-illust-1 {
   top: 60px;
   left: 15px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 108, ../sass/components/global.scss */
+  /* line 115, ../sass/components/global.scss */
   .col-p2 .p2-illust-1 {
     left: 30px;
   }
 }
-/* line 115, ../sass/components/global.scss */
+/* line 122, ../sass/components/global.scss */
 .col-p2 .p2-illust-2 {
   top: 270px;
   left: inherit;
   right: 0px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 115, ../sass/components/global.scss */
+  /* line 122, ../sass/components/global.scss */
   .col-p2 .p2-illust-2 {
     left: 280px;
     right: inherit;
   }
 }
-/* line 124, ../sass/components/global.scss */
+/* line 131, ../sass/components/global.scss */
 .col-p2 .p2-illust-3 {
   top: 30px;
   right: 10px;
   left: inherit;
 }
 @media only screen and (min-width: 768px) {
-  /* line 124, ../sass/components/global.scss */
+  /* line 131, ../sass/components/global.scss */
   .col-p2 .p2-illust-3 {
     left: 330px;
     right: inherit;
   }
 }
-/* line 133, ../sass/components/global.scss */
+/* line 140, ../sass/components/global.scss */
 .col-p2 .p2-illust-4 {
   top: 380px;
   right: 0px;
   left: inherit;
 }
 @media only screen and (min-width: 768px) {
-  /* line 133, ../sass/components/global.scss */
+  /* line 140, ../sass/components/global.scss */
   .col-p2 .p2-illust-4 {
     left: 330px;
     right: inherit;
   }
 }
-/* line 142, ../sass/components/global.scss */
+/* line 149, ../sass/components/global.scss */
 .col-p2 .p2-illust-5 {
   top: 70px;
   right: 80px;
   left: inherit;
 }
 @media only screen and (min-width: 768px) {
-  /* line 142, ../sass/components/global.scss */
+  /* line 149, ../sass/components/global.scss */
   .col-p2 .p2-illust-5 {
     left: 220px;
     right: inherit;
   }
 }
-/* line 151, ../sass/components/global.scss */
+/* line 158, ../sass/components/global.scss */
 .col-p2 .p2-illust-6 {
   top: 185px;
   left: 190px;
 }
-/* line 155, ../sass/components/global.scss */
+/* line 162, ../sass/components/global.scss */
 .col-p2 .p2-illust-7 {
   top: 280px;
   left: 175px;
 }
-/* line 159, ../sass/components/global.scss */
+/* line 166, ../sass/components/global.scss */
 .col-p2 .p2-illust-8 {
   top: 390px;
   left: 10px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 159, ../sass/components/global.scss */
+  /* line 166, ../sass/components/global.scss */
   .col-p2 .p2-illust-8 {
     top: 190px;
     left: 330px;
   }
 }
-/* line 167, ../sass/components/global.scss */
+/* line 174, ../sass/components/global.scss */
 .col-p2 .p2-illust-9 {
   top: 130px;
   left: 130px;
 }
-/* line 170, ../sass/components/global.scss */
+/* line 177, ../sass/components/global.scss */
 .col-p2 .p2-illust-9 .anim-9-1 {
   position: absolute;
   top: 0;
 }
-/* line 174, ../sass/components/global.scss */
+/* line 181, ../sass/components/global.scss */
 .col-p2 .p2-illust-9 .anim-9-2 {
   position: absolute;
   top: 40px;
 }
-/* line 180, ../sass/components/global.scss */
+/* line 187, ../sass/components/global.scss */
 .col-p2 .p2-illust-10 {
   top: 300px;
   left: 30px;
 }
-/* line 184, ../sass/components/global.scss */
+/* line 191, ../sass/components/global.scss */
 .col-p2 .p2-illust-11 {
   top: 190px;
   left: 30px;
 }
-/* line 188, ../sass/components/global.scss */
+/* line 195, ../sass/components/global.scss */
 .col-p2 .p2-illust-12 {
   top: 410px;
   left: 280px;
 }
-/* line 192, ../sass/components/global.scss */
+/* line 199, ../sass/components/global.scss */
 .col-p2 .p2-illust-13 {
   top: 400px;
   left: 110px;
 }
-/* line 196, ../sass/components/global.scss */
+/* line 203, ../sass/components/global.scss */
 .col-p2 .p2-illust-20 {
   top: 0px;
   left: 50px;
 }
 
-/* line 202, ../sass/components/global.scss */
+/* line 209, ../sass/components/global.scss */
 .col-map {
   padding-left: 0px;
   padding-right: 0px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 202, ../sass/components/global.scss */
+  /* line 209, ../sass/components/global.scss */
   .col-map {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 211, ../sass/components/global.scss */
+/* line 218, ../sass/components/global.scss */
 #map-canvas {
   width: 100%;
   height: 300px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 211, ../sass/components/global.scss */
+  /* line 218, ../sass/components/global.scss */
   #map-canvas {
     height: 500px;
   }
 }
 
-/* line 219, ../sass/components/global.scss */
+/* line 226, ../sass/components/global.scss */
 .footer {
   background-color: #cacbca;
   color: #ffffff;
@@ -9085,7 +9094,7 @@ body {
   padding-bottom: 50px;
 }
 
-/* line 226, ../sass/components/global.scss */
+/* line 233, ../sass/components/global.scss */
 .hr-black {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -9093,7 +9102,7 @@ body {
   border-top: 3px solid #000000;
 }
 
-/* line 236, ../sass/components/global.scss */
+/* line 243, ../sass/components/global.scss */
 .btn-egao {
   color: #333;
   background-color: #fff;
@@ -9102,7 +9111,7 @@ body {
   border-width: 3px;
   padding: 15px 60px;
 }
-/* line 244, ../sass/components/global.scss */
+/* line 251, ../sass/components/global.scss */
 .btn-egao:hover {
   background-color: #dcdcdc;
 }
@@ -9862,4 +9871,23 @@ body {
 .nav-fixed .menu > a:hover {
   text-decoration: none;
   color: #63443b;
+}
+
+/* line 1, ../sass/components/treatment.scss */
+.treatment-step {
+  width: 90px;
+  height: 90px;
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 50px;
+}
+/* line 7, ../sass/components/treatment.scss */
+.treatment-step > h1 {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+/* line 12, ../sass/components/treatment.scss */
+.treatment-step > h6 {
+  margin-top: 0;
 }
