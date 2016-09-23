@@ -8914,187 +8914,32 @@ body {
   left: 153px;
 }
 
-/* line 120, ../sass/components/global.scss */
-#p2 {
-  padding-top: 60px;
-  width: 100%;
-  background-color: #efefef;
-}
-@media only screen and (min-width: 768px) {
-  /* line 120, ../sass/components/global.scss */
-  #p2 {
-    padding: 60px;
-  }
-}
-
-/* line 128, ../sass/components/global.scss */
-.col-p2 {
-  position: relative;
-  min-height: 500px;
-}
-/* line 131, ../sass/components/global.scss */
-.col-p2 .p2-illust-1, .col-p2 .p2-illust-2, .col-p2 .p2-illust-3, .col-p2 .p2-illust-4, .col-p2 .p2-illust-5, .col-p2 .p2-illust-6, .col-p2 .p2-illust-7, .col-p2 .p2-illust-8, .col-p2 .p2-illust-9, .col-p2 .p2-illust-10, .col-p2 .p2-illust-11, .col-p2 .p2-illust-12, .col-p2 .p2-illust-13, .col-p2 .p2-illust-20 {
-  position: absolute;
-  transform: scale(0.75);
-}
-@media only screen and (min-width: 768px) {
-  /* line 131, ../sass/components/global.scss */
-  .col-p2 .p2-illust-1, .col-p2 .p2-illust-2, .col-p2 .p2-illust-3, .col-p2 .p2-illust-4, .col-p2 .p2-illust-5, .col-p2 .p2-illust-6, .col-p2 .p2-illust-7, .col-p2 .p2-illust-8, .col-p2 .p2-illust-9, .col-p2 .p2-illust-10, .col-p2 .p2-illust-11, .col-p2 .p2-illust-12, .col-p2 .p2-illust-13, .col-p2 .p2-illust-20 {
-    transform: scale(1);
-  }
-}
-/* line 138, ../sass/components/global.scss */
-.col-p2 .p2-illust-1 {
-  top: 60px;
-  left: 15px;
-}
-@media only screen and (min-width: 768px) {
-  /* line 138, ../sass/components/global.scss */
-  .col-p2 .p2-illust-1 {
-    left: 30px;
-  }
-}
-/* line 145, ../sass/components/global.scss */
-.col-p2 .p2-illust-2 {
-  top: 270px;
-  left: inherit;
-  right: 0px;
-}
-@media only screen and (min-width: 768px) {
-  /* line 145, ../sass/components/global.scss */
-  .col-p2 .p2-illust-2 {
-    left: 280px;
-    right: inherit;
-  }
-}
-/* line 154, ../sass/components/global.scss */
-.col-p2 .p2-illust-3 {
-  top: 30px;
-  right: 10px;
-  left: inherit;
-}
-@media only screen and (min-width: 768px) {
-  /* line 154, ../sass/components/global.scss */
-  .col-p2 .p2-illust-3 {
-    left: 330px;
-    right: inherit;
-  }
-}
-/* line 163, ../sass/components/global.scss */
-.col-p2 .p2-illust-4 {
-  top: 380px;
-  right: 0px;
-  left: inherit;
-}
-@media only screen and (min-width: 768px) {
-  /* line 163, ../sass/components/global.scss */
-  .col-p2 .p2-illust-4 {
-    left: 330px;
-    right: inherit;
-  }
-}
-/* line 172, ../sass/components/global.scss */
-.col-p2 .p2-illust-5 {
-  top: 70px;
-  right: 80px;
-  left: inherit;
-}
-@media only screen and (min-width: 768px) {
-  /* line 172, ../sass/components/global.scss */
-  .col-p2 .p2-illust-5 {
-    left: 220px;
-    right: inherit;
-  }
-}
-/* line 181, ../sass/components/global.scss */
-.col-p2 .p2-illust-6 {
-  top: 185px;
-  left: 190px;
-}
-/* line 185, ../sass/components/global.scss */
-.col-p2 .p2-illust-7 {
-  top: 280px;
-  left: 175px;
-}
-/* line 189, ../sass/components/global.scss */
-.col-p2 .p2-illust-8 {
-  top: 390px;
-  left: 10px;
-}
-@media only screen and (min-width: 768px) {
-  /* line 189, ../sass/components/global.scss */
-  .col-p2 .p2-illust-8 {
-    top: 190px;
-    left: 330px;
-  }
-}
-/* line 197, ../sass/components/global.scss */
-.col-p2 .p2-illust-9 {
-  top: 130px;
-  left: 130px;
-}
-/* line 200, ../sass/components/global.scss */
-.col-p2 .p2-illust-9 .anim-9-1 {
-  position: absolute;
-  top: 0;
-}
-/* line 204, ../sass/components/global.scss */
-.col-p2 .p2-illust-9 .anim-9-2 {
-  position: absolute;
-  top: 40px;
-}
-/* line 210, ../sass/components/global.scss */
-.col-p2 .p2-illust-10 {
-  top: 300px;
-  left: 30px;
-}
-/* line 214, ../sass/components/global.scss */
-.col-p2 .p2-illust-11 {
-  top: 190px;
-  left: 30px;
-}
-/* line 218, ../sass/components/global.scss */
-.col-p2 .p2-illust-12 {
-  top: 410px;
-  left: 280px;
-}
-/* line 222, ../sass/components/global.scss */
-.col-p2 .p2-illust-13 {
-  top: 400px;
-  left: 110px;
-}
-/* line 226, ../sass/components/global.scss */
-.col-p2 .p2-illust-20 {
-  top: 0px;
-  left: 50px;
-}
-
-/* line 232, ../sass/components/global.scss */
+/* line 123, ../sass/components/global.scss */
 .col-map {
   padding-left: 0px;
   padding-right: 0px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 232, ../sass/components/global.scss */
+  /* line 123, ../sass/components/global.scss */
   .col-map {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 241, ../sass/components/global.scss */
+/* line 132, ../sass/components/global.scss */
 #map-canvas {
   width: 100%;
   height: 300px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 241, ../sass/components/global.scss */
+  /* line 132, ../sass/components/global.scss */
   #map-canvas {
     height: 500px;
   }
 }
 
-/* line 250, ../sass/components/global.scss */
+/* line 141, ../sass/components/global.scss */
 .hr-black {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -9102,7 +8947,7 @@ body {
   border-top: 3px solid #000000;
 }
 
-/* line 260, ../sass/components/global.scss */
+/* line 151, ../sass/components/global.scss */
 .btn-egao {
   color: #333;
   background-color: #fff;
@@ -9111,7 +8956,7 @@ body {
   border-width: 3px;
   padding: 15px 60px;
 }
-/* line 268, ../sass/components/global.scss */
+/* line 159, ../sass/components/global.scss */
 .btn-egao:hover {
   background-color: #dcdcdc;
 }
@@ -10198,4 +10043,140 @@ body {
 .slick-prev:before {
   content: '\f104';
   letter-spacing: 0.1em;
+}
+
+/* line 1, ../sass/components/p2.scss */
+.col-p2 {
+  position: relative;
+  min-height: 500px;
+}
+/* line 4, ../sass/components/p2.scss */
+.col-p2 .p2-illust-1, .col-p2 .p2-illust-2, .col-p2 .p2-illust-3, .col-p2 .p2-illust-4, .col-p2 .p2-illust-5, .col-p2 .p2-illust-6, .col-p2 .p2-illust-7, .col-p2 .p2-illust-8, .col-p2 .p2-illust-9, .col-p2 .p2-illust-10, .col-p2 .p2-illust-11, .col-p2 .p2-illust-12, .col-p2 .p2-illust-13, .col-p2 .p2-illust-20 {
+  position: absolute;
+  transform: scale(0.75);
+}
+@media only screen and (min-width: 768px) {
+  /* line 4, ../sass/components/p2.scss */
+  .col-p2 .p2-illust-1, .col-p2 .p2-illust-2, .col-p2 .p2-illust-3, .col-p2 .p2-illust-4, .col-p2 .p2-illust-5, .col-p2 .p2-illust-6, .col-p2 .p2-illust-7, .col-p2 .p2-illust-8, .col-p2 .p2-illust-9, .col-p2 .p2-illust-10, .col-p2 .p2-illust-11, .col-p2 .p2-illust-12, .col-p2 .p2-illust-13, .col-p2 .p2-illust-20 {
+    transform: scale(1);
+  }
+}
+/* line 11, ../sass/components/p2.scss */
+.col-p2 .p2-illust-1 {
+  top: 160px;
+  left: 15px;
+}
+@media only screen and (min-width: 768px) {
+  /* line 11, ../sass/components/p2.scss */
+  .col-p2 .p2-illust-1 {
+    left: 30px;
+  }
+}
+/* line 18, ../sass/components/p2.scss */
+.col-p2 .p2-illust-2 {
+  top: 470px;
+  left: inherit;
+  right: 0px;
+}
+@media only screen and (min-width: 768px) {
+  /* line 18, ../sass/components/p2.scss */
+  .col-p2 .p2-illust-2 {
+    left: 80px;
+    right: inherit;
+  }
+}
+/* line 27, ../sass/components/p2.scss */
+.col-p2 .p2-illust-3 {
+  top: 260px;
+  left: 0px;
+}
+@media only screen and (min-width: 768px) {
+  /* line 27, ../sass/components/p2.scss */
+  .col-p2 .p2-illust-3 {
+    left: 100px;
+  }
+}
+/* line 34, ../sass/components/p2.scss */
+.col-p2 .p2-illust-4 {
+  top: 380px;
+  right: 0px;
+}
+@media only screen and (min-width: 768px) {
+  /* line 34, ../sass/components/p2.scss */
+  .col-p2 .p2-illust-4 {
+    right: -10px;
+  }
+}
+/* line 41, ../sass/components/p2.scss */
+.col-p2 .p2-illust-5 {
+  top: 70px;
+  right: 80px;
+}
+@media only screen and (min-width: 768px) {
+  /* line 41, ../sass/components/p2.scss */
+  .col-p2 .p2-illust-5 {
+    right: 20px;
+  }
+}
+/* line 48, ../sass/components/p2.scss */
+.col-p2 .p2-illust-6 {
+  top: -135px;
+  left: 40px;
+}
+/* line 52, ../sass/components/p2.scss */
+.col-p2 .p2-illust-7 {
+  top: 90px;
+  right: 20px;
+}
+/* line 56, ../sass/components/p2.scss */
+.col-p2 .p2-illust-8 {
+  top: 390px;
+  right: 0px;
+}
+@media only screen and (min-width: 768px) {
+  /* line 56, ../sass/components/p2.scss */
+  .col-p2 .p2-illust-8 {
+    top: -110px;
+    right: 0px;
+  }
+}
+/* line 64, ../sass/components/p2.scss */
+.col-p2 .p2-illust-9 {
+  top: -30px;
+  left: 90px;
+}
+/* line 67, ../sass/components/p2.scss */
+.col-p2 .p2-illust-9 .anim-9-1 {
+  position: absolute;
+  top: 0;
+}
+/* line 71, ../sass/components/p2.scss */
+.col-p2 .p2-illust-9 .anim-9-2 {
+  position: absolute;
+  top: 40px;
+}
+/* line 77, ../sass/components/p2.scss */
+.col-p2 .p2-illust-10 {
+  top: 300px;
+  left: 30px;
+}
+/* line 81, ../sass/components/p2.scss */
+.col-p2 .p2-illust-11 {
+  top: 190px;
+  left: 30px;
+}
+/* line 85, ../sass/components/p2.scss */
+.col-p2 .p2-illust-12 {
+  top: 410px;
+  left: 280px;
+}
+/* line 89, ../sass/components/p2.scss */
+.col-p2 .p2-illust-13 {
+  top: 400px;
+  left: 110px;
+}
+/* line 93, ../sass/components/p2.scss */
+.col-p2 .p2-illust-20 {
+  top: 0px;
+  left: 50px;
 }

@@ -51,26 +51,84 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         <img class="img-responsive visible-xs" src="<? bloginfo('template_directory') ?>/compass/images/wave-p2.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-p2@2x.png 2x">
     </div>
 
-    <p class="bold text-center line-height-2" style="margin-top: 60px;">
-        はじめまして。<br>
-        「矯正歯科 e g a o 」を北海道・札幌の桑園で開院する生野啓一郎と申します。<br>
-        <br>
-        わたしは矯正歯科の専門医です。<br>
-        矯正治療は、それぞれの好み、ライフスタイル、性格など、<br>
-        １人１人の個性に合わせてゴールまでたどりつく壮大な治療です。<br>
-        また、幾度かの通院で終わるものではなく、<br>
-        何年も、それこそ時には世代を超えて長いお付き合いをしていく可能性もございます。<br>
-        <br>
-        たくさんの皆様と矯正の専門医として丁寧で、深く、<br>
-        温かい関係を築きたいと思い開院することにしました。<br>
-        矯正歯科 e g a o に来て頂く皆様には、<br>
-        きれいで健康的になったという「結果」だけではなく、<br>
-        その「過程」も、いつも笑顔で居て欲しいと思っています。<br>
-        <br>
-        1 人１人が笑顔で暮らせる、その仕組みを、矯正治療でつくっていくこと。<br>
-        それが矯正歯科 e g a o のコンセプトです。
-    </p>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="col-p2">
+                <div class="p2-illust-20">
+                    <img class="anim-20" src="<? bloginfo('template_directory') ?>/compass/images/animation/20.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/20@2x.png 2x">
+                </div>
+
+<?
+for ($i=1; $i<=6; $i++) :
+if ($i == 12) $i++;
+if (!($i == 9 || $i == 10 || $i == 13)) :
+?>
+                <div class="p2-illust-<? echo $i ?>">
+                    <img class="anim-<? echo $i ?>" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>@2x.png 2x">
+                </div>
+<?
+else :
+?>
+                <div class="p2-illust-<? echo $i ?>">
+                    <img class="anim-<? echo $i ?>-1" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-1.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-1@2x.png 2x">
+                    <img class="anim-<? echo $i ?>-2" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-2.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-2@2x.png 2x">
+                </div>
+<?
+endif;
+endfor;
+?>
+            </div>
+        </div><!-- /.col -->
+
+        <div class="col-sm-6">
+            <p class="bold text-center line-height-2" style="margin-top: 60px;">
+                はじめまして。<br>
+                「矯正歯科 e g a o 」を北海道・札幌の桑園で開院する生野啓一郎と申します。<br>
+                <br>
+                わたしは矯正歯科の専門医です。<br>
+                矯正治療は、それぞれの好み、ライフスタイル、性格など、<br>
+                １人１人の個性に合わせてゴールまでたどりつく壮大な治療です。<br>
+                また、幾度かの通院で終わるものではなく、<br>
+                何年も、それこそ時には世代を超えて長いお付き合いをしていく可能性もございます。<br>
+                <br>
+                たくさんの皆様と矯正の専門医として丁寧で、深く、<br>
+                温かい関係を築きたいと思い開院することにしました。<br>
+                矯正歯科 e g a o に来て頂く皆様には、<br>
+                きれいで健康的になったという「結果」だけではなく、<br>
+                その「過程」も、いつも笑顔で居て欲しいと思っています。<br>
+                <br>
+                1 人１人が笑顔で暮らせる、その仕組みを、矯正治療でつくっていくこと。<br>
+                それが矯正歯科 e g a o のコンセプトです。
+            </p>
+        </div><!-- /.col -->
+
+        <div class="col-sm-3">
+            <div class="col-p2">
+
+<?
+for ($i=7; $i<=13; $i++) :
+if ($i == 12) $i++;
+if (!($i == 9 || $i == 10 || $i == 13)) :
+?>
+                <div class="p2-illust-<? echo $i ?>">
+                    <img class="anim-<? echo $i ?>" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>@2x.png 2x">
+                </div>
+<?
+else :
+?>
+                <div class="p2-illust-<? echo $i ?>">
+                    <img class="anim-<? echo $i ?>-1" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-1.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-1@2x.png 2x">
+                    <img class="anim-<? echo $i ?>-2" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-2.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-2@2x.png 2x">
+                </div>
+<?
+endif;
+endfor;
+?>
+            </div>
+        </div><!-- /.col -->
+    </div><!-- /.row -->
 </div><!-- /.container -->
+
 <div class="bg-white bg-pattern">
     <div class="container" style="padding-top: 80px; padding-bottom: 80px;">
         <h1 class="text-center line-height-15">
