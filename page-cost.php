@@ -193,37 +193,90 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
 </div><!-- /.bg-white -->
 
 <div class="container" style="padding-top: 60px; padding-bottom: 60px;">
-    <h1 class="text-center tracking-2 bold">STEP</h1>
+    <h1 class="text-center tracking-2 bold">ORTHOTIC DEVICE</h1>
     <br>
-    <h5 class="text-center bold tracking-1">えがお矯正歯科の治療の進め方</h5>
+    <h5 class="text-center bold tracking-1">成人の方の矯正装置の費用</h5>
     <br>
     <p class="text-center"><img src="<? bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<? bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
 
     <div class="row" style="margin-top: 120px;">
-        <div class="col-sm-6 col-md-5">
-            <h3><span class="round-border-title tracking-1">初診矯正相談</span></h3>
-            <br>
-            <h4 class="bold">一人一人にあった治療方法を探します。</h4>
+        <div class="col-sm-6">
+            <h4 class="bold">オーソドックスな表側の矯正</h4>
             <p class="line-height-2">
-                矯正治療についておおまかな説明をします。<br>
-                患者さんの気になっていることや症状を聞き、それらについての矯正治療のおおまなかなお話をします。<br>
-                どのような細かい質問でもどんどん聞いて下さい。
+                ダミーです。透明なので、表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。
             </p>
+            <br>
+            <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">550,000<small class="color-default bold">円</small></span></h4>
+
         </div>
-        <div class="col-sm-6 col-md-5 col-md-offset-2">
-            <div style="position: relative;">
-                <img class="img-responsive" src="http://placehold.it/400x260">
-                <div style="position: absolute; top: -50px; width: 100%; left: 0; text-align: center">
-                    <div class="treatment-step">
-                        <h1 class="roboto-condensed">1</h1>
-                        <h6 class="bold">STEP</h6>
-                    </div>
-                </div>
-            </div>
+        <div class="col-sm-6 col-md-5 col-md-offset-1">
+            <img class="img-responsive" src="http://placehold.it/400x260">
         </div>
     </div><!-- /.row -->
 
+    <div class="row" style="margin-top: 120px;">
+        <div class="col-sm-6">
+            <h4 class="bold">オーソドックスな表側の矯正</h4>
+            <p class="line-height-2">
+                ダミーです。透明なので、表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。
+            </p>
+            <br>
+            <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">850,000<small class="color-default bold">円</small></span></h4>
 
+        </div>
+        <div class="col-sm-6 col-md-5 col-md-offset-1">
+            <img class="img-responsive" src="http://placehold.it/400x260">
+        </div>
+    </div><!-- /.row -->
+
+    <div class="row" style="margin-top: 120px;">
+        <div class="col-sm-6">
+            <h4 class="bold">
+                みえやすい上の歯は裏側、<br>
+                みえにくい下の歯は表側（ハーフリンガル）
+            </h4>
+            <p class="line-height-2">
+                ダミーです。透明なので、表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。
+            </p>
+            <br>
+            <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">700,000<small class="color-default bold">円</small></span></h4>
+        </div>
+        <div class="col-sm-6 col-md-5 col-md-offset-1">
+            <img class="img-responsive" src="http://placehold.it/400x260">
+        </div>
+    </div><!-- /.row -->
+
+    <div class="row" style="margin-top: 120px;">
+        <div class="col-sm-6">
+            <h4 class="bold">
+                インビザライン（マウスピース型矯正装置）
+            </h4>
+            <p class="line-height-2">
+                ダミーです。透明なので、表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。
+            </p>
+            <br>
+            <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">780,000<small class="color-default bold">円</small></span></h4>
+        </div>
+        <div class="col-sm-6 col-md-5 col-md-offset-1">
+            <img class="img-responsive" src="http://placehold.it/400x260">
+        </div>
+    </div><!-- /.row -->
+
+    <div class="row" style="margin-top: 120px;">
+        <div class="col-sm-6">
+            <h4 class="bold">
+                部分矯正
+            </h4>
+            <p class="line-height-2">
+                ダミーです。透明なので、表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。
+            </p>
+            <br>
+            <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">100,000<small class="color-default bold">円</small>&nbsp;~</span></h4>
+        </div>
+        <div class="col-sm-6 col-md-5 col-md-offset-1">
+            <img class="img-responsive" src="http://placehold.it/400x260">
+        </div>
+    </div><!-- /.row -->
 </div><!-- /.container -->
 
 

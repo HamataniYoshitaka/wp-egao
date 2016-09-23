@@ -9906,11 +9906,12 @@ body {
 
 /* line 6, ../sass/components/cost.scss */
 .cost-borderd-box {
+  background-color: #ffffff;
   border: 2px solid #231815;
   padding: 10px 24px;
 }
 
-/* line 11, ../sass/components/cost.scss */
+/* line 12, ../sass/components/cost.scss */
 .cost-box {
   display: block;
   position: relative;
@@ -9918,7 +9919,7 @@ body {
   padding-top: 20px;
   padding-bottom: 30px;
 }
-/* line 17, ../sass/components/cost.scss */
+/* line 18, ../sass/components/cost.scss */
 .cost-box:after {
   content: "";
   position: absolute;
