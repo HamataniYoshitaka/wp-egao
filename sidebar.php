@@ -1,5 +1,13 @@
 <div class="sidebar-news">
-    <h4 class="sidebar-news-title">CATEGORIES</h4>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 215 14" xml:space="preserve">
+         <path class="sidebar-line" d="M212.7,1.8c-61.4,13.7-146.9,14-211,0"/>
+    </svg>
+    <h4 class="sidebar-news-title roboto-condensed tracking-2">CATEGORY</h4>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 215 14" xml:space="preserve">
+         <path class="sidebar-line" d="M212.7,1.8c-61.4,13.7-146.9,14-211,0"/>
+    </svg>
+
+    <ul>
 <?php
 $args = array(
   'orderby' => 'name',
@@ -7,15 +15,23 @@ $args = array(
   );
 $categories = get_categories( $args );
 foreach ( $categories as $category ) {
-	echo '<a href="' . get_category_link( $category->term_id ) . '">' . $category->name . '</a><br/>';
-}
 ?>
+	<li><a href="<? echo get_category_link( $category->term_id ) ?>"><? echo $category->name ?></a></li>
+<? } ?>
+    </ul>
+</div>
 
 
-<h4 class="sidebar-news-title">ARCHIVE</h4>
-
+<div class="sidebar-news">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 215 14" xml:space="preserve">
+         <path class="sidebar-line" d="M212.7,1.8c-61.4,13.7-146.9,14-211,0"/>
+    </svg>
+    <h4 class="sidebar-news-title roboto-condensed tracking-2">ARCHIVE</h4>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 215 14" xml:space="preserve">
+         <path class="sidebar-line" d="M212.7,1.8c-61.4,13.7-146.9,14-211,0"/>
+    </svg>
+    <ul>
 <?
-
 $args = array(
     'type'            => 'monthly',
     'post_type'       => 'post',
@@ -27,8 +43,7 @@ $args = array(
     'echo'            => 1,
     'order'           => 'DESC'
 );
-
-
 wp_get_archives( $args );
 ?>
+    </ul>
 </div>

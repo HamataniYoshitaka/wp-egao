@@ -25,6 +25,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
 
         <div class="row" style="margin-top: 60px;">
             <div class="col-sm-6">
+                <img class="img-responsive" src="http://placehold.it/600x400">
             </div>
             <div class="col-sm-6">
                 <h3><small>院長</small>&nbsp;生野 啓一郎</h3>
@@ -46,6 +47,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
 
         <div class="row" style="margin-top: 60px;">
             <div class="col-sm-6">
+                <img class="img-responsive" src="http://placehold.it/600x400">
             </div>
             <div class="col-sm-6">
                 <h3><small>院長</small>&nbsp;生野 さやか</h3>
