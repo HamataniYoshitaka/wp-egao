@@ -8,7 +8,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
 <div class="fullscreen" style="background-image: url(<? bloginfo('template_directory') ?>/compass/images/dummy/bg1.jpg);">
     <div class="middle">
         <div class="text-center" style="margin-top: -100px; line-height: 5;">
-            <img src="<? bloginfo('template_directory') ?>/compass/images/cost-title.png"><br>
+            <img src="<? bloginfo('template_directory') ?>/compass/images/cost-title.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-title@2x.png 2x"><br>
             <img src="<? bloginfo('template_directory') ?>/compass/images/wave-white.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-white@2x.png 2x">
             <h4 class="bold tracking-1">矯正治療費について</h4>
         </div>

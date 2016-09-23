@@ -1,4 +1,9 @@
 <footer class="footer">
+    <div style="position: absolute; top: -40px; left: 0; width: 100%;" class="text-center">
+        <button type="button" class="scrollto btn-footer" data-anchor="#top">
+            <img src="<? bloginfo('template_directory') ?>/compass/images/animation/5.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/5@2x.png 2x">
+        </button>
+    </div>
 
     <div class="text-center" style="margin-bottom: 50px;">
         <p class="roboto-condensed tracking-1" style="color: #ffffff;">Orthodontic Office</p>
@@ -11,6 +16,15 @@
     </p>
 </footer>
 
+<script>
+$(document).ready(function(){
+    $('.scrollto').click(function(){
+    	var top = 0;
+    	$('html, body').animate({scrollTop: top}, 'slow');
+    	return false;
+    });
+});
+</script>
 
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" type="text/javascript"></script>

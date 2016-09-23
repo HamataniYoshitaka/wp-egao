@@ -32,3 +32,32 @@
         }
     }
 }
+
+.footer {
+    position: relative;
+    background-color: #cacbca;
+    color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    .btn-footer {
+        width: 80px;
+        height: 80px;
+        background-color: #cacbca;
+        border: none;
+        border-radius: 40px;
+        &:focus {
+            outline: none;
+        }
+        &:hover {
+            img {
+                transform: translate(0px, -6px);
+            }
+        }
+        img {
+            width: 20px;
+            height: auto;
+            transition: transform 0.3s;
+            transform: translate(0px, 0px);
+        }
+    }
+}

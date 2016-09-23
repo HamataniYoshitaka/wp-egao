@@ -7,10 +7,10 @@
         </div>
         <div class="menu">
             <a href="<? echo home_url(); ?>/news/">お知らせ</a>/
-            <a href="#">人のこと</a>/
-            <a href="#">院内の紹介</a>/
-            <a href="#">診療について</a>/
-            <a href="#">料金について</a>/
+            <a href="<? echo home_url(); ?>/staff/">人のこと</a>/
+            <a href="<? echo home_url(); ?>/introduction/">院内の紹介</a>/
+            <a href="<? echo home_url(); ?>/treatment/">診療について</a>/
+            <a href="<? echo home_url(); ?>/cost/">料金について</a>/
             <a href="#">ご予約</a>
         </div>
     </div>

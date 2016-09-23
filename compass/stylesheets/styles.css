@@ -9086,15 +9086,7 @@ body {
   }
 }
 
-/* line 226, ../sass/components/global.scss */
-.footer {
-  background-color: #cacbca;
-  color: #ffffff;
-  padding-top: 60px;
-  padding-bottom: 50px;
-}
-
-/* line 233, ../sass/components/global.scss */
+/* line 227, ../sass/components/global.scss */
 .hr-black {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -9102,7 +9094,7 @@ body {
   border-top: 3px solid #000000;
 }
 
-/* line 243, ../sass/components/global.scss */
+/* line 237, ../sass/components/global.scss */
 .btn-egao {
   color: #333;
   background-color: #fff;
@@ -9111,7 +9103,7 @@ body {
   border-width: 3px;
   padding: 15px 60px;
 }
-/* line 251, ../sass/components/global.scss */
+/* line 245, ../sass/components/global.scss */
 .btn-egao:hover {
   background-color: #dcdcdc;
 }
@@ -9876,6 +9868,38 @@ body {
 .nav-fixed .menu > a:hover {
   text-decoration: none;
   color: #63443b;
+}
+
+/* line 36, ../sass/components/navigation.scss */
+.footer {
+  position: relative;
+  background-color: #cacbca;
+  color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+/* line 42, ../sass/components/navigation.scss */
+.footer .btn-footer {
+  width: 80px;
+  height: 80px;
+  background-color: #cacbca;
+  border: none;
+  border-radius: 40px;
+}
+/* line 48, ../sass/components/navigation.scss */
+.footer .btn-footer:focus {
+  outline: none;
+}
+/* line 52, ../sass/components/navigation.scss */
+.footer .btn-footer:hover img {
+  transform: translate(0px, -6px);
+}
+/* line 56, ../sass/components/navigation.scss */
+.footer .btn-footer img {
+  width: 20px;
+  height: auto;
+  transition: transform 0.3s;
+  transform: translate(0px, 0px);
 }
 
 /* line 1, ../sass/components/treatment.scss */
