@@ -1,0 +1,29 @@
+.table-information {
+    border: 2px solid $text-color;
+    table-layout: fixed;
+    th, td {
+        border: 1px solid $text-color !important;
+    }
+    td {
+        text-align: center;
+    }
+    >thead {
+        th, td {
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #9fa0a0;
+            position: relative;
+            >.kome {
+                position: absolute;
+                right: 10px;
+                top: 5px;
+            }
+        }
+    }
+    >tbody {
+        th, td {
+            background-color: #ffffff;
+            vertical-align: middle !important;
+        }
+    }
+}

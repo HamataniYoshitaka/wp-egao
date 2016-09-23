@@ -9,6 +9,29 @@ body {
   font-smoothing: antialiased;
 }
 
+@mixin bg-2x($one, $two) {
+  background-image:
+      url($one);
+  background-image:
+      -webkit-image-set(
+          url($one) 1x,
+          url($two) 2x
+      );
+  background-image:
+      image-set(
+          url($one) 1x,
+          url($two) 2x
+      );
+} // bg-2x()
+
+.bg-pattern {
+  background-repeat: repeat;
+  @include bg-2x(
+    '../images/bg-pattern.jpg',
+    '../images/bg-pattern@2x.jpg'
+  );
+}
+
 .bg-white {
     background-color: #ffffff;
 }

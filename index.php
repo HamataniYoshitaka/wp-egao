@@ -68,7 +68,7 @@ get_header(); ?>
         それが矯正歯科 e g a o のコンセプトです。
     </p>
 </div><!-- /.container -->
-<div class="bg-white">
+<div class="bg-white bg-pattern">
     <div class="container" style="padding-top: 80px; padding-bottom: 80px;">
         <h1 class="text-center line-height-15">
             <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-news.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-news@2x.png 2x"><br>
@@ -76,7 +76,7 @@ get_header(); ?>
         </h1>
         <h4 class="text-center bold tracking-1">お知らせ</h4>
 
-        <div class="row">
+        <div class="row" style="margin-top: 80px; margin-bottom: 50px;">
 <?
 while ( have_posts() ) : the_post();
   if(has_post_thumbnail()) {	// サムネ画像が保存されてたら表示
@@ -86,20 +86,28 @@ while ( have_posts() ) : the_post();
   else { /* サムネ画像が無かった場合 */
     $url = get_template_directory_uri() . '/compass/images/thumbnail-alt.jpg';
   }
+  $cat = get_the_category();
+  $cat = $cat[0];
 ?>
             <div class="col-md-3">
-                <div class="thumbnail">
-                    <img src="<? echo $url ?>">
+                <div class="thumbnail news-thumbnail">
+                    <a class="image" href="<? the_permalink(); ?>" style="background-image: url(<? echo $url ?>);">
+                          <span class="category"><?php echo get_cat_name($cat->term_id); ?></span>
+                    </a>
                     <div class="caption">
                         <h6><? the_date('Y.m.d'); ?></h6>
-                        <h3><a href="<? the_permalink(); ?>"><? the_title(); ?></a></h3>
+                        <h4><a href="<? the_permalink(); ?>"><? the_title(); ?></a></h4>
                         <p><? the_excerpt(); ?></p>
                     </div>
                 </div>
             </div><!-- /.col -->
 <? endwhile; ?>
         </div><!-- /.row -->
-    </div>
+
+        <h4 class="text-center">
+            <a class="btn btn-egao">MORE&emsp;<img class="more" src="<? bloginfo('template_directory') ?>/compass/images/caret-right.png" srcset="<? bloginfo('template_directory') ?>/compass/images/caret-right@2x.png 2x"></a>
+        </h4>
+    </div><!-- /.container -->
 </div><!-- /.bg-white -->
 
 <div class="container" style="padding-top: 80px; padding-bottom: 80px;">
@@ -114,19 +122,25 @@ while ( have_posts() ) : the_post();
         <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-timetable.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-timetable@2x.png 2x">
     </h4>
 
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <table class="table">
+    <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+        <div class="col-md-10 col-md-offset-1">
+            <table class="table table-information">
                 <thead>
                     <tr>
-                        <th>診療時間</th>
+                        <th style="width: 130px;">診療時間</th>
                         <td>月</td>
                         <td>火</td>
                         <td>水</td>
-                        <td>木</td>
+                        <td>
+                            木
+                            <span class="kome">※</span>
+                        </td>
                         <td>金</td>
                         <td>土</td>
-                        <td>日</td>
+                        <td>
+                            日
+                            <span class="kome">※</span>
+                        </td>
                         <td>祝</td>
                     </tr>
                 </thead>
@@ -139,7 +153,7 @@ while ( have_posts() ) : the_post();
                         <td>&#9711;</td>
                         <td>&#9711;</td>
                         <td>&#9711;</td>
-                        <td>&#9651;</td>
+                        <td>&#9651;<br>9:30~</td>
                         <td>&#x2613;</td>
                     </tr>
 
@@ -150,8 +164,8 @@ while ( have_posts() ) : the_post();
                         <td>&#x2613;</td>
                         <td>&#9711;</td>
                         <td>&#9711;</td>
-                        <td>&#9651;</td>
-                        <td>&#9651;</td>
+                        <td>&#9651;<br>18:00まで</td>
+                        <td>&#9651;<br>17:00まで</td>
                         <td>&#x2613;</td>
                     </tr>
                 </tbody>
@@ -165,19 +179,27 @@ while ( have_posts() ) : the_post();
     <h4 class="text-center">
         <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-children.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-children@2x.png 2x">
     </h4>
+    <br>
     <p class="text-center">週1程度 (14:30-18:00) / 曜日不定(診察カレンダーで確認できます)</p>
 
-    <h4 class="text-center bold tracking-1">アクセス</h4>
+    <h4 class="text-center bold tracking-1" style="margin-top: 100px;">アクセス</h4>
     <h1 class="text-center line-height-15">
         <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
     </h1>
+    <br>
     <p class="text-center">札幌市中央区北7条⻄15丁⽬28番地11中央カクマンビル２F</p>
 
-    <h4 class="text-center bold tracking-1">お問い合わせ</h4>
+
+
+    <h4 class="text-center bold tracking-1" style="margin-top: 100px;">お問い合わせ</h4>
     <h1 class="text-center line-height-15">
         <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
     </h1>
-    <p class="text-center">Tel 011-616-1919</p>
+    <h3 class="text-center">Tel 011-616-1919</h3>
+    <br>
+    <h4 class="text-center">
+        <a class="btn btn-egao">メールを送る&emsp;<img class="mail" src="<? bloginfo('template_directory') ?>/compass/images/envelope.png" srcset="<? bloginfo('template_directory') ?>/compass/images/envelope@2x.png 2x"></a>
+    </h4>
 
 </div><!-- /.container -->
 
