@@ -105,7 +105,7 @@ while ( have_posts() ) : the_post();
         </div><!-- /.row -->
 
         <h4 class="text-center">
-            <a class="btn btn-egao">MORE&emsp;<img class="more" src="<? bloginfo('template_directory') ?>/compass/images/caret-right.png" srcset="<? bloginfo('template_directory') ?>/compass/images/caret-right@2x.png 2x"></a>
+            <a class="btn btn-egao" href="<? echo home_url(); ?>/news/">MORE&emsp;<img class="more" src="<? bloginfo('template_directory') ?>/compass/images/caret-right.png" srcset="<? bloginfo('template_directory') ?>/compass/images/caret-right@2x.png 2x"></a>
         </h4>
     </div><!-- /.container -->
 </div><!-- /.bg-white -->
