@@ -9963,6 +9963,25 @@ body {
   vertical-align: middle !important;
 }
 
+/* line 31, ../sass/components/information.scss */
+.table-information-xs {
+  border: 2px solid #231815;
+  table-layout: fixed;
+}
+/* line 34, ../sass/components/information.scss */
+.table-information-xs th, .table-information-xs td {
+  border: 1px solid #231815 !important;
+  text-align: center;
+  vertical-align: middle !important;
+  height: 54px;
+}
+/* line 40, ../sass/components/information.scss */
+.table-information-xs th {
+  background-color: #9fa0a0;
+  color: #ffffff;
+  width: 75px;
+}
+
 /* line 1, ../sass/components/introduction.scss */
 .slick-item {
   margin-left: 10px;
@@ -10157,8 +10176,8 @@ body {
 }
 /* line 77, ../sass/components/p2.scss */
 .col-p2 .p2-illust-10 {
-  top: 300px;
-  left: 30px;
+  top: 350px;
+  left: 50px;
 }
 /* line 81, ../sass/components/p2.scss */
 .col-p2 .p2-illust-11 {
@@ -10172,11 +10191,63 @@ body {
 }
 /* line 89, ../sass/components/p2.scss */
 .col-p2 .p2-illust-13 {
-  top: 400px;
+  top: 490px;
   left: 110px;
 }
 /* line 93, ../sass/components/p2.scss */
 .col-p2 .p2-illust-20 {
   top: 0px;
   left: 50px;
+}
+
+/* line 1, ../sass/components/calendar.scss */
+.col-calendar {
+  background-color: #ffffff;
+  border: 1px solid #231815;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* line 6, ../sass/components/calendar.scss */
+.col-calendar .calendar-month {
+  width: 100%;
+  height: 120px;
+  padding-top: 0;
+}
+@media only screen and (min-width: 768px) {
+  /* line 6, ../sass/components/calendar.scss */
+  .col-calendar .calendar-month {
+    padding-top: 46px;
+    width: 50%;
+    height: 210px;
+  }
+}
+/* line 15, ../sass/components/calendar.scss */
+.col-calendar .calendar-month .month-number {
+  font-size: 60px;
+}
+/* line 19, ../sass/components/calendar.scss */
+.col-calendar .calendar-days {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  /* line 19, ../sass/components/calendar.scss */
+  .col-calendar .calendar-days {
+    width: 50%;
+  }
+}
+/* line 24, ../sass/components/calendar.scss */
+.col-calendar .calendar-days div.wpsbc-calendar {
+  height: 210px !important;
+}
+/* line 28, ../sass/components/calendar.scss */
+.col-calendar .wpsbc-day-split-top-default, .col-calendar .wpsbc-day-split-bottom-default {
+  border-color: transparent !important;
+}
+/* line 31, ../sass/components/calendar.scss */
+.col-calendar .wpsbc-day-split-top-1, .col-calendar .wpsbc-day-split-bottom-1 {
+  border-color: #fff100 !important;
+}
+/* line 34, ../sass/components/calendar.scss */
+.col-calendar .wpsbc-day-split-top-2, .col-calendar .wpsbc-day-split-bottom-2 {
+  border-color: #b8da9c !important;
 }

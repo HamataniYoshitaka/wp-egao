@@ -27,3 +27,19 @@
         }
     }
 }
+
+.table-information-xs {
+    border: 2px solid $text-color;
+    table-layout: fixed;
+    th, td {
+        border: 1px solid $text-color !important;
+        text-align: center;
+        vertical-align: middle !important;
+        height: 54px;
+    }
+    th {
+        background-color: #9fa0a0;
+        color: #ffffff;
+        width: 75px;
+    }
+}

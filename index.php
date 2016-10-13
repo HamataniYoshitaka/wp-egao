@@ -7,11 +7,15 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
 ?>
 <div style="position: relative; z-index: 1; width: 100%; height: 100%;">
     <? require_once(dirname(__FILE__) . '/compass/svg/top.php'); ?>
-    <div style="position: absolute; top: 50px; left: 50px; width: 300px;">
+    <div class="hidden-xs" style="position: absolute; top: 50px; left: 50px; width: 300px;">
         <div class="text-center">
             <p class="roboto-condensed tracking-1" style="color: #ffffff;">Orthodontic Office</p>
             <img src="<? bloginfo('template_directory') ?>/compass/images/top-logo.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-logo@2x.png 2x">
         </div>
+    </div>
+    <div class="text-center visible-xs" style="position: absolute; top: 50px; left: 0; width: 100%;">
+        <p class="roboto-condensed tracking-1" style="color: #ffffff;">Orthodontic Office</p>
+        <img src="<? bloginfo('template_directory') ?>/compass/images/top-logo.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-logo@2x.png 2x">
     </div>
 
 </div>
@@ -58,7 +62,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
 
     <div class="row">
         <div class="col-sm-3">
-            <div class="col-p2">
+            <div class="col-p2 hidden-xs">
                 <div class="p2-illust-20">
                     <img class="anim-20" src="<? bloginfo('template_directory') ?>/compass/images/animation/20.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/20@2x.png 2x">
                 </div>
@@ -91,15 +95,15 @@ endfor;
                 「矯正歯科 e g a o 」を北海道・札幌の桑園で開院する生野啓一郎と申します。<br>
                 <br>
                 わたしは矯正歯科の専門医です。<br>
-                矯正治療は、それぞれの好み、ライフスタイル、性格など、<br>
+                矯正治療は、それぞれの好み、ライフスタイル、性格など、<br class="hidden-xs">
                 １人１人の個性に合わせてゴールまでたどりつく壮大な治療です。<br>
-                また、幾度かの通院で終わるものではなく、<br>
+                また、幾度かの通院で終わるものではなく、<br class="hidden-xs">
                 何年も、それこそ時には世代を超えて長いお付き合いをしていく可能性もございます。<br>
                 <br>
-                たくさんの皆様と矯正の専門医として丁寧で、深く、<br>
+                たくさんの皆様と矯正の専門医として丁寧で、深く、<br class="hidden-xs">
                 温かい関係を築きたいと思い開院することにしました。<br>
-                矯正歯科 e g a o に来て頂く皆様には、<br>
-                きれいで健康的になったという「結果」だけではなく、<br>
+                矯正歯科 e g a o に来て頂く皆様には、<br class="hidden-xs">
+                きれいで健康的になったという「結果」だけではなく、<br class="hidden-xs">
                 その「過程」も、いつも笑顔で居て欲しいと思っています。<br>
                 <br>
                 1 人１人が笑顔で暮らせる、その仕組みを、矯正治療でつくっていくこと。<br>
@@ -108,7 +112,7 @@ endfor;
         </div><!-- /.col -->
 
         <div class="col-sm-3">
-            <div class="col-p2">
+            <div class="col-p2 hidden-xs">
 
 <?
 for ($i=7; $i<=13; $i++) :
@@ -187,7 +191,8 @@ while ( have_posts() ) : the_post();
 
 <div class="container" style="padding-top: 80px; padding-bottom: 120px;">
     <h1 class="text-center line-height-15">
-        <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-information.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-information@2x.png 2x"><br>
+        <img class="hidden-xs" src="<? bloginfo('template_directory') ?>/compass/images/top-title-information.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-information@2x.png 2x"><br>
+        <img class="visible-xs" style="width: 290px;" src="<? bloginfo('template_directory') ?>/compass/images/top-title-information.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-information@2x.png 2x"><br>
         <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
     </h1>
     <h4 class="text-center bold tracking-1">当院の情報</h4>
@@ -199,7 +204,7 @@ while ( have_posts() ) : the_post();
 
     <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
         <div class="col-md-10 col-md-offset-1">
-            <table class="table table-information">
+            <table class="table table-information hidden-xs">
                 <thead>
                     <tr>
                         <th style="width: 130px;">診療時間</th>
@@ -245,6 +250,57 @@ while ( have_posts() ) : the_post();
                     </tr>
                 </tbody>
             </table>
+            <table class="table table-information-xs visible-xs">
+                <thead>
+                    <tr>
+                        <th>診療時間</th>
+                        <td>10:30 - 13:00</td>
+                        <td>14:30 - 19:00</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>月</th>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-circle"></span></td>
+                    </tr>
+                    <tr>
+                        <th>火</th>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-circle"></span></td>
+                    </tr>
+                    <tr>
+                        <th>水</th>
+                        <td><span class="icon-cross"></span></td>
+                        <td><span class="icon-cross"></span></td>
+                    </tr>
+                    <tr>
+                        <th>木<span class="kome">※</span></th>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-circle"></span></td>
+                    </tr>
+                    <tr>
+                        <th>金</th>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-circle"></span></td>
+                    </tr>
+                    <tr>
+                        <th>土</th>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-triangle"></span><br>18:00まで</td>
+                    </tr>
+                    <tr>
+                        <th>日<span class="kome">※</span></th>
+                        <td><span class="icon-triangle"></span><br>9:30~</td>
+                        <td><span class="icon-triangle"></span><br>17:00まで</td>
+                    </tr>
+                    <tr>
+                        <th>祝</th>
+                        <td><span class="icon-cross"></span></td>
+                        <td><span class="icon-cross"></span></td>
+                    </tr>
+                </tbody>
+            </table>
             <p class="text-right">
                 ※ 木曜日・日曜日隔週休み
             </p>
@@ -262,6 +318,7 @@ while ( have_posts() ) : the_post();
         <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
     </h1>
 
+<?php require_once(dirname(__FILE__) . '/parts/calendar.php'); ?>
     <h4 class="text-center bold tracking-1" style="margin-top: 100px;">アクセス</h4>
     <h1 class="text-center line-height-15">
         <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>

@@ -1,0 +1,38 @@
+.col-calendar {
+    background-color: #ffffff;
+    border: 1px solid #231815;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    .calendar-month {
+        width: 100%;
+        height: 120px;
+        padding-top: 0;
+        @media only screen and (min-width: $screen-sm) {
+            padding-top: 46px;
+            width: 50%;
+            height: 210px;
+        }
+        .month-number {
+            font-size: 60px;
+        }
+    }
+    .calendar-days {
+        width: 100%;
+        @media only screen and (min-width: $screen-sm) {
+            width: 50%;
+        }
+        div.wpsbc-calendar {
+            height: 210px !important;
+        }
+    }
+    .wpsbc-day-split-top-default, .wpsbc-day-split-bottom-default {
+        border-color: transparent !important;
+    }
+    .wpsbc-day-split-top-1, .wpsbc-day-split-bottom-1 {
+        border-color: #fff100 !important;
+    }
+    .wpsbc-day-split-top-2, .wpsbc-day-split-bottom-2 {
+        border-color: #b8da9c !important;
+    }
+
+}
