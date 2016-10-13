@@ -5,21 +5,21 @@
 get_header();
 require_once(dirname(__FILE__) . '/parts/nav-pc.php');
 ?>
+<div style="position: relative; z-index: 1; width: 100%; height: 100%;">
+    <? require_once(dirname(__FILE__) . '/compass/svg/top.php'); ?>
+    <div style="position: absolute; top: 50px; left: 50px; width: 300px;">
+        <div class="text-center">
+            <p class="roboto-condensed tracking-1" style="color: #ffffff;">Orthodontic Office</p>
+            <img src="<? bloginfo('template_directory') ?>/compass/images/top-logo.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-logo@2x.png 2x">
+        </div>
+    </div>
+
+</div>
 
 <div class="p1" style="position: relative; width; 100%; height: 100%;">
     <? require_once(dirname(__FILE__) . '/parts/nested.php'); ?>
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.2);">
-        <div class="text-center" style="position: absolute; top: 50%; left: 0; width: 100%; height: 0;">
-            <div class="text-center" style="margin-top: -100px;">
-                <p class="roboto-condensed tracking-1" style="color: #ffffff;">Orthodontic Office</p>
-                <img src="<? bloginfo('template_directory') ?>/compass/images/top-logo.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-logo@2x.png 2x">
-            </div>
-        </div>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.3);">
     </div>
-    <img style="width:100%; position: absolute; bottom: 0; left: 0; height: auto;" src="<? bloginfo('template_directory') ?>/compass/images/dummy/bg1-top.png">
-</div>
-
-<div class="p2" style="position: relative; width: 100%; height: 100%; background-position: center top; background-size: cover; background-image: url(<? bloginfo('template_directory') ?>/compass/images/dummy/bg1-bottom.jpg);">
     <div style="position: absolute; top: 50%; left: 0; width: 100%;">
         <div class="text-center" style="margin-top: -100px;">
             <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-concept.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-concept@2x.png 2x"><br>
@@ -28,6 +28,11 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         </div>
     </div>
 </div>
+
+<!--
+<div class="p2" style="position: relative; width: 100%; height: 100%; background-position: center top; background-size: cover; background-image: url(<? bloginfo('template_directory') ?>/compass/images/dummy/bg1-bottom.jpg);">
+</div>
+-->
 
 <div class="container" style="padding-top: 90px; padding-bottom: 60px;">
     <div class="hidden-xs">
@@ -129,7 +134,12 @@ endfor;
     </div><!-- /.row -->
 </div><!-- /.container -->
 
-<div class="bg-white bg-pattern">
+
+<div class="bg-white bg-pattern" style="position: relative;">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 70" xml:space="preserve">
+        <path style="fill: #F5F5F3;" d="M1280,0C910.8,88,392,90.2,0,0H1280z"/>
+    </svg>
+
     <div class="container" style="padding-top: 80px; padding-bottom: 80px;">
         <h1 class="text-center line-height-15">
             <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-news.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-news@2x.png 2x"><br>
@@ -169,6 +179,10 @@ while ( have_posts() ) : the_post();
             <a class="btn btn-egao" href="<? echo home_url(); ?>/news/">MORE&emsp;<img class="more" src="<? bloginfo('template_directory') ?>/compass/images/caret-right.png" srcset="<? bloginfo('template_directory') ?>/compass/images/caret-right@2x.png 2x"></a>
         </h4>
     </div><!-- /.container -->
+
+    <svg style="position: absolute; bottom: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 70" xml:space="preserve">
+        <path style="fill: #F5F5F3;" d="M1280,0C910.8,88,392,90.2,0,0v70h1280V0z"/>
+    </svg>
 </div><!-- /.bg-white -->
 
 <div class="container" style="padding-top: 80px; padding-bottom: 120px;">
@@ -208,26 +222,26 @@ while ( have_posts() ) : the_post();
                 <tbody>
                     <tr>
                         <th>10:30 - 13:00</th>
-                        <td>&#9711;</td>
-                        <td>&#9711;</td>
-                        <td>&#x2613;</td>
-                        <td>&#9711;</td>
-                        <td>&#9711;</td>
-                        <td>&#9711;</td>
-                        <td>&#9651;<br>9:30~</td>
-                        <td>&#x2613;</td>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-cross"></span></td>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-triangle"></span><br>9:30~</td>
+                        <td><span class="icon-cross"></span></td>
                     </tr>
 
                     <tr>
                         <th>14:30 - 19:00</th>
-                        <td>&#9711;</td>
-                        <td>&#9711;</td>
-                        <td>&#x2613;</td>
-                        <td>&#9711;</td>
-                        <td>&#9711;</td>
-                        <td>&#9651;<br>18:00まで</td>
-                        <td>&#9651;<br>17:00まで</td>
-                        <td>&#x2613;</td>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-cross"></span></td>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-circle"></span></td>
+                        <td><span class="icon-triangle"></span><br>18:00まで</td>
+                        <td><span class="icon-triangle"></span><br>17:00まで</td>
+                        <td><span class="icon-cross"></span></td>
                     </tr>
                 </tbody>
             </table>
@@ -242,6 +256,11 @@ while ( have_posts() ) : the_post();
     </h4>
     <br>
     <p class="text-center">週1程度 (14:30-18:00) / 曜日不定(診察カレンダーで確認できます)</p>
+
+    <h4 class="text-center bold tracking-1" style="margin-top: 100px;">診療カレンダー</h4>
+    <h1 class="text-center">
+        <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
+    </h1>
 
     <h4 class="text-center bold tracking-1" style="margin-top: 100px;">アクセス</h4>
     <h1 class="text-center line-height-15">
