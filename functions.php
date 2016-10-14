@@ -25,8 +25,16 @@ function my_excerpt_more($more) {
 }
 add_filter('excerpt_more', 'my_excerpt_more');
 
+function is_login_page(){
+	if ( in_array( $GLOBALS['pagenow'], array( 'wp-login.php', 'wp-register.php' ) ) ) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
 // 標準のjQueryの読み込みを止める
-if (!is_admin()) {
+if (!is_admin() && !is_login_page()) {
     add_action('wp_print_scripts','my_deregister_script',100);
     function my_deregister_script() {
         wp_deregister_script('jquery');
