@@ -27,8 +27,12 @@ header('X-UA-Compatible: IE=edge,chrome=1');
 	<script type="text/javascript" src="<? bloginfo('template_directory') ?>/compass/javascripts/slick/slick/slick.min.js"></script>
 <? endif; ?>
 
+	<!-- /.drawer -->
+	<link rel="stylesheet" type="text/css" href="<? bloginfo('template_directory') ?>/compass/javascripts/bootstrap-drawer/dist/css/bootstrap-drawer.css">
+	<script type="text/javascript" src="<? bloginfo('template_directory') ?>/compass/javascripts/bootstrap-drawer/dist/js/drawer.min.js"></script>
+
 	<link rel="stylesheet" href="<?php bloginfo('template_directory')?>/compass/stylesheets/styles.css">
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class('has-drawer'); ?>>

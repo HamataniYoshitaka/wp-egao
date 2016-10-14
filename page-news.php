@@ -4,6 +4,7 @@
 */
 get_header();
 require_once(dirname(__FILE__) . '/parts/nav-pc.php');
+require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
 ?>
 <div class="bg-white bg-pattern">
 

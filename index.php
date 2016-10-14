@@ -4,6 +4,7 @@
 */
 get_header();
 require_once(dirname(__FILE__) . '/parts/nav-pc.php');
+require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
 ?>
 <div style="position: relative; z-index: 1; width: 100%; height: 100%;">
     <? require_once(dirname(__FILE__) . '/compass/svg/top.php'); ?>
@@ -32,11 +33,6 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         </div>
     </div>
 </div>
-
-<!--
-<div class="p2" style="position: relative; width: 100%; height: 100%; background-position: center top; background-size: cover; background-image: url(<? bloginfo('template_directory') ?>/compass/images/dummy/bg1-bottom.jpg);">
-</div>
--->
 
 <div class="container" style="padding-top: 90px; padding-bottom: 60px;">
     <div class="hidden-xs">
@@ -136,7 +132,12 @@ endfor;
             </div>
         </div><!-- /.col -->
     </div><!-- /.row -->
+
 </div><!-- /.container -->
+
+<?php // スマホ用
+    require_once(dirname(__FILE__) . '/parts/icons-xs.php');
+?>
 
 
 <div class="bg-white bg-pattern" style="position: relative;">

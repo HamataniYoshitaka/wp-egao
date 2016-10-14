@@ -16,6 +16,13 @@
         text-align: center;
         padding-top: 16px;
     }
+    img {
+        opacity: 1.0;
+        transition: opacity 0.3s;
+        &:hover {
+            opacity: 0.6;
+        }
+    }
     .menu {
         position: absolute;
         top: 0;
@@ -23,7 +30,7 @@
         background-color: #ffffff;
         height: 46px;
         padding: 14px 20px;
-        >a {
+        > a {
             color: $text-color;
             font-weight: bold;
             transition: color 0.3s;
@@ -31,7 +38,7 @@
             margin-right: 12px;
             &:hover {
                 text-decoration: none;
-                color: lighten($text-color, 20%);
+                color: #898989;
             }
         }
     }

@@ -1,0 +1,30 @@
+<?
+/**
+* スマホ用メニュー
+*/
+?>
+<div id="drawerEgao" class="drawer dw-xs-10 dw-sm-6 dw-md-4 fold" aria-labelledby="drawerEgao">
+    <div class="drawer-controls">
+        <a href="#drawerEgao" data-toggle="drawer" aria-foldedopen="false" aria-controls="drawerEgao" class="btn btn-primary btn-sm">Menu</a>
+    </div>
+    <div class="drawer-contents">
+        <div class="drawer-heading">
+            <h2 class="drawer-title">Menu</h2>
+        </div>
+        <div class="drawer-body">
+            <p>
+                This is a properly padded container for content in the
+                drawer that isn't a navigation.
+            </p>
+            <a href="#">A Regular Link</a>
+        </div>
+        <ul class="drawer-nav">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+        </ul>
+        <div class="drawer-footer">
+            <small>&copy; Caroline Amaba</small>
+        </div>
+    </div>
+</div>

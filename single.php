@@ -4,6 +4,7 @@
 */
 get_header();
 require_once(dirname(__FILE__) . '/parts/nav-pc.php');
+require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
 ?>
 
 <div class="bg-white bg-pattern">
@@ -15,7 +16,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         <h4 class="text-center bold tracking-1">お知らせ</h4>
 
         <div class="row" style="margin-top: 80px; margin-bottom: 60px;">
-            <div class="col-sm-8 col-md-9">
+            <div class="col-sm-8 col-md-9" style="margin-bottom: 50px;">
                 <?
                 while ( have_posts() ) : the_post();
                 if(has_post_thumbnail()) {	// サムネ画像が保存されてたら表示
@@ -34,25 +35,25 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
                 </div>
             <? endwhile; ?>
 
-            <nav class="nav-paging" style="margin-top: 80px;">
-              <div class="row">
-                <div class="col-sm-2 col-sm-offset-2 col-xs-3">
-                  <h3 class="text-center">
-                    <?php previous_post_link('%link','<i class="fa fa-angle-left"></i>'); ?>
-                  </h3>
-                  <!-- <h3 class="text-center"><a href="#"><i class="fa fa-arrow-circle-o-left"></i></a></h3> -->
-                </div>
-                <div class="col-sm-4 col-xs-6">
-                  <h4 class="text-center" style="margin-top: 22px;"><a href="<? echo home_url(); ?>/news/">一覧へ</a></h4>
-                </div>
-                <div class="col-sm-2 col-xs-3">
-                  <h3 class="text-center">
-                    <?php next_post_link('%link','<i class="fa fa-angle-right"></i>'); ?>
-                  </h3>
-                  <!-- <h3 class="text-center"><a href="#"><i class="fa fa-arrow-circle-o-right"></i></a></h3> -->
-                </div>
-              </div>
-            </nav>
+                <nav class="nav-paging" style="margin-top: 80px;">
+                  <div class="row">
+                    <div class="col-sm-2 col-sm-offset-2 col-xs-3">
+                      <h3 class="text-center">
+                        <?php previous_post_link('%link','<i class="fa fa-angle-left"></i>'); ?>
+                      </h3>
+                      <!-- <h3 class="text-center"><a href="#"><i class="fa fa-arrow-circle-o-left"></i></a></h3> -->
+                    </div>
+                    <div class="col-sm-4 col-xs-6">
+                      <h4 class="text-center" style="margin-top: 22px;"><a href="<? echo home_url(); ?>/news/">一覧へ</a></h4>
+                    </div>
+                    <div class="col-sm-2 col-xs-3">
+                      <h3 class="text-center">
+                        <?php next_post_link('%link','<i class="fa fa-angle-right"></i>'); ?>
+                      </h3>
+                      <!-- <h3 class="text-center"><a href="#"><i class="fa fa-arrow-circle-o-right"></i></a></h3> -->
+                    </div>
+                  </div>
+                </nav>
             </div><!-- /.col -->
 
             <div class="col-sm-4 col-md-3">

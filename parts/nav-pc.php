@@ -5,7 +5,7 @@
                 <img src="<? bloginfo('template_directory') ?>/compass/images/nav-fixed-logo.png" srcset="<? bloginfo('template_directory') ?>/compass/images/nav-fixed-logo@2x.png 2x">
             </a>
         </div>
-        <div class="menu">
+        <div class="menu hidden">
             <a href="<? echo home_url(); ?>/news/">お知らせ</a>/
             <a href="<? echo home_url(); ?>/staff/">人のこと</a>/
             <a href="<? echo home_url(); ?>/introduction/">院内の紹介</a>/
