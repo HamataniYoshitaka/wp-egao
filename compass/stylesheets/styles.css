@@ -9769,6 +9769,31 @@ body {
   transform: translate(0px, 0px);
 }
 
+/* line 77, ../sass/components/navigation.scss */
+.drawer-controls {
+  padding: 0;
+}
+/* line 79, ../sass/components/navigation.scss */
+.drawer-controls a {
+  display: block;
+  background-color: #ffffff;
+  width: 60px;
+  height: 60px;
+  border-radius: 0 0 50px 0;
+  padding: 14px;
+  color: #231815;
+}
+/* line 87, ../sass/components/navigation.scss */
+.drawer-controls a:hover {
+  color: #231815;
+  text-decoration: none;
+}
+
+/* line 94, ../sass/components/navigation.scss */
+.drawer-nav li a, .drawer-fullnav li a {
+  padding: 15px;
+}
+
 /* line 1, ../sass/components/treatment.scss */
 .treatment-step {
   width: 90px;

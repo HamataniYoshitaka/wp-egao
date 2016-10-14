@@ -13,6 +13,18 @@ if (function_exists('register_sidebar')) {
     ));
 }
 
+//概要（抜粋）の文字数調整
+function my_excerpt_length($length) {
+    return 70;
+}
+add_filter('excerpt_length', 'my_excerpt_length', 999);
+
+//概要（抜粋）の省略文字
+function my_excerpt_more($more) {
+	return '...';
+}
+add_filter('excerpt_more', 'my_excerpt_more');
+
 // 標準のjQueryの読み込みを止める
 if (!is_admin()) {
     add_action('wp_print_scripts','my_deregister_script',100);

@@ -334,7 +334,7 @@ while ( have_posts() ) : the_post();
         </div><!-- /.col -->
         <div class="col-sm-6 text-center">
             <h3 class="bold">お車でお越しの方</h3>
-            <p>当ビルに駐車場○台ご用意しております</p>
+            <p>当ビルに駐車場2台ご用意しております</p>
         </div><!-- /.col -->
     </div><!-- /.row -->
 
