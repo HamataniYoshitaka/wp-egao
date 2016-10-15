@@ -9736,8 +9736,41 @@ body {
   text-decoration: none;
   color: #898989;
 }
+/* line 45, ../sass/components/navigation.scss */
+.nav-fixed .facebook {
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  right: 246px;
+  width: 38px;
+  height: 38px;
+  background-color: #ffffff;
+  border-radius: 19px;
+  padding-top: 10px;
+  color: #231815;
+  transition: opacity 0.3s;
+  opacity: 1.0;
+}
+/* line 58, ../sass/components/navigation.scss */
+.nav-fixed .facebook:hover {
+  opacity: 0.6;
+}
+/* line 62, ../sass/components/navigation.scss */
+.nav-fixed .tel {
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 210px;
+  height: 38px;
+  background-color: #ffffff;
+  border-radius: 19px;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  padding-top: 5px;
+}
 
-/* line 47, ../sass/components/navigation.scss */
+/* line 77, ../sass/components/navigation.scss */
 .footer {
   position: relative;
   background-color: #cacbca;
@@ -9745,7 +9778,7 @@ body {
   padding-top: 60px;
   padding-bottom: 50px;
 }
-/* line 53, ../sass/components/navigation.scss */
+/* line 83, ../sass/components/navigation.scss */
 .footer .btn-footer {
   width: 80px;
   height: 80px;
@@ -9753,15 +9786,15 @@ body {
   border: none;
   border-radius: 40px;
 }
-/* line 59, ../sass/components/navigation.scss */
+/* line 89, ../sass/components/navigation.scss */
 .footer .btn-footer:focus {
   outline: none;
 }
-/* line 63, ../sass/components/navigation.scss */
+/* line 93, ../sass/components/navigation.scss */
 .footer .btn-footer:hover img {
   transform: translate(0px, -6px);
 }
-/* line 67, ../sass/components/navigation.scss */
+/* line 97, ../sass/components/navigation.scss */
 .footer .btn-footer img {
   width: 20px;
   height: auto;
@@ -9769,11 +9802,11 @@ body {
   transform: translate(0px, 0px);
 }
 
-/* line 77, ../sass/components/navigation.scss */
+/* line 107, ../sass/components/navigation.scss */
 .drawer-controls {
   padding: 0;
 }
-/* line 79, ../sass/components/navigation.scss */
+/* line 109, ../sass/components/navigation.scss */
 .drawer-controls a {
   display: block;
   background-color: #ffffff;
@@ -9783,13 +9816,13 @@ body {
   padding: 14px;
   color: #231815;
 }
-/* line 87, ../sass/components/navigation.scss */
+/* line 117, ../sass/components/navigation.scss */
 .drawer-controls a:hover {
   color: #231815;
   text-decoration: none;
 }
 
-/* line 94, ../sass/components/navigation.scss */
+/* line 124, ../sass/components/navigation.scss */
 .drawer-nav li a, .drawer-fullnav li a {
   padding: 15px;
 }

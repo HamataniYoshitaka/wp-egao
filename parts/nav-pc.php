@@ -13,5 +13,12 @@
             <a href="<? echo home_url(); ?>/cost/">料金について</a>/
             <a href="#">ご予約</a>
         </div>
+        <a class="facebook" href="https://www.facebook.com/sapporokyoseishikaegao/" target="_blank">
+            <i class="fa fa-facebook fa-lg"></i>
+        </a>
+        <div class="tel roboto-condensed bold">
+            T<span style="font-size: 75%;">EL</span> 011-616-1919
+        </div>
+
     </div>
 </nav>

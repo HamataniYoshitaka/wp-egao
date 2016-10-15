@@ -19,6 +19,15 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
         <img src="<? bloginfo('template_directory') ?>/compass/images/top-logo.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-logo@2x.png 2x">
     </div>
 
+    <div class="hidden-xs" style="position: absolute; top: 50px; right: 50px; width: 300px;">
+        <div class="text-center">
+            <img src="<? bloginfo('template_directory') ?>/compass/images/wave-white-l.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-white-l@2x.png 2x">
+            <p class="tracking-1 bold line-height-2" style="color: #ffffff; font-size: 14px; margin-top: 10px;">えがおで暮らす、<br>仕組みをつくる。</p>
+            <img src="<? bloginfo('template_directory') ?>/compass/images/wave-white-l.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-white-l@2x.png 2x">
+            <h6 class="text-center tracking-2" style="color: #ffffff;"><i>from Hokkaido</i></h6>
+        </div>
+    </div>
+
 </div>
 
 <div class="p1" style="position: relative; width; 100%; height: 100%;">
