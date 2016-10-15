@@ -149,11 +149,11 @@ endfor;
 ?>
 
 
-<div class="bg-white bg-pattern" style="position: relative;">
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 70" xml:space="preserve">
-        <path style="fill: #F5F5F3;" d="M1280,0C910.8,88,392,90.2,0,0H1280z"/>
-    </svg>
 
+<div class="bg-white bg-pattern rounded-bg">
+    <svg class="rounded-bg-top fixed" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 70" xml:space="preserve">
+        <path style="fill: #ffffff;" d="M1280,0C910.8,88,392,90.2,0,0v70h1280V0z"/>
+    </svg>
     <div class="container" style="padding-top: 80px; padding-bottom: 80px;">
         <h1 class="text-center line-height-15">
             <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-news.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-news@2x.png 2x"><br>
@@ -194,214 +194,205 @@ while ( have_posts() ) : the_post();
         </h4>
     </div><!-- /.container -->
 
-    <svg style="position: absolute; bottom: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 70" xml:space="preserve">
-        <path style="fill: #F5F5F3;" d="M1280,0C910.8,88,392,90.2,0,0v70h1280V0z"/>
-    </svg>
 </div><!-- /.bg-white -->
 
-<div class="container" style="padding-top: 80px; padding-bottom: 120px;">
-    <h1 class="text-center line-height-15">
-        <img class="hidden-xs" src="<? bloginfo('template_directory') ?>/compass/images/top-title-information.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-information@2x.png 2x"><br>
-        <img class="visible-xs" style="width: 290px;" src="<? bloginfo('template_directory') ?>/compass/images/top-title-information.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-information@2x.png 2x"><br>
-        <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
-    </h1>
-    <h4 class="text-center bold tracking-1">当院の情報</h4>
-    <br>
-    <br>
-    <h4 class="text-center">
-        <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-timetable.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-timetable@2x.png 2x">
-    </h4>
+<div class="rounded-bg">
+    <svg class="rounded-bg-top fixed" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 70" xml:space="preserve">
+        <path style="fill: #f6f6f4;" d="M1280,0C910.8,88,392,90.2,0,0v70h1280V0z"/>
+    </svg>
+    <div class="container" style="padding-top: 80px; padding-bottom: 120px;">
+        <h1 class="text-center line-height-15">
+            <img class="hidden-xs" src="<? bloginfo('template_directory') ?>/compass/images/top-title-information.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-information@2x.png 2x"><br>
+            <img class="visible-xs" style="width: 290px;" src="<? bloginfo('template_directory') ?>/compass/images/top-title-information.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-information@2x.png 2x"><br>
+            <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
+        </h1>
+        <h4 class="text-center bold tracking-1">当院の情報</h4>
+        <br>
+        <br>
+        <h4 class="text-center">
+            <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-timetable.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-timetable@2x.png 2x">
+        </h4>
 
-    <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
-        <div class="col-md-10 col-md-offset-1">
-            <table class="table table-information hidden-xs">
-                <thead>
-                    <tr>
-                        <th style="width: 130px;">診療時間</th>
-                        <td>月</td>
-                        <td>火</td>
-                        <td>水</td>
-                        <td>
-                            木
-                            <span class="kome">※</span>
-                        </td>
-                        <td>金</td>
-                        <td>土</td>
-                        <td>
-                            日
-                            <span class="kome">※</span>
-                        </td>
-                        <td>祝</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>10:30 - 13:00</th>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-cross"></span></td>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-triangle"></span><br>9:30~</td>
-                        <td><span class="icon-cross"></span></td>
-                    </tr>
+        <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+            <div class="col-md-10 col-md-offset-1">
+                <table class="table table-information hidden-xs">
+                    <thead>
+                        <tr>
+                            <th style="width: 130px;">診療時間</th>
+                            <td>月</td>
+                            <td>火</td>
+                            <td>水</td>
+                            <td>
+                                木
+                                <span class="kome">※</span>
+                            </td>
+                            <td>金</td>
+                            <td>土</td>
+                            <td>
+                                日
+                                <span class="kome">※</span>
+                            </td>
+                            <td>祝</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>10:30 - 13:00</th>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-cross"></span></td>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-triangle"></span><br>9:30~</td>
+                            <td><span class="icon-cross"></span></td>
+                        </tr>
 
-                    <tr>
-                        <th>14:30 - 19:00</th>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-cross"></span></td>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-triangle"></span><br>18:00まで</td>
-                        <td><span class="icon-triangle"></span><br>17:00まで</td>
-                        <td><span class="icon-cross"></span></td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table table-information-xs visible-xs">
-                <thead>
-                    <tr>
-                        <th>診療時間</th>
-                        <td>10:30 - 13:00</td>
-                        <td>14:30 - 19:00</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>月</th>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-circle"></span></td>
-                    </tr>
-                    <tr>
-                        <th>火</th>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-circle"></span></td>
-                    </tr>
-                    <tr>
-                        <th>水</th>
-                        <td><span class="icon-cross"></span></td>
-                        <td><span class="icon-cross"></span></td>
-                    </tr>
-                    <tr>
-                        <th>木<span class="kome">※</span></th>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-circle"></span></td>
-                    </tr>
-                    <tr>
-                        <th>金</th>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-circle"></span></td>
-                    </tr>
-                    <tr>
-                        <th>土</th>
-                        <td><span class="icon-circle"></span></td>
-                        <td><span class="icon-triangle"></span><br>18:00まで</td>
-                    </tr>
-                    <tr>
-                        <th>日<span class="kome">※</span></th>
-                        <td><span class="icon-triangle"></span><br>9:30~</td>
-                        <td><span class="icon-triangle"></span><br>17:00まで</td>
-                    </tr>
-                    <tr>
-                        <th>祝</th>
-                        <td><span class="icon-cross"></span></td>
-                        <td><span class="icon-cross"></span></td>
-                    </tr>
-                </tbody>
-            </table>
-            <p class="text-right">
-                ※ 木曜日・日曜日隔週休み
-            </p>
-        </div>
-    </div><!-- /.row -->
+                        <tr>
+                            <th>14:30 - 19:00</th>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-cross"></span></td>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-triangle"></span><br>18:00まで</td>
+                            <td><span class="icon-triangle"></span><br>17:00まで</td>
+                            <td><span class="icon-cross"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-information-xs visible-xs">
+                    <thead>
+                        <tr>
+                            <th>診療時間</th>
+                            <td>10:30 - 13:00</td>
+                            <td>14:30 - 19:00</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>月</th>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-circle"></span></td>
+                        </tr>
+                        <tr>
+                            <th>火</th>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-circle"></span></td>
+                        </tr>
+                        <tr>
+                            <th>水</th>
+                            <td><span class="icon-cross"></span></td>
+                            <td><span class="icon-cross"></span></td>
+                        </tr>
+                        <tr>
+                            <th>木<span class="kome">※</span></th>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-circle"></span></td>
+                        </tr>
+                        <tr>
+                            <th>金</th>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-circle"></span></td>
+                        </tr>
+                        <tr>
+                            <th>土</th>
+                            <td><span class="icon-circle"></span></td>
+                            <td><span class="icon-triangle"></span><br>18:00まで</td>
+                        </tr>
+                        <tr>
+                            <th>日<span class="kome">※</span></th>
+                            <td><span class="icon-triangle"></span><br>9:30~</td>
+                            <td><span class="icon-triangle"></span><br>17:00まで</td>
+                        </tr>
+                        <tr>
+                            <th>祝</th>
+                            <td><span class="icon-cross"></span></td>
+                            <td><span class="icon-cross"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="text-right">
+                    ※ 木曜日・日曜日隔週休み
+                </p>
+            </div>
+        </div><!-- /.row -->
 
-    <h4 class="text-center">
-        <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-children.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-children@2x.png 2x">
-    </h4>
-    <br>
-    <p class="text-center">週1程度 (14:30-18:00) / 曜日不定(診察カレンダーで確認できます)</p>
+        <h4 class="text-center">
+            <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-children.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-children@2x.png 2x">
+        </h4>
+        <br>
+        <p class="text-center">週1程度 (14:30-18:00) / 曜日不定(診察カレンダーで確認できます)</p>
 
-    <h4 class="text-center bold tracking-1" style="margin-top: 100px;">診療カレンダー</h4>
-    <h1 class="text-center">
-        <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
-    </h1>
+        <h4 class="text-center bold tracking-1" style="margin-top: 100px;">診療カレンダー</h4>
+        <h1 class="text-center">
+            <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
+        </h1>
 
-<?php require_once(dirname(__FILE__) . '/parts/calendar.php'); ?>
-    <h4 class="text-center bold tracking-1" style="margin-top: 100px;">アクセス</h4>
-    <h1 class="text-center line-height-15">
-        <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
-    </h1>
-    <br>
-    <p class="text-center">札幌市中央区北7条⻄15丁⽬28番地11中央カクマンビル２F</p>
+    <?php require_once(dirname(__FILE__) . '/parts/calendar.php'); ?>
+        <h4 class="text-center bold tracking-1" style="margin-top: 100px;">アクセス</h4>
+        <h1 class="text-center line-height-15">
+            <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
+        </h1>
+        <br>
+        <p class="text-center">札幌市中央区北7条⻄15丁⽬28番地11中央カクマンビル２F</p>
 
-    <div class="row" style="margin-top: 30px; margin-bottom: 40px;">
-        <div class="col-sm-6 text-center">
-            <h3 class="bold">電車でお越しの方</h3>
-            <p>JR桑園駅徒歩5分 イオン桑園店徒歩3分</p>
-        </div><!-- /.col -->
-        <div class="col-sm-6 text-center">
-            <h3 class="bold">お車でお越しの方</h3>
-            <p>当ビルに駐車場2台ご用意しております</p>
-        </div><!-- /.col -->
-    </div><!-- /.row -->
+        <div class="row" style="margin-top: 30px; margin-bottom: 40px;">
+            <div class="col-sm-6 text-center">
+                <h3 class="bold">電車でお越しの方</h3>
+                <p>JR桑園駅徒歩5分 イオン桑園店徒歩3分</p>
+            </div><!-- /.col -->
+            <div class="col-sm-6 text-center">
+                <h3 class="bold">お車でお越しの方</h3>
+                <p>当ビルに駐車場2台ご用意しております</p>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
 
-    <div class="row">
-        <div class="col-sm-12 col-map">
-            <div id="map-canvas"></div>
+        <div class="row">
+            <div class="col-sm-12 col-map">
+                <div id="map-canvas"></div>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJzMAw_VBdmYYQGYS0_VUN7B3Qvqeec-w"></script>
-<script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJzMAw_VBdmYYQGYS0_VUN7B3Qvqeec-w"></script>
+    <script>
 
-var styles =
-[{"featureType":"water","stylers":[{"color":"#19a0d8"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"weight":6}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#e85113"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-40}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-20}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"road.highway","elementType":"labels.icon"},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","stylers":[{"lightness":20},{"color":"#efe9e4"}]},{"featureType":"landscape.man_made","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"hue":"#11ff00"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"hue":"#4cff00"},{"saturation":58}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#f0e4d3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-10}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"simplified"}]}];
-
-
-var map;
-function initialize() {
-var mapOptions = {
-zoom: 15,
-center: new google.maps.LatLng(43.067376, 141.332415),
-styles: styles,
-scrollwheel: false
-};
-map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-var marker = new google.maps.Marker({
-position: {lat: 43.067376,  lng: 141.332415},
-map: map,
-title: '矯正歯科egao'
-});
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-        </div>
-    </div><!-- /.row -->
+    var styles =
+    [{"featureType":"water","stylers":[{"color":"#19a0d8"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"weight":6}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#e85113"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-40}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-20}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"road.highway","elementType":"labels.icon"},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","stylers":[{"lightness":20},{"color":"#efe9e4"}]},{"featureType":"landscape.man_made","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"hue":"#11ff00"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"hue":"#4cff00"},{"saturation":58}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#f0e4d3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-10}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"simplified"}]}];
 
 
-    <h4 class="text-center bold tracking-1" style="margin-top: 100px;">お問い合わせ</h4>
-    <h1 class="text-center line-height-15">
-        <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
-    </h1>
-    <h3 class="text-center">Tel 011-616-1919</h3>
-    <br>
-    <h4 class="text-center">
-        <a class="btn btn-egao">メールを送る&emsp;<img class="mail" src="<? bloginfo('template_directory') ?>/compass/images/envelope.png" srcset="<? bloginfo('template_directory') ?>/compass/images/envelope@2x.png 2x"></a>
-    </h4>
+    var map;
+    function initialize() {
+    var mapOptions = {
+    zoom: 15,
+    center: new google.maps.LatLng(43.067376, 141.332415),
+    styles: styles,
+    scrollwheel: false
+    };
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-</div><!-- /.container -->
-<script>
-$(window).scroll(function() {
-  var windowH = $(window).height();
-  var scrollTop = $(this).scrollTop();
-  if (scrollTop > windowH) {
-      $('.nav-fixed').removeClass('up');
-  }
-  else {
-      $('.nav-fixed').addClass('up');
-  }
-});
-</script>
+    var marker = new google.maps.Marker({
+    position: {lat: 43.067376,  lng: 141.332415},
+    map: map,
+    title: '矯正歯科egao'
+    });
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+            </div>
+        </div><!-- /.row -->
+
+
+        <h4 class="text-center bold tracking-1" style="margin-top: 100px;">お問い合わせ</h4>
+        <h1 class="text-center line-height-15">
+            <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
+        </h1>
+        <h3 class="text-center">Tel 011-616-1919</h3>
+        <br>
+        <h4 class="text-center">
+            <a class="btn btn-egao">メールを送る&emsp;<img class="mail" src="<? bloginfo('template_directory') ?>/compass/images/envelope.png" srcset="<? bloginfo('template_directory') ?>/compass/images/envelope@2x.png 2x"></a>
+        </h4>
+
+    </div><!-- /.container -->
+</div>
+
 <? get_footer(); ?>

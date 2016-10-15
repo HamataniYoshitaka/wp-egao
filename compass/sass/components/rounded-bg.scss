@@ -1,0 +1,16 @@
+.rounded-bg {
+    position: relative;
+}
+
+.rounded-bg-top {
+    position: absolute;
+    left: 0;
+    &.fixed {
+        position: fixed;
+        bottom: -200px;
+        transition: bottom 1s;
+        &.up {
+            bottom: 0px;
+        }
+    }
+}

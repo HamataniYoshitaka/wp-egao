@@ -10401,3 +10401,24 @@ body {
 .col-calendar .wpsbc-day-split-top-2, .col-calendar .wpsbc-day-split-bottom-2 {
   border-color: #b8da9c !important;
 }
+
+/* line 1, ../sass/components/rounded-bg.scss */
+.rounded-bg {
+  position: relative;
+}
+
+/* line 5, ../sass/components/rounded-bg.scss */
+.rounded-bg-top {
+  position: absolute;
+  left: 0;
+}
+/* line 8, ../sass/components/rounded-bg.scss */
+.rounded-bg-top.fixed {
+  position: fixed;
+  bottom: -200px;
+  transition: bottom 1s;
+}
+/* line 12, ../sass/components/rounded-bg.scss */
+.rounded-bg-top.fixed.up {
+  bottom: 0px;
+}

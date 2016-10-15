@@ -16,6 +16,7 @@ header('X-UA-Compatible: IE=edge,chrome=1');
 
 	<link rel="stylesheet" href="<? bloginfo('template_directory') ?>/compass/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<? bloginfo('template_directory') ?>/compass/fonts/icomoon/style.css">
+	<script src="<? bloginfo('template_directory') ?>/compass/javascripts/scroll.js" type="text/javascript"></script>
 
 <? if (is_home() || is_front_page()) : ?>
 	<script src="<? bloginfo('template_directory') ?>/compass/javascripts/nested/jquery.nested.js" type="text/javascript"></script>
