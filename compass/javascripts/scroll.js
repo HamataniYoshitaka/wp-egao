@@ -1,6 +1,11 @@
 $(window).scroll(function() {
-  var windowH = $(window).height();
   var windowW = $(window).width();
+  if (windowW < 768) {
+      $('.rounded-bg-top').removeClass('fixed').css('top', offset);
+      return false;
+  }
+  var windowH = $(window).height();
+
   var scrollTop = $(this).scrollTop();
   if (scrollTop > windowH) {
       $('.nav-fixed').removeClass('up');
@@ -10,10 +15,6 @@ $(window).scroll(function() {
   }
 
   var offset = -windowW / 1280 * 70;
-  if (windowW < 768) {
-      $('.rounded-bg-top').removeClass('fixed').css('top', offset);
-      return false;
-  }
   var roundedBgCounter = -1;
   $('.rounded-bg').each(function(i, e){
       var pos = $(this).offset().top;
@@ -26,7 +27,7 @@ $(window).scroll(function() {
       }
   });
   if (roundedBgCounter < 0) {
-      if (scrollTop > 500) {
+      if (scrollTop > 250) {
           $('.rounded-bg-top').eq(0).addClass('up');
       }
       else {
@@ -34,7 +35,7 @@ $(window).scroll(function() {
       }
   }
   else {
-      if (scrollTop > $('.rounded-bg').eq(roundedBgCounter).offset().top - windowH + 300) {
+      if (scrollTop > $('.rounded-bg').eq(roundedBgCounter).offset().top - windowH + 250) {
           $('.rounded-bg-top').eq(roundedBgCounter+1).addClass('up');
       }
       else {
