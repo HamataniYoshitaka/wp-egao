@@ -19,6 +19,9 @@ for($i=0; $i<40; $i++) :
 <?
         else :
             // 2枚もの
+            if ($animIndex == 9) {
+                $animIndex == 10;    // カプセルは不採用
+            }
 ?>
             <div class="top-illust-<? echo $animIndex ?>">
                 <img class="anim-<? echo $animIndex ?>-1" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $animIndex ?>-1.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $animIndex ?>-1@2x.png 2x">

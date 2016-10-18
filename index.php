@@ -74,21 +74,20 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
 
 <?
 for ($i=1; $i<=6; $i++) :
-if ($i == 12) $i++;
-if (!($i == 9 || $i == 10 || $i == 13)) :
+    if (!($i == 9 || $i == 10 || $i == 13)) :
 ?>
                 <div class="p2-illust-<? echo $i ?>">
                     <img class="anim-<? echo $i ?>" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>@2x.png 2x">
                 </div>
 <?
-else :
+    else :
 ?>
                 <div class="p2-illust-<? echo $i ?>">
                     <img class="anim-<? echo $i ?>-1" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-1.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-1@2x.png 2x">
                     <img class="anim-<? echo $i ?>-2" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-2.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-2@2x.png 2x">
                 </div>
 <?
-endif;
+    endif;
 endfor;
 ?>
             </div>
@@ -97,13 +96,13 @@ endfor;
         <div class="col-sm-6">
             <p class="bold text-center line-height-2" style="margin-top: 60px;">
                 はじめまして。<br>
-                「矯正歯科 e g a o 」を北海道・札幌の桑園で開院する生野啓一郎と申します。<br>
+                「矯正歯科 e g a o 」を北海道・札幌の桑園で開院する<br class="hidden-xs">生野啓一郎と申します。<br>
                 <br>
                 わたしは矯正歯科の専門医です。<br>
                 矯正治療は、それぞれの好み、ライフスタイル、性格など、<br class="hidden-xs">
                 １人１人の個性に合わせてゴールまでたどりつく壮大な治療です。<br>
                 また、幾度かの通院で終わるものではなく、<br class="hidden-xs">
-                何年も、それこそ時には世代を超えて長いお付き合いをしていく可能性もございます。<br>
+                何年も、それこそ時には世代を超えて長いお付き合いをしていく<br class="hidden-xs">可能性もございます。<br>
                 <br>
                 たくさんの皆様と矯正の専門医として丁寧で、深く、<br class="hidden-xs">
                 温かい関係を築きたいと思い開院することにしました。<br>
@@ -121,21 +120,21 @@ endfor;
 
 <?
 for ($i=7; $i<=13; $i++) :
-if ($i == 12) $i++;
-if (!($i == 9 || $i == 10 || $i == 13)) :
+    if ($i == 12 || $i == 9) $i++;
+    if (!($i == 9 || $i == 10 || $i == 13)) :
 ?>
                 <div class="p2-illust-<? echo $i ?>">
                     <img class="anim-<? echo $i ?>" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>@2x.png 2x">
                 </div>
 <?
-else :
+    else :
 ?>
                 <div class="p2-illust-<? echo $i ?>">
                     <img class="anim-<? echo $i ?>-1" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-1.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-1@2x.png 2x">
                     <img class="anim-<? echo $i ?>-2" src="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-2.png" srcset="<? bloginfo('template_directory') ?>/compass/images/animation/<? echo $i ?>-2@2x.png 2x">
                 </div>
 <?
-endif;
+    endif;
 endfor;
 ?>
             </div>
@@ -322,7 +321,7 @@ while ( have_posts() ) : the_post();
             <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-children.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-children@2x.png 2x">
         </h4>
         <br>
-        <p class="text-center">週1程度 (14:30-18:00) / 曜日不定(診察カレンダーで確認できます)</p>
+        <p class="text-center">週1程度 (9:30~17:00) / 曜日不定(診察カレンダーで確認できます)</p>
 
         <h4 class="text-center bold tracking-1" style="margin-top: 100px;">診療カレンダー</h4>
         <h1 class="text-center">
@@ -340,7 +339,7 @@ while ( have_posts() ) : the_post();
         <div class="row" style="margin-top: 30px; margin-bottom: 40px;">
             <div class="col-sm-6 text-center">
                 <h3 class="bold">電車でお越しの方</h3>
-                <p>JR桑園駅徒歩5分 イオン桑園店徒歩3分</p>
+                <p>JR桑園駅から徒歩5分 イオン桑園店から徒歩2分</p>
             </div><!-- /.col -->
             <div class="col-sm-6 text-center">
                 <h3 class="bold">お車でお越しの方</h3>
