@@ -9,11 +9,13 @@ $(window).scroll(function() {
   var windowH = $(window).height();
 
   var scrollTop = $(this).scrollTop();
-  if (scrollTop > windowH) {
-      $('.nav-fixed').removeClass('up');
-  }
-  else {
-      $('.nav-fixed').addClass('up');
+  if ($('.nav-fixed').hasClass('top')) {
+      if (scrollTop > windowH) {
+          $('.nav-fixed').removeClass('up');
+      }
+      else {
+          $('.nav-fixed').addClass('up');
+      }      
   }
 
   var roundedBgCounter = -1;

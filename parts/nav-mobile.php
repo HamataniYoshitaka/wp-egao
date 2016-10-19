@@ -28,4 +28,4 @@
     </div>
 </div>
 
-<a class="btn-tel-xs" href="tel:011-616-1919"><i class="fa fa-phone fa-2x"></i></a>
+<a class="btn-tel-xs visible-xs" href="tel:011-616-1919"><i class="fa fa-phone fa-2x"></i></a>
