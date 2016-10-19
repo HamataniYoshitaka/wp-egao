@@ -1,5 +1,7 @@
 $(window).scroll(function() {
   var windowW = $(window).width();
+  var offset = -windowW / 1280 * 70;
+
   if (windowW < 768) {
       $('.rounded-bg-top').removeClass('fixed').css('top', offset);
       return false;
@@ -14,7 +16,6 @@ $(window).scroll(function() {
       $('.nav-fixed').addClass('up');
   }
 
-  var offset = -windowW / 1280 * 70;
   var roundedBgCounter = -1;
   $('.rounded-bg').each(function(i, e){
       var pos = $(this).offset().top;
