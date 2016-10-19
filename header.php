@@ -18,15 +18,15 @@ header('X-UA-Compatible: IE=edge,chrome=1');
 	<link rel="stylesheet" href="<? bloginfo('template_directory') ?>/compass/fonts/icomoon/style.css">
 	<script src="<? bloginfo('template_directory') ?>/compass/javascripts/scroll.js" type="text/javascript"></script>
 
-<? if (is_home() || is_front_page()) : ?>
-	<script src="<? bloginfo('template_directory') ?>/compass/javascripts/nested/jquery.nested.js" type="text/javascript"></script>
-	<script src="<? bloginfo('template_directory') ?>/compass/javascripts/nested/makeboxes.js" type="text/javascript"></script>
-<? endif; ?>
+<?php if (is_home() || is_front_page()) : ?>
+	<script src="<?php bloginfo('template_directory') ?>/compass/javascripts/nested/jquery.nested.js" type="text/javascript"></script>
+	<script src="<?php bloginfo('template_directory') ?>/compass/javascripts/nested/makeboxes.js" type="text/javascript"></script>
+<?php endif; ?>
 
-<? if (get_page(get_the_ID())->post_name == 'introduction') : ?>
+<?php if (get_page(get_the_ID())->post_name == 'introduction') : ?>
 	<link rel="stylesheet" type="text/css" href="<? bloginfo('template_directory') ?>/compass/javascripts/slick/slick/slick.css">
 	<script type="text/javascript" src="<? bloginfo('template_directory') ?>/compass/javascripts/slick/slick/slick.min.js"></script>
-<? endif; ?>
+<?php endif; ?>
 
 	<!-- /.drawer -->
 	<link rel="stylesheet" type="text/css" href="<? bloginfo('template_directory') ?>/compass/javascripts/bootstrap-drawer/dist/css/bootstrap-drawer.css">
