@@ -9896,11 +9896,17 @@ body {
 .news-thumbnail > .image {
   display: block;
   width: 100%;
-  height: 150px;
+  height: 180px;
   background-position: center;
   background-size: cover;
 }
-/* line 13, ../sass/components/news.scss */
+@media only screen and (min-width: 768px) {
+  /* line 7, ../sass/components/news.scss */
+  .news-thumbnail > .image {
+    height: 150px;
+  }
+}
+/* line 16, ../sass/components/news.scss */
 .news-thumbnail > .image .category {
   background-color: #fff100;
   color: #231815;
@@ -9908,13 +9914,13 @@ body {
   display: inline-block;
   font-weight: bold;
 }
-/* line 22, ../sass/components/news.scss */
+/* line 25, ../sass/components/news.scss */
 .news-thumbnail h4 > a {
   color: #231815;
   font-weight: bold;
 }
 
-/* line 29, ../sass/components/news.scss */
+/* line 32, ../sass/components/news.scss */
 .btn-egao {
   border: 2px solid #231815;
   border-radius: 0;
@@ -9925,48 +9931,48 @@ body {
   padding: 13px 45px;
   letter-spacing: 0.1em;
 }
-/* line 38, ../sass/components/news.scss */
+/* line 41, ../sass/components/news.scss */
 .btn-egao > .more {
   transform: translate(0px, -2px);
   transition: transform 0.3s;
 }
-/* line 42, ../sass/components/news.scss */
+/* line 45, ../sass/components/news.scss */
 .btn-egao > .mail {
   transform: rotate(0deg);
   transition: transform 0.3s;
   transform-origin: bottom right;
 }
-/* line 47, ../sass/components/news.scss */
+/* line 50, ../sass/components/news.scss */
 .btn-egao:hover {
   background-color: #eeeeee;
 }
-/* line 49, ../sass/components/news.scss */
+/* line 52, ../sass/components/news.scss */
 .btn-egao:hover > .more {
   transform: translate(10px, -2px);
 }
-/* line 52, ../sass/components/news.scss */
+/* line 55, ../sass/components/news.scss */
 .btn-egao:hover > .mail {
   transform: rotate(20deg);
 }
 
-/* line 58, ../sass/components/news.scss */
+/* line 61, ../sass/components/news.scss */
 .sidebar-news {
   margin-bottom: 50px;
 }
-/* line 60, ../sass/components/news.scss */
+/* line 63, ../sass/components/news.scss */
 .sidebar-news ul {
   padding-left: 0;
   list-style: none;
   margin-top: 15px;
   line-height: 2;
 }
-/* line 65, ../sass/components/news.scss */
+/* line 68, ../sass/components/news.scss */
 .sidebar-news ul a {
   color: #231815;
   letter-spacing: 0.1em;
 }
 
-/* line 71, ../sass/components/news.scss */
+/* line 74, ../sass/components/news.scss */
 .sidebar-line {
   fill: none;
   stroke: #231815;
@@ -9975,19 +9981,19 @@ body {
   stroke-miterlimit: 10;
 }
 
-/* line 78, ../sass/components/news.scss */
+/* line 81, ../sass/components/news.scss */
 .sidebar-news-title {
   font-weight: bold;
   text-align: center;
 }
 
-/* line 83, ../sass/components/news.scss */
+/* line 86, ../sass/components/news.scss */
 .nav-paging a {
   color: #231815;
   font-weight: bold;
 }
 
-/* line 89, ../sass/components/news.scss */
+/* line 92, ../sass/components/news.scss */
 .news-category-tab {
   position: absolute;
   top: 0;

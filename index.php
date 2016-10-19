@@ -388,7 +388,7 @@ while ( have_posts() ) : the_post();
         <h3 class="text-center">Tel 011-616-1919</h3>
         <br>
         <h4 class="text-center">
-            <a class="btn btn-egao">メールを送る&emsp;<img class="mail" src="<? bloginfo('template_directory') ?>/compass/images/envelope.png" srcset="<? bloginfo('template_directory') ?>/compass/images/envelope@2x.png 2x"></a>
+            <a class="btn btn-egao" href="mailto:info@egao-kyousei-sapporo.com">メールを送る&emsp;<img class="mail" src="<? bloginfo('template_directory') ?>/compass/images/envelope.png" srcset="<? bloginfo('template_directory') ?>/compass/images/envelope@2x.png 2x"></a>
         </h4>
 
     </div><!-- /.container -->
