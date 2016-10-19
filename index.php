@@ -14,7 +14,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
             <img src="<? bloginfo('template_directory') ?>/compass/images/top-logo.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-logo@2x.png 2x">
         </div>
     </div>
-    <div class="text-center visible-xs" style="position: absolute; top: 50px; left: 0; width: 100%;">
+    <div class="text-center visible-xs" style="position: absolute; top: 12px; left: 0; width: 100%;">
         <p class="roboto-condensed tracking-1" style="color: #ffffff;">Orthodontic Office</p>
         <img src="<? bloginfo('template_directory') ?>/compass/images/top-logo.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-logo@2x.png 2x">
     </div>
