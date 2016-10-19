@@ -9827,6 +9827,26 @@ body {
   padding: 15px;
 }
 
+/* line 128, ../sass/components/navigation.scss */
+.btn-tel-xs {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #231815;
+  padding-top: 8px;
+}
+/* line 141, ../sass/components/navigation.scss */
+.btn-tel-xs:hover {
+  background-color: #ddd;
+}
+
 /* line 1, ../sass/components/treatment.scss */
 .treatment-step {
   width: 90px;
