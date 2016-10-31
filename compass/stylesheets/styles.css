@@ -8833,6 +8833,12 @@ body {
   color: #ffffff;
 }
 /* line 53, ../sass/components/global.scss */
+.fullscreen.staff {
+  background-image: url("../images/staff/top.jpg");
+  background-image: -webkit-image-set(url("../images/staff/top.jpg") 1x, url("../images/staff/top@2x.jpg") 2x);
+  background-image: image-set(url("../images/staff/top.jpg") 1x, url("../images/staff/top@2x.jpg") 2x);
+}
+/* line 59, ../sass/components/global.scss */
 .fullscreen > .middle {
   position: absolute;
   top: 50%;
@@ -8840,7 +8846,7 @@ body {
   width: 100%;
 }
 
-/* line 61, ../sass/components/global.scss */
+/* line 67, ../sass/components/global.scss */
 .round-border-title {
   font-weight: bold;
   background-color: #ffffff;
@@ -8849,7 +8855,7 @@ body {
   padding: 10px 30px;
 }
 
-/* line 69, ../sass/components/global.scss */
+/* line 75, ../sass/components/global.scss */
 .bg-flag {
   position: relative;
   width: 300px;
@@ -8860,12 +8866,12 @@ body {
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 768px) {
-  /* line 69, ../sass/components/global.scss */
+  /* line 75, ../sass/components/global.scss */
   .bg-flag {
     width: 319px;
   }
 }
-/* line 80, ../sass/components/global.scss */
+/* line 86, ../sass/components/global.scss */
 .bg-flag .cover-flag {
   position: absolute;
   top: 10px;
@@ -8879,67 +8885,67 @@ body {
   mix-blend-mode: multiply;
 }
 @media only screen and (min-width: 768px) {
-  /* line 80, ../sass/components/global.scss */
+  /* line 86, ../sass/components/global.scss */
   .bg-flag .cover-flag {
     width: 318px;
   }
 }
-/* line 95, ../sass/components/global.scss */
+/* line 101, ../sass/components/global.scss */
 .bg-flag h1, .bg-flag h2, .bg-flag h3 {
   position: absolute;
   color: #000;
 }
-/* line 99, ../sass/components/global.scss */
+/* line 105, ../sass/components/global.scss */
 .bg-flag .year {
   font-size: 20px;
   top: 15px;
   left: 30px;
 }
-/* line 104, ../sass/components/global.scss */
+/* line 110, ../sass/components/global.scss */
 .bg-flag .month {
   font-size: 20px;
   top: 50px;
   left: 44px;
 }
-/* line 109, ../sass/components/global.scss */
+/* line 115, ../sass/components/global.scss */
 .bg-flag .place {
   font-size: 18px;
   top: 22px;
   left: 157px;
 }
-/* line 114, ../sass/components/global.scss */
+/* line 120, ../sass/components/global.scss */
 .bg-flag .open {
   font-size: 25px;
   top: 55px;
   left: 153px;
 }
 
-/* line 123, ../sass/components/global.scss */
+/* line 129, ../sass/components/global.scss */
 .col-map {
   padding-left: 0px;
   padding-right: 0px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 123, ../sass/components/global.scss */
+  /* line 129, ../sass/components/global.scss */
   .col-map {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 132, ../sass/components/global.scss */
+/* line 138, ../sass/components/global.scss */
 #map-canvas {
   width: 100%;
   height: 300px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 132, ../sass/components/global.scss */
+  /* line 138, ../sass/components/global.scss */
   #map-canvas {
     height: 500px;
   }
 }
 
-/* line 141, ../sass/components/global.scss */
+/* line 147, ../sass/components/global.scss */
 .hr-black {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -8947,7 +8953,17 @@ body {
   border-top: 3px solid #000000;
 }
 
-/* line 151, ../sass/components/global.scss */
+/* line 154, ../sass/components/global.scss */
+.bg-wave {
+  background-image: url("../images/bg-wave.png");
+  background-image: -webkit-image-set(url("../images/bg-wave.png") 1x, url("../images/bg-wave@2x.png") 2x);
+  background-image: image-set(url("../images/bg-wave.png") 1x, url("../images/bg-wave@2x.png") 2x);
+  height: 11px;
+  width: 100%;
+  background-repeat: repeat-x;
+}
+
+/* line 165, ../sass/components/global.scss */
 .btn-egao {
   color: #333;
   background-color: #fff;
@@ -8956,7 +8972,7 @@ body {
   border-width: 3px;
   padding: 15px 60px;
 }
-/* line 159, ../sass/components/global.scss */
+/* line 173, ../sass/components/global.scss */
 .btn-egao:hover {
   background-color: #dcdcdc;
 }
@@ -9736,11 +9752,15 @@ body {
   text-decoration: none;
   color: #898989;
 }
-/* line 45, ../sass/components/navigation.scss */
+/* line 43, ../sass/components/navigation.scss */
+.nav-fixed .menu > a.disabled {
+  color: #898989;
+}
+/* line 48, ../sass/components/navigation.scss */
 .nav-fixed .facebook {
   text-align: center;
   position: absolute;
-  top: 20px;
+  top: 60px;
   right: 246px;
   width: 38px;
   height: 38px;
@@ -9751,15 +9771,15 @@ body {
   transition: opacity 0.3s;
   opacity: 1.0;
 }
-/* line 58, ../sass/components/navigation.scss */
+/* line 61, ../sass/components/navigation.scss */
 .nav-fixed .facebook:hover {
   opacity: 0.6;
 }
-/* line 62, ../sass/components/navigation.scss */
+/* line 65, ../sass/components/navigation.scss */
 .nav-fixed .tel {
   text-align: center;
   position: absolute;
-  top: 20px;
+  top: 60px;
   right: 20px;
   width: 210px;
   height: 38px;
@@ -9770,7 +9790,7 @@ body {
   padding-top: 5px;
 }
 
-/* line 77, ../sass/components/navigation.scss */
+/* line 80, ../sass/components/navigation.scss */
 .footer {
   position: relative;
   background-color: #cacbca;
@@ -9778,7 +9798,7 @@ body {
   padding-top: 60px;
   padding-bottom: 50px;
 }
-/* line 83, ../sass/components/navigation.scss */
+/* line 86, ../sass/components/navigation.scss */
 .footer .btn-footer {
   width: 80px;
   height: 80px;
@@ -9786,15 +9806,15 @@ body {
   border: none;
   border-radius: 40px;
 }
-/* line 89, ../sass/components/navigation.scss */
+/* line 92, ../sass/components/navigation.scss */
 .footer .btn-footer:focus {
   outline: none;
 }
-/* line 93, ../sass/components/navigation.scss */
+/* line 96, ../sass/components/navigation.scss */
 .footer .btn-footer:hover img {
   transform: translate(0px, -6px);
 }
-/* line 97, ../sass/components/navigation.scss */
+/* line 100, ../sass/components/navigation.scss */
 .footer .btn-footer img {
   width: 20px;
   height: auto;
@@ -9802,11 +9822,11 @@ body {
   transform: translate(0px, 0px);
 }
 
-/* line 107, ../sass/components/navigation.scss */
+/* line 110, ../sass/components/navigation.scss */
 .drawer-controls {
   padding: 0;
 }
-/* line 109, ../sass/components/navigation.scss */
+/* line 112, ../sass/components/navigation.scss */
 .drawer-controls a {
   display: block;
   background-color: #ffffff;
@@ -9816,18 +9836,18 @@ body {
   padding: 14px;
   color: #231815;
 }
-/* line 117, ../sass/components/navigation.scss */
+/* line 120, ../sass/components/navigation.scss */
 .drawer-controls a:hover {
   color: #231815;
   text-decoration: none;
 }
 
-/* line 124, ../sass/components/navigation.scss */
+/* line 127, ../sass/components/navigation.scss */
 .drawer-nav li a, .drawer-fullnav li a {
   padding: 15px;
 }
 
-/* line 128, ../sass/components/navigation.scss */
+/* line 131, ../sass/components/navigation.scss */
 .btn-tel-xs {
   position: fixed;
   top: 10px;
@@ -9842,7 +9862,7 @@ body {
   color: #231815;
   padding-top: 8px;
 }
-/* line 141, ../sass/components/navigation.scss */
+/* line 144, ../sass/components/navigation.scss */
 .btn-tel-xs:hover {
   background-color: #ddd;
 }
@@ -10447,4 +10467,28 @@ body {
 /* line 12, ../sass/components/rounded-bg.scss */
 .rounded-bg-top.fixed.up {
   bottom: 0px;
+}
+
+/* line 1, ../sass/components/staff.scss */
+.staff-thumbnail {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+/* line 8, ../sass/components/staff.scss */
+.staff-thumbnail:after {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  opacity: 0.0;
+  transition: opacity 0.3s;
+}
+/* line 18, ../sass/components/staff.scss */
+.staff-thumbnail:hover:after {
+  opacity: 1.0;
 }

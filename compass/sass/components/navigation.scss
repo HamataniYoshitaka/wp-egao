@@ -40,12 +40,15 @@
                 text-decoration: none;
                 color: #898989;
             }
+            &.disabled {
+                color: #898989;                
+            }
         }
     }
     .facebook {
         text-align: center;
         position: absolute;
-        top: 20px;
+        top: 60px;
         right: 246px;
         width: 38px;
         height: 38px;
@@ -62,7 +65,7 @@
     .tel {
         text-align: center;
         position: absolute;
-        top: 20px;
+        top: 60px;
         right: 20px;
         width: 210px;
         height: 38px;

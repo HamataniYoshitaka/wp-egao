@@ -50,6 +50,12 @@ body {
     background-position: center;
     background-size: cover;
     color: #ffffff;
+    &.staff {
+        @include bg-2x (
+            '../images/staff/top.jpg',
+            '../images/staff/top@2x.jpg'
+        );
+    }
     >.middle {
         position: absolute;
         top: 50%;
@@ -145,7 +151,15 @@ body {
     border: 0;
     border-top: 3px solid #000000;
 }
-
+.bg-wave {
+    @include bg-2x(
+        '../images/bg-wave.png',
+        '../images/bg-wave@2x.png'
+    );
+    height: 11px;
+    width: 100%;
+    background-repeat: repeat-x;
+}
 
 
 .btn-egao{

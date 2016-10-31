@@ -5,13 +5,13 @@
                 <img src="<? bloginfo('template_directory') ?>/compass/images/nav-fixed-logo.png" srcset="<? bloginfo('template_directory') ?>/compass/images/nav-fixed-logo@2x.png 2x">
             </a>
         </div>
-        <div class="menu hidden">
+        <div class="menu">
             <a href="<? echo home_url(); ?>/news/">お知らせ</a>/
             <a href="<? echo home_url(); ?>/staff/">人のこと</a>/
             <a href="<? echo home_url(); ?>/introduction/">院内の紹介</a>/
-            <a href="<? echo home_url(); ?>/treatment/">診療について</a>/
-            <a href="<? echo home_url(); ?>/cost/">料金について</a>/
-            <a href="#">ご予約</a>
+            <a class="disabled">診療について</a>/
+            <a class="disabled">料金について</a>/
+            <a class="disabled">ご予約</a>
         </div>
         <a class="facebook" href="https://www.facebook.com/sapporokyoseishikaegao/" target="_blank">
             <i class="fa fa-facebook fa-lg"></i>
