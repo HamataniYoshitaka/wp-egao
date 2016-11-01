@@ -56,6 +56,13 @@ body {
             '../images/staff/top@2x.jpg'
         );
     }
+    &.introduction {
+        @include bg-2x (
+            '../images/introduction/top.jpg',
+            '../images/introduction/top@2x.jpg'
+        );
+    }
+
     >.middle {
         position: absolute;
         top: 50%;
