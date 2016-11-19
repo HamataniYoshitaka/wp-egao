@@ -65,6 +65,12 @@ body {
             '../images/introduction/top@2x.jpg'
         );
     }
+    &.treatment {
+        @include bg-2x (
+            '../images/treatment/bg-top.jpg',
+            '../images/treatment/bg-top@2x.jpg'
+        );
+    }
 
     >.middle {
         position: absolute;

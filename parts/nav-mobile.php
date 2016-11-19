@@ -1,4 +1,4 @@
-<?
+<?php
 /**
 * スマホ用メニュー
 */
@@ -18,6 +18,9 @@
             <li role="presentation"><a href="<? echo home_url(); ?>/news/">お知らせ</a></li>
             <li role="presentation"><a href="<? echo home_url(); ?>/staff/">人のこと</a></li>
             <li role="presentation"><a href="<? echo home_url(); ?>/introduction/">院内の紹介</a></li>
+            <li role="presentation"><a href="<? echo home_url(); ?>/treatment/">診療について</a></li>
+            <li role="presentation"><a href="<? echo home_url(); ?>/price/">料金について</a></li>
+
         </ul>
         <div class="drawer-body">
             <p class="text-center">
