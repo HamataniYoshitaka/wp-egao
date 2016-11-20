@@ -1,0 +1,16 @@
+<svg version="1.1" id="cost1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 343 181" xml:space="preserve">
+	<style type="text/css">
+		#cost1 .st0{fill:none;stroke:#231815;stroke-width:2;stroke-miterlimit:10;}
+		#cost1 .st1{fill:#FFFFFF;stroke:#231815;stroke-width:2;stroke-miterlimit:10;}
+		#cost1 .st2{fill:#231815;}
+		#cost1 .st6{letter-spacing:-6;}
+		#cost1 .st7{font-size:9px;}
+	</style>
+	<polyline class="st0" points="26.4,179.4 1,179.4 1,0.9 26.4,0.9 	"/>
+	<polyline class="st0" points="315.9,0.9 341.3,0.9 341.3,179.4 315.9,179.4 	"/>
+
+	<rect x="56.8" y="22.6" class="st1" width="219.8" height="114.9"/>
+	<text transform="matrix(1 0 0 1 39.5193 161.7584)" class="st2  ">*1 : 1ヶ月に1回程度     *2 : 3ヶ月に1回程度</text>
+	<text transform="matrix(1 0 0 1 147.1516 48.2927)" class="st2 bold ">調節料</text>
+	<text transform="matrix(1 0 0 1 89.1049 75.1038)"><tspan x="0" y="0" class="st2 bold ">調整料 … 5,000</tspan><tspan x="93.5" y="0" class="st2 bold  st6">円</tspan><tspan x="100.1" y="0" class="st2 bold ">（毎回</tspan><tspan x="139.3" y="0" class="st2 bold  st6">）</tspan><tspan x="145.9" y="-3.4" class="st2  st7">*1</tspan><tspan x="0.1" y="22.8" class="st2 bold ">観察料 … 3,000</tspan><tspan x="93.7" y="22.8" class="st2 bold  st6">円</tspan><tspan x="100.2" y="22.8" class="st2 bold ">（毎回</tspan><tspan x="139.4" y="22.8" class="st2 bold  st6">）</tspan><tspan x="146" y="19.2" class="st2  st7">*2</tspan><tspan x="-8.9" y="45.5" class="st2 bold ">定期資料 … 5,000</tspan><tspan x="97.7" y="45.5" class="st2 bold  st6">円</tspan><tspan x="104.3" y="45.5" class="st2 bold ">（1回/年</tspan><tspan x="157.6" y="45.5" class="st2 bold  st6">）</tspan></text>
+</svg>

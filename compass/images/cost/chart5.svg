@@ -1,0 +1,12 @@
+<svg version="1.1" id="chart5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 284 155" xml:space="preserve">
+	<style type="text/css">
+		#chart5 .st0{fill:#231815;}
+		#chart5 .st3{fill:#FFFFFF;stroke:#231815;stroke-width:2;stroke-miterlimit:10;}
+		#chart5 .st5{fill:none;stroke:#231815;stroke-width:2;stroke-miterlimit:10;}
+	</style>
+	<text transform="matrix(1 0 0 1 67.2648 56.9365)" class="st0  ">遠方にお引越しされる場合</text>
+	<rect x="43.4" y="80.9" class="st3" width="204.6" height="27.5"/>
+	<text transform="matrix(1 0 0 1 59.7278 99.6504)" class="st0 bold ">転院資料作成料金　15,000円</text>
+	<polyline class="st5" points="27.5,153.3 2.1,153.3 2.1,1.4 27.5,1.4 	"/>
+	<polyline class="st5" points="257.3,1.4 282.6,1.4 282.6,153.3 257.3,153.3 	"/>
+</svg>

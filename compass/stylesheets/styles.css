@@ -8856,7 +8856,13 @@ body {
   background-image: -webkit-image-set(url("../images/treatment/bg-top.jpg") 1x, url("../images/treatment/bg-top@2x.jpg") 2x);
   background-image: image-set(url("../images/treatment/bg-top.jpg") 1x, url("../images/treatment/bg-top@2x.jpg") 2x);
 }
-/* line 75, ../sass/components/global.scss */
+/* line 74, ../sass/components/global.scss */
+.fullscreen.cost {
+  background-image: url("../images/cost/bg-top.jpg");
+  background-image: -webkit-image-set(url("../images/cost/bg-top.jpg") 1x, url("../images/cost/bg-top@2x.jpg") 2x);
+  background-image: image-set(url("../images/cost/bg-top.jpg") 1x, url("../images/cost/bg-top@2x.jpg") 2x);
+}
+/* line 81, ../sass/components/global.scss */
 .fullscreen > .middle {
   position: absolute;
   top: 50%;
@@ -8864,7 +8870,7 @@ body {
   width: 100%;
 }
 
-/* line 83, ../sass/components/global.scss */
+/* line 89, ../sass/components/global.scss */
 .round-border-title {
   font-weight: bold;
   background-color: #ffffff;
@@ -8873,7 +8879,7 @@ body {
   padding: 10px 30px;
 }
 
-/* line 91, ../sass/components/global.scss */
+/* line 97, ../sass/components/global.scss */
 .bg-flag {
   position: relative;
   width: 300px;
@@ -8884,12 +8890,12 @@ body {
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 768px) {
-  /* line 91, ../sass/components/global.scss */
+  /* line 97, ../sass/components/global.scss */
   .bg-flag {
     width: 319px;
   }
 }
-/* line 102, ../sass/components/global.scss */
+/* line 108, ../sass/components/global.scss */
 .bg-flag .cover-flag {
   position: absolute;
   top: 10px;
@@ -8903,67 +8909,67 @@ body {
   mix-blend-mode: multiply;
 }
 @media only screen and (min-width: 768px) {
-  /* line 102, ../sass/components/global.scss */
+  /* line 108, ../sass/components/global.scss */
   .bg-flag .cover-flag {
     width: 318px;
   }
 }
-/* line 117, ../sass/components/global.scss */
+/* line 123, ../sass/components/global.scss */
 .bg-flag h1, .bg-flag h2, .bg-flag h3 {
   position: absolute;
   color: #000;
 }
-/* line 121, ../sass/components/global.scss */
+/* line 127, ../sass/components/global.scss */
 .bg-flag .year {
   font-size: 20px;
   top: 15px;
   left: 30px;
 }
-/* line 126, ../sass/components/global.scss */
+/* line 132, ../sass/components/global.scss */
 .bg-flag .month {
   font-size: 20px;
   top: 50px;
   left: 44px;
 }
-/* line 131, ../sass/components/global.scss */
+/* line 137, ../sass/components/global.scss */
 .bg-flag .place {
   font-size: 18px;
   top: 22px;
   left: 157px;
 }
-/* line 136, ../sass/components/global.scss */
+/* line 142, ../sass/components/global.scss */
 .bg-flag .open {
   font-size: 25px;
   top: 55px;
   left: 153px;
 }
 
-/* line 145, ../sass/components/global.scss */
+/* line 151, ../sass/components/global.scss */
 .col-map {
   padding-left: 0px;
   padding-right: 0px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 145, ../sass/components/global.scss */
+  /* line 151, ../sass/components/global.scss */
   .col-map {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 154, ../sass/components/global.scss */
+/* line 160, ../sass/components/global.scss */
 #map-canvas {
   width: 100%;
   height: 300px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 154, ../sass/components/global.scss */
+  /* line 160, ../sass/components/global.scss */
   #map-canvas {
     height: 500px;
   }
 }
 
-/* line 163, ../sass/components/global.scss */
+/* line 169, ../sass/components/global.scss */
 .hr-black {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -8971,7 +8977,7 @@ body {
   border-top: 3px solid #000000;
 }
 
-/* line 170, ../sass/components/global.scss */
+/* line 176, ../sass/components/global.scss */
 .bg-wave {
   background-image: url("../images/bg-wave.png");
   background-image: -webkit-image-set(url("../images/bg-wave.png") 1x, url("../images/bg-wave@2x.png") 2x);
@@ -8981,7 +8987,7 @@ body {
   background-repeat: repeat-x;
 }
 
-/* line 181, ../sass/components/global.scss */
+/* line 187, ../sass/components/global.scss */
 .btn-egao {
   color: #333;
   background-color: #fff;
@@ -8990,7 +8996,7 @@ body {
   border-width: 3px;
   padding: 15px 60px;
 }
-/* line 189, ../sass/components/global.scss */
+/* line 195, ../sass/components/global.scss */
 .btn-egao:hover {
   background-color: #dcdcdc;
 }
@@ -9907,7 +9913,7 @@ body {
 /* line 1, ../sass/components/cost.scss */
 .cost-circle {
   position: absolute;
-  top: -19px;
+  top: -32px;
   left: -25px;
 }
 
@@ -9915,10 +9921,14 @@ body {
 .cost-borderd-box {
   background-color: #ffffff;
   border: 2px solid #231815;
-  padding: 10px 24px;
+  padding: 7px 20px;
+}
+/* line 10, ../sass/components/cost.scss */
+.cost-borderd-box small {
+  color: #231815;
 }
 
-/* line 12, ../sass/components/cost.scss */
+/* line 15, ../sass/components/cost.scss */
 .cost-box {
   display: block;
   position: relative;
@@ -9926,7 +9936,7 @@ body {
   padding-top: 20px;
   padding-bottom: 30px;
 }
-/* line 18, ../sass/components/cost.scss */
+/* line 21, ../sass/components/cost.scss */
 .cost-box:after {
   content: "";
   position: absolute;
@@ -9940,6 +9950,28 @@ body {
   -webkit-border-image: url(../images/cost-box.9.png) 25 stretch;
   -o-border-image: url(../images/cost-box.9.png) 25 stretch;
   border-image: url(../images/cost-box.9.png) 25 fill stretch;
+}
+
+/* line 37, ../sass/components/cost.scss */
+.hr-dot-black {
+  border: none;
+  background-image: url("../images/cost/border-dot-black.png");
+  background-image: -webkit-image-set(url("../images/cost/border-dot-black.png") 1x, url("../images/cost/border-dot-black@2x.png") 2x);
+  background-image: image-set(url("../images/cost/border-dot-black.png") 1x, url("../images/cost/border-dot-black@2x.png") 2x);
+  background-repeat: repeat-x;
+  height: 3px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 48, ../sass/components/cost.scss */
+.vertical-line {
+  position: absolute;
+  top: 28px;
+  left: 8px;
+  transform: rotate(90deg);
+  transform-origin: 0px 0px;
+  border-top: 2px solid #231815;
 }
 
 /* line 1, ../sass/components/news.scss */

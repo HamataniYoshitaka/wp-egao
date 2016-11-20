@@ -1,0 +1,14 @@
+<svg version="1.1" id="chart6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 284 155" xml:space="preserve">
+	<style type="text/css">
+		#chart6 .st0{fill:#231815;}
+		#chart6 .st3{letter-spacing:-6;}
+		#chart6 .st4{fill:#FFFFFF;stroke:#231815;stroke-width:2;stroke-miterlimit:10;}
+		#chart6 .st6{fill:none;stroke:#231815;stroke-width:2;stroke-miterlimit:10;}
+	</style>
+	<text transform="matrix(1 0 0 1 44.1869 33.2162)" class="st0  ">乳歯列(6歳未満)で反対咬合の場合</text>
+	<text transform="matrix(1 0 0 1 65.8969 113.3925)"><tspan x="0" y="0" class="st0  ">治らなければ通常の流れへ</tspan><tspan x="25.8" y="22.8" class="st0  ">（50,000円引き</tspan><tspan x="117.9" y="22.8" class="st0   st3">）</tspan></text>
+	<rect x="56.1" y="57.2" class="st4" width="176.4" height="27.5"/>
+	<text transform="matrix(1 0 0 1 72.468 75.9301)" class="st0 bold ">ムーシールド　50,000円</text>
+	<polyline class="st6" points="26.8,153.5 1.5,153.5 1.5,1.7 26.8,1.7 	"/>
+	<polyline class="st6" points="256.6,1.7 282,1.7 282,153.5 256.6,153.5 	"/>
+</svg>

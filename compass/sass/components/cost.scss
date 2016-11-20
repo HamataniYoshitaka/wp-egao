@@ -1,12 +1,15 @@
 .cost-circle {
     position: absolute;
-    top: -19px;
+    top: -32px;
     left: -25px;
 }
 .cost-borderd-box {
     background-color: #ffffff;
     border: 2px solid $text-color;
-    padding: 10px 24px;
+    padding: 7px 20px;
+    small {
+        color: $text-color;
+    }
 }
 
 .cost-box {
@@ -29,4 +32,24 @@
         -o-border-image: url(../images/cost-box.9.png) 25 stretch;
         border-image: url(../images/cost-box.9.png) 25 fill stretch;
     }
+}
+
+.hr-dot-black {
+    border: none;
+    @include bg-2x(
+        '../images/cost/border-dot-black.png',
+        '../images/cost/border-dot-black@2x.png'
+    );
+    background-repeat: repeat-x;
+    height: 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.vertical-line {
+    position: absolute;
+    top: 28px;
+    left: 8px;
+    transform: rotate(90deg);
+    transform-origin: 0px 0px;
+    border-top: 2px solid $text-color;
 }

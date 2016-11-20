@@ -71,6 +71,12 @@ body {
             '../images/treatment/bg-top@2x.jpg'
         );
     }
+    &.cost {
+        @include bg-2x (
+            '../images/cost/bg-top.jpg',
+            '../images/cost/bg-top@2x.jpg'
+        );
+    }
 
     >.middle {
         position: absolute;

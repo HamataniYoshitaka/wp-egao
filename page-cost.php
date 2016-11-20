@@ -4,281 +4,392 @@
 */
 get_header();
 require_once(dirname(__FILE__) . '/parts/nav-pc.php');
-require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
 ?>
-<div class="fullscreen" style="background-image: url(<? bloginfo('template_directory') ?>/compass/images/dummy/bg1.jpg);">
+
+<div class="fullscreen cost">
     <div class="middle">
         <div class="text-center" style="margin-top: -100px; line-height: 5;">
-            <img src="<? bloginfo('template_directory') ?>/compass/images/cost-title.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-title@2x.png 2x"><br>
+            <img src="<? bloginfo('template_directory') ?>/compass/images/cost-title.png"><br>
             <img src="<? bloginfo('template_directory') ?>/compass/images/wave-white.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-white@2x.png 2x">
-            <h4 class="bold tracking-1">矯正治療費について</h4>
+            <h4 class="bold tracking-1">料金について</h4>
         </div>
+    </div>
+    <div style="position: absolute; left: 0; bottom: -5px; width: 100%;">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 70" xml:space="preserve">
+            <path style="fill: #ffffff;" d="M1280,0C910.8,88,392,90.2,0,0v70h1280V0z"/>
+        </svg>
     </div>
 </div>
 
 <div class="bg-white">
-    <div class="container" style="padding-top: 60px; padding-bottom: 60px;">
-        <h1 class="text-center tracking-2 bold">STEP &amp; FEE</h1>
+    <div class="container" style="padding-top: 60px; padding-bottom: 120px;">
+        <h1 class="text-center tracking-1 bold">STEP &amp; FEE</h1>
         <br>
         <h5 class="text-center bold tracking-1">治療のステップと費用</h5>
         <br>
         <p class="text-center"><img src="<? bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<? bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
 
-        <h3 class="text-center bold" style="margin-top: 100px;">子供（永久歯列前）</h3>
+        <h3 class="text-center bold" style="margin-top: 100px;">
+            <span class="round-border-title">12歳以下（子供の歯がある場合）</span>
+        </h3>
 
         <div class="row" style="margin-top: 100px;">
             <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
-                <h3 class="bold tracking-1">第一期治療&emsp;<small class="color-default bold">-永久歯列前の矯正治療-</small></h3>
-                <br>
-                <p class="line-height-2">
-                    全ての歯が生え変わる12歳前後までの治療です。<br>
-                    歯の萌え変わりと顎の成長をコントロールし、<br>上下の顎のバランスを整えていきます。
-                </p>
-                <br>
-                <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">100,000<small class="color-default bold">円</small> ~ 300,000<small class="color-default bold">円</small></span></h4>
-            </div>
-            <div class="col-sm-5">
-                <div class="cost-box">
-                    <p class="line-height-2 text-center">
-                        4週に1度、来院して頂き調整を行います。<br>
-                        その際に毎回調整料がかかります。<br>
-                        歯の萌え変わりを待つ間を<br>
-                        開けることもあります。
-                    </p>
-                    <br>
-                    <h4 class="bold tracking-1 text-center"><span class="cost-borderd-box roboto-condensed">調節料&nbsp;5,000<small class="color-default bold">円</small></span></h4>
-                </div>
+                <hr class="vertical-line" style="width: 100px;">
+                <h4 class="bold tracking-1">相談料</h4>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">2,000<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
             <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
-                <h3 class="bold tracking-1">追加検査&emsp;<small class="color-default bold">-第二期治療開始時に発生-</small></h3>
-                <br>
-                <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">30,000<small class="color-default bold">円</small></span></h4>
+                <hr class="vertical-line" style="width: 100px;">
+                <h4 class="bold tracking-1">初診検査・診断料</h4>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">35,000<small>円</small></span></h3>
+            </div>
+        </div><!-- /.row -->
+
+        <div class="row" style="margin-top: 100px;">
+            <div class="col-sm-10 col-sm-offset-1" style="position: relative;">
+                <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
+                <hr class="vertical-line" style="width: 100px;">
+                <h4 class="bold tracking-1">唾液検査・歯磨き指導・全体クリーニング</h4>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">5,000<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
             <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
-                <h3 class="bold tracking-1">第二期治療&nbsp;<small class="color-default bold" style="letter-spacing: 0;">-第一期治療完了後の永久歯列前の矯正治療-</small></h3>
-                <br>
-                <p class="line-height-2">
-                    全ての歯が永久歯に萌え変わった後の治療です。<br>
-                    歯列の凸凹等を解消していきます。
-                </p>
-                <br>
-                <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">30,000<small class="color-default bold">円</small></span></h4>
+                <hr class="vertical-line" style="width: 220px;">
+                <hr class="hr-dot-black" style="position: absolute; top: 2px; width: 100%; left: 10px;">
+                <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">成長期の治療</span></h4>
+                <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
+                    <span class="cost-borderd-box roboto-condensed">250,000<small class="color-default bold">円</small> ~ 300,000<small class="color-default bold">円</small></span>
+                </h3>
             </div>
-            <div class="col-sm-5">
-                <div class="cost-box">
-                    <p class="line-height-2 text-center">
-                        4週に1度、来院して頂き調整を行います。<br>
-                        その際に毎回調整料がかかります。
-                    </p>
-                    <br>
-                    <h4 class="bold tracking-1 text-center"><span class="cost-borderd-box roboto-condensed">調節料&nbsp;5,000<small class="color-default bold">円</small></span></h4>
-                </div>
+            <div class="col-sm-5" style="margin-top: -40px;">
+                <?php include(dirname(__FILE__) . '/compass/images/cost/chart1.svg');?>
+            </div>
+        </div><!-- /.row -->
+
+        <br><br>
+
+        <div class="bg-wave text-center bold">
+            <span style="background-color: #ffffff; padding: 20px;">~&nbsp;12歳くらいまで</span>
+        </div>
+
+        <br><br><br><br>
+
+        <p class="bold">＜必要に応じて＞マルチブラケット装置に進む場合</p>
+
+        <div class="row" style="margin-top: 60px;">
+            <div class="col-sm-10 col-sm-offset-1" style="position: relative;">
+                <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
+                <hr class="vertical-line" style="width: 100px;">
+                <h4 class="bold tracking-1">マルチブラケット装置装着前の検査診断料</h4>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;">
+                    <span class="cost-borderd-box">30,000<small>円</small></span>
+                </h3>
             </div>
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
             <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
-                <h3 class="bold tracking-1">最終検査</h3>
+                <hr class="vertical-line" style="width: 340px;">
+                <hr class="hr-dot-black" style="position: absolute; top: 2px; width: 100%; left: 10px;">
+                <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">装置料（表側）</span></h4>
+                <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
+                    <span class="cost-borderd-box roboto-condensed">250,000<small class="color-default bold">円</small>&nbsp;~&nbsp;300,000<small class="color-default bold">円</small></span>
+                </h3>
                 <br>
-                <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">20,000<small class="color-default bold">円</small></span></h4>
+
+                <?php include(dirname(__FILE__) . '/compass/images/cost/chart2.svg'); ?>
+
+            </div>
+            <div class="col-sm-5" style="margin-top: -70px;">
+                <?php include(dirname(__FILE__) . '/compass/images/cost/chart3.svg'); ?>
+            </div>
+        </div><!-- /.row -->
+
+        <br><br>
+
+        <div class="bg-wave text-center bold">
+            <span style="background-color: #ffffff; padding: 20px;">マルチブラケット装置装着期間&emsp;2~3年</span>
+        </div>
+
+        <br>
+
+        <div class="row" style="margin-top: 100px;">
+            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+                <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
+                <hr class="hr-dot-black" style="position: absolute; top: 2px; width: 100%; left: 10px;">
+                <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">最終検査・保定装置料</span></h4>
+                <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
+                    <span class="cost-borderd-box roboto-condensed">20,000<small class="color-default bold">円</small></span>
+                </h3>
+            </div>
+            <div class="col-sm-5" style="margin-top: -40px;">
+                <?php include(dirname(__FILE__) . '/compass/images/cost/chart4.svg'); ?>
+            </div>
+        </div><!-- /.row -->
+
+        <br><br><br>
+
+        <div class="bg-wave text-center bold">
+            <span style="background-color: #ffffff; padding: 20px;">保定期間&emsp;2年</span>
+        </div>
+
+        <br><br><br>
+
+        <div class="row" style="margin-top: 60px;">
+            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+                <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
+                <h4 class="bold tracking-1">その他</h4>
+            </div>
+        </div><!-- /.row -->
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-sm-4 col-sm-offset-1" style="position: relative;">
+                <?php include(dirname(__FILE__) . '/compass/images/cost/chart5.svg'); ?>
+            </div>
+            <div class="col-sm-4" style="position: relative;">
+                <?php include(dirname(__FILE__) . '/compass/images/cost/chart6.svg'); ?>
+            </div>
+        </div><!-- /.row -->
+
+        <br><br><br>
+        <hr style="border-top: 2px solid #222;">
+
+        <h3 class="text-center bold" style="margin-top: 100px;">
+            <span class="round-border-title">12歳以上（すべて大人の歯の場合）</span>
+        </h3>
+
+        <div class="row" style="margin-top: 100px;">
+            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+                <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
+                <hr class="vertical-line" style="width: 100px;">
+                <h4 class="bold tracking-1">相談料</h4>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">2,000<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
             <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
-                <h3 class="bold tracking-1">保定、経過観察</h3>
-                <br>
-                <p class="line-height-2">
-                    キレイになった歯並びが（咬合）が元に戻らないように保定装置を使用して頂き、その状態を維持・経過観察を行っていきます。
-                </p>
-            </div>
-            <div class="col-sm-5">
-                <div class="cost-box">
-                    <p class="line-height-2 text-center">
-                        治療が終わった後、<br>
-                        3ヶ月〜半年毎に定期観察をさせて頂きます。<br>
-                        その際に毎回観察料がかかります。
-                    </p>
-                    <br>
-                    <h4 class="bold tracking-1 text-center"><span class="cost-borderd-box roboto-condensed">観察料&nbsp;3,000<small class="color-default bold">円</small></span></h4>
-                </div>
+                <hr class="vertical-line" style="width: 100px;">
+                <h4 class="bold tracking-1">初診検査・診断料</h4>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">35,000<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
-        <h3 class="text-center bold" style="margin-top: 100px;">成人（永久歯列期）</h3>
-
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-10 col-sm-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
-                <h3 class="bold tracking-1">顎機能検査&emsp;<small class="color-default bold">-成人は必ず行う検査です-</small></h3>
-                <br>
-                <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">17,000<small class="color-default bold">円</small></span></h4>
+                <hr class="vertical-line" style="width: 100px;">
+                <h4 class="bold tracking-1">唾液検査・歯磨き指導・全体クリーニング</h4>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">5,000<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
             <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
-                <h3 class="bold tracking-1">永久歯列の矯正治療&emsp;<small class="color-default bold">-装置が選べます-</small></h3>
+                <hr class="vertical-line" style="width: 340px;">
+                <hr class="hr-dot-black" style="position: absolute; top: 2px; width: 100%; left: 10px;">
+                <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">装置料（表側）</span></h4>
+                <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
+                    <span class="cost-borderd-box roboto-condensed">550,000<small class="color-default bold">円</small>&nbsp;~&nbsp;600,000<small class="color-default bold">円</small></span>
+                </h3>
                 <br>
-                <p class="line-height-2">
-                    全ての歯が永久歯に生え変わった後の治療です。<br>
-                    歯列の凸凹等を解消していきます。
-                </p>
-                <br>
-                <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">100,000<small class="color-default bold">円</small> ~ 850,000<small class="color-default bold">円</small></span></h4>
+
+                <?php include(dirname(__FILE__) . '/compass/images/cost/chart2.svg'); ?>
+
             </div>
-            <div class="col-sm-5">
-                <div class="cost-box">
-                    <p class="line-height-2 text-center">
-                        4週に1度、来院して頂き調整を行います。<br>
-                        その際に毎回調整料がかかります。<br>
-                        使用する装置により調整料は異なります。
-                    </p>
-                    <br>
-                    <div class="cost-borderd-box text-center" style="width: 260px; margin: 0 auto;">
-                        <h5 class="bold">調節料</h5>
-                        <p class="line-height-2 bold">
-                            クリアブランケット… 5,000円<br>
-                            舌側（リンガル） …8,000円<br>
-                            インビザライン… 5,000円
-                        </p>
+            <div class="col-sm-5" style="margin-top: -70px;">
+                <?php include(dirname(__FILE__) . '/compass/images/cost/chart3.svg'); ?>
+            </div>
+        </div><!-- /.row -->
+
+        <br><br>
+
+        <div class="bg-wave text-center bold">
+            <span style="background-color: #ffffff; padding: 20px;">マルチブラケット装置装着期間&emsp;2~3年</span>
+        </div>
+
+        <br>
+
+        <div class="row" style="margin-top: 100px;">
+            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+                <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
+                <hr class="hr-dot-black" style="position: absolute; top: 2px; width: 100%; left: 10px;">
+                <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">最終検査・保定装置料</span></h4>
+                <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
+                    <span class="cost-borderd-box roboto-condensed">20,000<small class="color-default bold">円</small></span>
+                </h3>
+            </div>
+            <div class="col-sm-5" style="margin-top: -40px;">
+                <?php include(dirname(__FILE__) . '/compass/images/cost/chart4.svg'); ?>
+            </div>
+        </div><!-- /.row -->
+
+        <br><br><br>
+
+        <div class="bg-wave text-center bold">
+            <span style="background-color: #ffffff; padding: 20px;">保定期間&emsp;2年</span>
+        </div>
+
+        <br><br><br>
+
+        <div class="row" style="margin-top: 60px;">
+            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+                <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
+                <h4 class="bold tracking-1">その他</h4>
+            </div>
+        </div><!-- /.row -->
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-sm-11 col-sm-offset-1" style="position: relative;">
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-sm-4" style="position: relative;">
+                        <?php include(dirname(__FILE__) . '/compass/images/cost/chart5.svg'); ?>
                     </div>
-                </div>
+                    <div class="col-sm-4" style="position: relative;">
+                        <?php include(dirname(__FILE__) . '/compass/images/cost/chart7.svg'); ?>
+                    </div>
+                    <div class="col-sm-4" style="position: relative;">
+                        <?php include(dirname(__FILE__) . '/compass/images/cost/chart8.svg'); ?>
+                    </div>
+                </div><!-- /.row -->
             </div>
         </div><!-- /.row -->
+        <br>
+        <p class="text-center">*インビザライン・MTMとも「相談料」「検査診断料」「最終検査・保定装置料」は必要となります。</p>
 
-        <div class="row" style="margin-top: 30px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
-                <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
-                <h3 class="bold tracking-1">最終検査</h3>
-                <br>
-                <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">20,000<small class="color-default bold">円</small></span></h4>
-            </div>
-        </div><!-- /.row -->
 
-        <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
-                <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
-                <h3 class="bold tracking-1">保定、経過観察</h3>
-                <br>
-                <p class="line-height-2">
-                    キレイになった歯並びが（咬合）が元に戻らないように保定装置を使用して頂き、その状態を維持・経過観察を行っていきます。
-                </p>
-            </div>
-            <div class="col-sm-5">
-                <div class="cost-box">
-                    <p class="line-height-2 text-center">
-                        治療が終わった後、<br>
-                        3ヶ月〜半年毎に定期観察をさせて頂きます。<br>
-                        その際に毎回観察料がかかります。
-                    </p>
-                    <br>
-                    <h4 class="bold tracking-1 text-center"><span class="cost-borderd-box roboto-condensed">観察料&nbsp;3,000<small class="color-default bold">円</small></span></h4>
-                </div>
-            </div>
-        </div><!-- /.row -->
 
     </div><!-- /.container -->
 </div><!-- /.bg-white -->
 
-<div class="container" style="padding-top: 60px; padding-bottom: 60px;">
-    <h1 class="text-center tracking-2 bold">ORTHOTIC DEVICE</h1>
-    <br>
-    <h5 class="text-center bold tracking-1">成人の方の矯正装置の費用</h5>
-    <br>
-    <p class="text-center"><img src="<? bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<? bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
+<div class="rounded-bg">
+    <svg class="rounded-bg-top fixed" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 70" xml:space="preserve">
+        <path style="fill: #f6f6f4;" d="M1280,0C910.8,88,392,90.2,0,0v70h1280V0z"/>
+    </svg>
 
-    <div class="row" style="margin-top: 120px;">
-        <div class="col-sm-6">
-            <h4 class="bold">オーソドックスな表側の矯正</h4>
-            <p class="line-height-2">
-                ダミーです。透明なので、表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。
-            </p>
-            <br>
-            <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">550,000<small class="color-default bold">円</small></span></h4>
+    <div class="container" style="padding-top: 60px; padding-bottom: 160px;">
+        <h1 class="text-center tracking-1 bold">ORTHOTIC DEVICE</h1>
+        <br>
+        <h5 class="text-center bold tracking-1">成人の方の矯正装置の費用</h5>
+        <br>
+        <p class="text-center"><img src="<? bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<? bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
 
-        </div>
-        <div class="col-sm-6 col-md-5 col-md-offset-1">
-            <img class="img-responsive" src="http://placehold.it/400x260">
-        </div>
-    </div><!-- /.row -->
+        <div class="row" style="margin-top: 60px; margin-bottom: 60px;">
+            <div class="col-sm-6 col-md-5 col-sm-offset-1">
+                <h4 class="bold">オーソドックスな表側の矯正</h4>
+                <p class="line-height-2">
+                    費用を抑えたい方、矯正していることをアピールしたい方（外国ではステータスとなることもあリます）、はこちらです。当院では前歯の装置自体は透明です。金属色のギンギラギンではありません。ワイヤーは基本は銀色ですが、かなりみえにくいホワイトワイヤーに変更も可能です。
+                </p>
+                <br>
+                <h4 class="bold tracking-1">
+                    <span class="cost-borderd-box roboto-condensed">550,000<small class="color-default bold">円</small>&nbsp;~&nbsp;600,000<small class="color-default bold">円</small></span>
+                </h4>
+            </div>
+            <div class="col-sm-5 col-md-4 col-md-offset-1">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img1.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img1@2x.jpg 2x">
+            </div>
+        </div><!-- /.row -->
 
-    <div class="row" style="margin-top: 120px;">
-        <div class="col-sm-6">
-            <h4 class="bold">オーソドックスな表側の矯正</h4>
-            <p class="line-height-2">
-                ダミーです。透明なので、表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。
-            </p>
-            <br>
-            <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">850,000<small class="color-default bold">円</small></span></h4>
+        <hr class="hr-dot-black">
 
-        </div>
-        <div class="col-sm-6 col-md-5 col-md-offset-1">
-            <img class="img-responsive" src="http://placehold.it/400x260">
-        </div>
-    </div><!-- /.row -->
+        <div class="row" style="margin-top: 60px; margin-bottom: 60px;">
+            <div class="col-sm-6 col-md-5 col-sm-offset-1">
+                <h4 class="bold">みえない裏側の矯正（リンガル）</h4>
+                <p class="line-height-2">
+                    みえるのはどうしても嫌、という方はこちらです。唾液の作用により虫歯になりにくいというメリットもあります（歯磨きが難しくなるので注意は必要です）。慣れるまで舌に違和感がある、発音しづらいというデメリットはあります。ただし、慣れていきます。
+                </p>
+                <br>
+                <h4 class="bold tracking-1">
+                    <span class="cost-borderd-box roboto-condensed">850,000<small class="color-default bold">円</small></span>
+                </h4>
+            </div>
+            <div class="col-sm-5 col-md-4 col-md-offset-1">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img2.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img2@2x.jpg 2x">
+            </div>
+        </div><!-- /.row -->
 
-    <div class="row" style="margin-top: 120px;">
-        <div class="col-sm-6">
-            <h4 class="bold">
-                みえやすい上の歯は裏側、<br>
-                みえにくい下の歯は表側（ハーフリンガル）
-            </h4>
-            <p class="line-height-2">
-                ダミーです。透明なので、表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。
-            </p>
-            <br>
-            <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">700,000<small class="color-default bold">円</small></span></h4>
-        </div>
-        <div class="col-sm-6 col-md-5 col-md-offset-1">
-            <img class="img-responsive" src="http://placehold.it/400x260">
-        </div>
-    </div><!-- /.row -->
+        <hr class="hr-dot-black">
 
-    <div class="row" style="margin-top: 120px;">
-        <div class="col-sm-6">
-            <h4 class="bold">
-                インビザライン（マウスピース型矯正装置）
-            </h4>
-            <p class="line-height-2">
-                ダミーです。透明なので、表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。
-            </p>
-            <br>
-            <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">780,000<small class="color-default bold">円</small></span></h4>
-        </div>
-        <div class="col-sm-6 col-md-5 col-md-offset-1">
-            <img class="img-responsive" src="http://placehold.it/400x260">
-        </div>
-    </div><!-- /.row -->
+        <div class="row" style="margin-top: 60px; margin-bottom: 60px;">
+            <div class="col-sm-6 col-md-5 col-sm-offset-1">
+                <h4 class="bold line-height-15">
+                    見えやすい上の歯は裏側、<br>
+                    見えにくい下の歯は表側（ハーフリンガル）
+                </h4>
+                <p class="line-height-2">
+                    みえるのはやっぱりちょっと…でも費用も抑えたい…という方はこちらがオススメです。歯並びにもよりますが、普段生活していて下の歯がしっかり見えることは実はそう多くありません（ご家族やご友人の歯をこっそり見てみて下さい）。なのでこの組み合わせは、リーズナブルといえます。
+                </p>
+                <br>
+                <h4 class="bold tracking-1">
+                    <span class="cost-borderd-box roboto-condensed">700,000<small class="color-default bold">円</small></span>
+                </h4>
+            </div>
+            <div class="col-sm-5 col-md-4 col-md-offset-1">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img3.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img3@2x.jpg 2x">
+            </div>
+        </div><!-- /.row -->
 
-    <div class="row" style="margin-top: 120px;">
-        <div class="col-sm-6">
-            <h4 class="bold">
-                部分矯正
-            </h4>
-            <p class="line-height-2">
-                ダミーです。透明なので、表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。表側ではもっとも目立ちにくいブラケットです。
-            </p>
-            <br>
-            <h4 class="bold tracking-1"><span class="cost-borderd-box roboto-condensed">100,000<small class="color-default bold">円</small>&nbsp;~</span></h4>
+        <hr class="hr-dot-black">
+
+        <div class="row" style="margin-top: 60px; margin-bottom: 60px;">
+            <div class="col-sm-6 col-md-5 col-sm-offset-1">
+                <h4 class="bold line-height-15">
+                    インビザライン<br>
+                    （マウスピース型カスタムメイド矯正歯科装置）
+                </h4>
+                <p class="line-height-2">
+                    透明な取り外し式の装置です。１日20時間以上装着する必要があります。非常に見えにくいのが一番のメリットでしょう。その他にもメリット・デメリット、この装置の得意な症例（歯並び）、苦手な症例（歯並び）がありますのでまずはご相談下さい。
+                </p>
+                <br>
+                <h4 class="bold tracking-1">
+                    <span class="cost-borderd-box roboto-condensed">~&nbsp;800,000<small class="color-default bold">円</small></span>
+                </h4>
+            </div>
+            <div class="col-sm-5 col-md-4 col-md-offset-1">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img4.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img4@2x.jpg 2x">
+            </div>
+        </div><!-- /.row -->
+
+        <hr class="hr-dot-black">
+
+        <div class="row" style="margin-top: 60px; margin-bottom: 60px;">
+            <div class="col-sm-6 col-md-5 col-sm-offset-1">
+                <h4 class="bold line-height-15">
+                    部分矯正
+                </h4>
+                <p class="line-height-2">
+                    とにかく費用を抑えてここだけ治したい、という方もお気軽にご相談下さい。医学的見地からご希望に添えないこともございますが、最善と思われる方法をご提案させていただきます。
+                </p>
+                <br>
+                <h4 class="bold tracking-1">
+                    <span class="cost-borderd-box roboto-condensed">50,000<small class="color-default bold">円</small>&nbsp;~</span>
+                </h4>
+            </div>
+            <div class="col-sm-5 col-md-4 col-md-offset-1">
+                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img5.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img5@2x.jpg 2x">
+            </div>
+        </div><!-- /.row -->
+
+        <div style="border: 2px solid #222; padding: 20px; margin-top: 80px;">
+            <ul class="line-height-2">
+                <li>費用はすべて税抜き表示です。</li>
+                <li>各種クレジットカードでのお支払いが可能です。</li>
+                <li>分割払いも承ります、お問い合わせ下さい。</li>
+            </ul>
         </div>
-        <div class="col-sm-6 col-md-5 col-md-offset-1">
-            <img class="img-responsive" src="http://placehold.it/400x260">
-        </div>
-    </div><!-- /.row -->
-</div><!-- /.container -->
+
+    </div><!-- /.container -->
+</div><!-- /.rounded-bg -->
 
 
 

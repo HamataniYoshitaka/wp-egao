@@ -10,7 +10,7 @@
             <a href="<? echo home_url(); ?>/staff/">人のこと</a>/
             <a href="<? echo home_url(); ?>/introduction/">院内の紹介</a>/
             <a href="<? echo home_url(); ?>/treatment/">診療について</a>/
-            <a href="<? echo home_url(); ?>/price/">料金について</a>/
+            <a href="<? echo home_url(); ?>/cost/">料金について</a>/
             <a class="disabled">ご予約</a>
         </div>
         <a class="facebook" href="https://www.facebook.com/sapporokyoseishikaegao/" target="_blank">
