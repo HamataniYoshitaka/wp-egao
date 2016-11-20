@@ -4,6 +4,7 @@
 */
 get_header();
 require_once(dirname(__FILE__) . '/parts/nav-pc.php');
+require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
 ?>
 
 <div class="fullscreen cost">
@@ -29,12 +30,16 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         <br>
         <p class="text-center"><img src="<? bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<? bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
 
-        <h3 class="text-center bold" style="margin-top: 100px;">
+        <h3 class="text-center bold hidden-xs" style="margin-top: 100px;">
             <span class="round-border-title">12歳以下（子供の歯がある場合）</span>
         </h3>
 
+        <h5 class="text-center bold visible-xs" style="margin-top: 100px;">
+            <span class="round-border-title">12歳以下（子供の歯がある場合）</span>
+        </h5>
+
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">相談料</h4>
@@ -43,7 +48,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">初診検査・診断料</h4>
@@ -52,7 +57,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-10 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-10 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">唾液検査・歯磨き指導・全体クリーニング</h4>
@@ -61,16 +66,20 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 220px;">
-                <hr class="hr-dot-black" style="position: absolute; top: 2px; width: 100%; left: 10px;">
+                <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">成長期の治療</span></h4>
-                <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
+                <h4 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
                     <span class="cost-borderd-box roboto-condensed">250,000<small class="color-default bold">円</small> ~ 300,000<small class="color-default bold">円</small></span>
-                </h3>
+                </h4>
             </div>
-            <div class="col-sm-5" style="margin-top: -40px;">
+            <div class="col-sm-5 col-xs-11 col-xs-offset-1">
+                <div class="hidden-xs" style="margin-top: -40px;">
+                </div>
+                <div class="visible-xs" style="margin-top: 40px;">
+                </div>
                 <?php include(dirname(__FILE__) . '/compass/images/cost/chart1.svg');?>
             </div>
         </div><!-- /.row -->
@@ -86,7 +95,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         <p class="bold">＜必要に応じて＞マルチブラケット装置に進む場合</p>
 
         <div class="row" style="margin-top: 60px;">
-            <div class="col-sm-10 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-10 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">マルチブラケット装置装着前の検査診断料</h4>
@@ -97,20 +106,25 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 340px;">
-                <hr class="hr-dot-black" style="position: absolute; top: 2px; width: 100%; left: 10px;">
+                <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">装置料（表側）</span></h4>
-                <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
+                <h4 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
                     <span class="cost-borderd-box roboto-condensed">250,000<small class="color-default bold">円</small>&nbsp;~&nbsp;300,000<small class="color-default bold">円</small></span>
-                </h3>
+                </h4>
                 <br>
 
                 <?php include(dirname(__FILE__) . '/compass/images/cost/chart2.svg'); ?>
 
             </div>
-            <div class="col-sm-5" style="margin-top: -70px;">
+            <div class="col-sm-5 col-xs-11 col-xs-offset-1">
+                <div class="hidden-xs" style="margin-top: -70px;">
+                </div>
+                <div class="visible-xs" style="margin-top: 40px;">
+                </div>
+
                 <?php include(dirname(__FILE__) . '/compass/images/cost/chart3.svg'); ?>
             </div>
         </div><!-- /.row -->
@@ -124,15 +138,19 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         <br>
 
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
-                <hr class="hr-dot-black" style="position: absolute; top: 2px; width: 100%; left: 10px;">
+                <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">最終検査・保定装置料</span></h4>
                 <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
                     <span class="cost-borderd-box roboto-condensed">20,000<small class="color-default bold">円</small></span>
                 </h3>
             </div>
-            <div class="col-sm-5" style="margin-top: -40px;">
+            <div class="col-sm-5 col-xs-11 col-xs-offset-1">
+                <div class="hidden-xs" style="margin-top: -40px;">
+                </div>
+                <div class="visible-xs" style="margin-top: 40px;">
+                </div>
                 <?php include(dirname(__FILE__) . '/compass/images/cost/chart4.svg'); ?>
             </div>
         </div><!-- /.row -->
@@ -146,16 +164,16 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         <br><br><br>
 
         <div class="row" style="margin-top: 60px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <h4 class="bold tracking-1">その他</h4>
             </div>
         </div><!-- /.row -->
         <div class="row" style="margin-top: 20px;">
-            <div class="col-sm-4 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-4 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <?php include(dirname(__FILE__) . '/compass/images/cost/chart5.svg'); ?>
             </div>
-            <div class="col-sm-4" style="position: relative;">
+            <div class="col-sm-4 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <?php include(dirname(__FILE__) . '/compass/images/cost/chart6.svg'); ?>
             </div>
         </div><!-- /.row -->
@@ -163,12 +181,16 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         <br><br><br>
         <hr style="border-top: 2px solid #222;">
 
-        <h3 class="text-center bold" style="margin-top: 100px;">
+        <h3 class="text-center bold hidden-xs" style="margin-top: 100px;">
             <span class="round-border-title">12歳以上（すべて大人の歯の場合）</span>
         </h3>
 
+        <h5 class="text-center bold visible-xs" style="margin-top: 100px;">
+            <span class="round-border-title">12歳以上（すべて大人の歯の場合）</span>
+        </h5>
+
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">相談料</h4>
@@ -177,7 +199,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">初診検査・診断料</h4>
@@ -186,7 +208,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-10 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-10 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">唾液検査・歯磨き指導・全体クリーニング</h4>
@@ -195,20 +217,25 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 340px;">
-                <hr class="hr-dot-black" style="position: absolute; top: 2px; width: 100%; left: 10px;">
+                <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">装置料（表側）</span></h4>
-                <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
+                <h4 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
                     <span class="cost-borderd-box roboto-condensed">550,000<small class="color-default bold">円</small>&nbsp;~&nbsp;600,000<small class="color-default bold">円</small></span>
-                </h3>
+                </h4>
                 <br>
 
                 <?php include(dirname(__FILE__) . '/compass/images/cost/chart2.svg'); ?>
 
             </div>
-            <div class="col-sm-5" style="margin-top: -70px;">
+            <div class="col-sm-5 col-xs-11 col-xs-offset-1">
+                <div class="hidden-xs" style="margin-top: -70px;">
+                </div>
+                <div class="visible-xs" style="margin-top: 40px;">
+                </div>
+
                 <?php include(dirname(__FILE__) . '/compass/images/cost/chart3.svg'); ?>
             </div>
         </div><!-- /.row -->
@@ -222,15 +249,19 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         <br>
 
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
-                <hr class="hr-dot-black" style="position: absolute; top: 2px; width: 100%; left: 10px;">
+                <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">最終検査・保定装置料</span></h4>
                 <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
                     <span class="cost-borderd-box roboto-condensed">20,000<small class="color-default bold">円</small></span>
                 </h3>
             </div>
-            <div class="col-sm-5" style="margin-top: -40px;">
+            <div class="col-sm-5 col-xs-11 col-xs-offset-1">
+                <div class="hidden-xs" style="margin-top: -40px;">
+                </div>
+                <div class="visible-xs" style="margin-top: 40px;">
+                </div>
                 <?php include(dirname(__FILE__) . '/compass/images/cost/chart4.svg'); ?>
             </div>
         </div><!-- /.row -->
@@ -244,13 +275,13 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         <br><br><br>
 
         <div class="row" style="margin-top: 60px;">
-            <div class="col-sm-6 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <h4 class="bold tracking-1">その他</h4>
             </div>
         </div><!-- /.row -->
         <div class="row" style="margin-top: 20px;">
-            <div class="col-sm-11 col-sm-offset-1" style="position: relative;">
+            <div class="col-sm-11 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <div class="row" style="margin-top: 20px;">
                     <div class="col-sm-4" style="position: relative;">
                         <?php include(dirname(__FILE__) . '/compass/images/cost/chart5.svg'); ?>
@@ -287,6 +318,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         <div class="row" style="margin-top: 60px; margin-bottom: 60px;">
             <div class="col-sm-6 col-md-5 col-sm-offset-1">
                 <h4 class="bold">オーソドックスな表側の矯正</h4>
+                <img class="img-responsive visible-xs" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img1.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img1@2x.jpg 2x">
                 <p class="line-height-2">
                     費用を抑えたい方、矯正していることをアピールしたい方（外国ではステータスとなることもあリます）、はこちらです。当院では前歯の装置自体は透明です。金属色のギンギラギンではありません。ワイヤーは基本は銀色ですが、かなりみえにくいホワイトワイヤーに変更も可能です。
                 </p>
@@ -295,7 +327,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
                     <span class="cost-borderd-box roboto-condensed">550,000<small class="color-default bold">円</small>&nbsp;~&nbsp;600,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
-            <div class="col-sm-5 col-md-4 col-md-offset-1">
+            <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img1.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img1@2x.jpg 2x">
             </div>
         </div><!-- /.row -->
@@ -305,6 +337,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
         <div class="row" style="margin-top: 60px; margin-bottom: 60px;">
             <div class="col-sm-6 col-md-5 col-sm-offset-1">
                 <h4 class="bold">みえない裏側の矯正（リンガル）</h4>
+                <img class="img-responsive visible-xs" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img2.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img2@2x.jpg 2x">
                 <p class="line-height-2">
                     みえるのはどうしても嫌、という方はこちらです。唾液の作用により虫歯になりにくいというメリットもあります（歯磨きが難しくなるので注意は必要です）。慣れるまで舌に違和感がある、発音しづらいというデメリットはあります。ただし、慣れていきます。
                 </p>
@@ -313,7 +346,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
                     <span class="cost-borderd-box roboto-condensed">850,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
-            <div class="col-sm-5 col-md-4 col-md-offset-1">
+            <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img2.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img2@2x.jpg 2x">
             </div>
         </div><!-- /.row -->
@@ -326,6 +359,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
                     見えやすい上の歯は裏側、<br>
                     見えにくい下の歯は表側（ハーフリンガル）
                 </h4>
+                <img class="img-responsive visible-xs" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img3.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img3@2x.jpg 2x">
                 <p class="line-height-2">
                     みえるのはやっぱりちょっと…でも費用も抑えたい…という方はこちらがオススメです。歯並びにもよりますが、普段生活していて下の歯がしっかり見えることは実はそう多くありません（ご家族やご友人の歯をこっそり見てみて下さい）。なのでこの組み合わせは、リーズナブルといえます。
                 </p>
@@ -334,7 +368,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
                     <span class="cost-borderd-box roboto-condensed">700,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
-            <div class="col-sm-5 col-md-4 col-md-offset-1">
+            <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img3.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img3@2x.jpg 2x">
             </div>
         </div><!-- /.row -->
@@ -347,6 +381,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
                     インビザライン<br>
                     （マウスピース型カスタムメイド矯正歯科装置）
                 </h4>
+                <img class="img-responsive visible-xs" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img4.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img4@2x.jpg 2x">
                 <p class="line-height-2">
                     透明な取り外し式の装置です。１日20時間以上装着する必要があります。非常に見えにくいのが一番のメリットでしょう。その他にもメリット・デメリット、この装置の得意な症例（歯並び）、苦手な症例（歯並び）がありますのでまずはご相談下さい。
                 </p>
@@ -355,7 +390,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
                     <span class="cost-borderd-box roboto-condensed">~&nbsp;800,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
-            <div class="col-sm-5 col-md-4 col-md-offset-1">
+            <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img4.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img4@2x.jpg 2x">
             </div>
         </div><!-- /.row -->
@@ -367,6 +402,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
                 <h4 class="bold line-height-15">
                     部分矯正
                 </h4>
+                <img class="img-responsive visible-xs" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img5.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img5@2x.jpg 2x">
                 <p class="line-height-2">
                     とにかく費用を抑えてここだけ治したい、という方もお気軽にご相談下さい。医学的見地からご希望に添えないこともございますが、最善と思われる方法をご提案させていただきます。
                 </p>
@@ -375,7 +411,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
                     <span class="cost-borderd-box roboto-condensed">50,000<small class="color-default bold">円</small>&nbsp;~</span>
                 </h4>
             </div>
-            <div class="col-sm-5 col-md-4 col-md-offset-1">
+            <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img5.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img5@2x.jpg 2x">
             </div>
         </div><!-- /.row -->

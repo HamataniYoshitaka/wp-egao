@@ -9,7 +9,8 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
 <div class="fullscreen treatment">
     <div class="middle">
         <div class="text-center" style="margin-top: -100px; line-height: 5;">
-            <img src="<? bloginfo('template_directory') ?>/compass/images/treatment-title.png" srcset="<? bloginfo('template_directory') ?>/compass/images/treatment-title@2x.png 2x"><br>
+            <img class="hidden-xs" src="<? bloginfo('template_directory') ?>/compass/images/treatment-title.png" srcset="<? bloginfo('template_directory') ?>/compass/images/treatment-title@2x.png 2x"><br>
+            <img class="visible-xs-inline" style="width: 290px;" src="<? bloginfo('template_directory') ?>/compass/images/treatment-title.png" srcset="<? bloginfo('template_directory') ?>/compass/images/treatment-title@2x.png 2x"><br>
             <img src="<? bloginfo('template_directory') ?>/compass/images/wave-white.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-white@2x.png 2x">
             <h4 class="bold tracking-1">診療について</h4>
         </div>
@@ -31,9 +32,11 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
 
         <div class="row" style="margin-top: 60px;">
             <div class="col-sm-6 col-md-5 col-md-offset-1">
+                <h3 class="text-center bold visible-xs">矯正治療</h3>
+                <br class="visible-xs">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img1.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img1@2x.jpg">
                 <br>
-                <h3 class="text-center bold">矯正治療</h3>
+                <h3 class="text-center bold hidden-xs">矯正治療</h3>
                 <br>
                 <p class="line-height-2">
                     矯正治療は難しいと思います。少し勉強しただけ、少し経験しただけ、では一人一人違う歯並びの問題点を適切に改善させるのは、診断能力にしても技術的にもおそらく難しいでしょう。<br>
@@ -41,10 +44,11 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 </p>
             </div>
             <div class="col-sm-6 col-md-5">
+                <h3 class="text-center bold visible-xs" style="margin-top: 60px;">小児予防歯科</h3>
+                <br class="visible-xs">
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img2.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img2@2x.jpg">
                 <br>
-
-                <h3 class="text-center bold">小児予防歯科</h3>
+                <h3 class="text-center bold hidden-xs">小児予防歯科</h3>
                 <br>
                 <p class="line-height-2">
                     未来のある子どもたちの健康なお口をつくる小児予防歯科。むし歯にならないための予防はもちろん、お口の機能を間違って覚えてしまわないように、という予防も大切です。正しい離乳食の食べ方、呼吸のしかた、普段何気なくしている癖などもお口作りに関わっています。<br>
@@ -69,7 +73,21 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
         <p class="text-center"><img src="<? bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<? bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
 
         <div class="row" style="margin-top: 120px;">
-            <div class="col-sm-6 col-md-5">
+            <div class="col-sm-6 col-md-5 col-sm-push-6 col-md-push-7">
+                <div style="position: relative;">
+                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img3.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img3@2x.jpg 2x">
+                    <div style="position: absolute; top: -50px; width: 100%; left: 0; text-align: center">
+                        <div class="treatment-step">
+                            <h1 class="roboto-condensed">1</h1>
+                            <h6 class="bold">STEP</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-5 col-sm-pull-6 col-md-pull-5">
+                <div class="visible-xs" style="height: 30px;">
+                </div>
                 <h3><span class="round-border-title tracking-1">初診矯正相談</span></h3>
                 <br>
                 <h4 class="bold">一人一人にあった治療方法を探します。</h4>
@@ -81,24 +99,31 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                     実際にお口の中を拝見しないとご説明できないことが<br>
                     たくさんありますので、まずはお気軽にご来院ください。
                 </p>
-                <p class="text-center" style="padding-top: 30px;">
+                <p class="text-center hidden-xs" style="padding-top: 30px;">
                     <img style="width: 20px;" src="<?php bloginfo('template_directory'); ?>/compass/images/treatment/dots.svg">
                 </p>
             </div>
-            <div class="col-sm-6 col-md-5 col-md-offset-2">
+
+        </div><!-- /.row -->
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-sm-6 col-md-5 col-sm-push-6 col-md-push-7">
+                <div class="visible-xs" style="height: 60px;">
+                </div>
                 <div style="position: relative;">
-                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img3.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img3@2x.jpg 2x">
+                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img4.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img4@2x.jpg 2x">
                     <div style="position: absolute; top: -50px; width: 100%; left: 0; text-align: center">
                         <div class="treatment-step">
-                            <h1 class="roboto-condensed">1</h1>
+                            <h1 class="roboto-condensed">2</h1>
                             <h6 class="bold">STEP</h6>
                         </div>
                     </div>
                 </div>
             </div>
-        </div><!-- /.row -->
-        <div class="row" style="margin-top: 20px;">
-            <div class="col-sm-6">
+
+            <div class="col-sm-6 col-md-5 col-sm-pull-6 col-md-pull-5">
+                <div class="visible-xs" style="height: 30px;">
+                </div>
+
                 <h3><span class="round-border-title tracking-1">精密検査</span></h3>
                 <br>
                 <h4 class="bold">丁寧に検査し、歯と顔立ちの現状を知ります</h4>
@@ -110,25 +135,31 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                     たいてい何度か練習しながら最後にはできるようになります。<br>
                     しっかりと検査をすることが最適な治療方法を考える材料となります。
                 </p>
-                <p class="text-center" style="padding-top: 30px;">
+                <p class="text-center hidden-xs" style="padding-top: 30px;">
                     <img style="width: 20px;" src="<?php bloginfo('template_directory'); ?>/compass/images/treatment/dots.svg">
                 </p>
             </div>
-            <div class="col-sm-6 col-md-5 col-md-offset-1">
+
+        </div><!-- /.row -->
+
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-sm-6 col-md-5 col-sm-push-6 col-md-push-7">
+                <div class="visible-xs" style="height: 60px;">
+                </div>
+
                 <div style="position: relative;">
-                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img4.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img4@2x.jpg 2x">
+                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img5.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img5@2x.jpg 2x">
                     <div style="position: absolute; top: -50px; width: 100%; left: 0; text-align: center">
                         <div class="treatment-step">
-                            <h1 class="roboto-condensed">2</h1>
+                            <h1 class="roboto-condensed">3</h1>
                             <h6 class="bold">STEP</h6>
                         </div>
                     </div>
                 </div>
             </div>
-        </div><!-- /.row -->
-
-        <div class="row" style="margin-top: 20px;">
-            <div class="col-sm-6">
+            <div class="col-sm-6 col-md-5 col-sm-pull-6 col-md-pull-5">
+                <div class="visible-xs" style="height: 30px;">
+                </div>
                 <h3><span class="round-border-title tracking-1">診断</span></h3>
                 <br>
                 <h4 class="bold">不安なことがあればどんな小さなことでもご相談ください</h4>
@@ -140,37 +171,18 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                     あなたと私の双方が納得した段階ではじめて<br>
                     矯正治療開始の同意書にサインしていただきます。
                 </p>
-                <p class="text-center" style="padding-top: 30px;">
+                <p class="text-center hidden-xs" style="padding-top: 30px;">
                     <img style="width: 20px;" src="<?php bloginfo('template_directory'); ?>/compass/images/treatment/dots.svg">
                 </p>
             </div>
-            <div class="col-sm-6 col-md-5 col-md-offset-1">
-                <div style="position: relative;">
-                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img5.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img5@2x.jpg 2x">
-                    <div style="position: absolute; top: -50px; width: 100%; left: 0; text-align: center">
-                        <div class="treatment-step">
-                            <h1 class="roboto-condensed">3</h1>
-                            <h6 class="bold">STEP</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 20px;">
-            <div class="col-sm-6">
-                <h3><span class="round-border-title tracking-1">装置セット・治療開始</span></h3>
-                <br>
-                <h4 class="bold">笑顔ので暮らす治療のはじまりです。</h4>
-                <p class="line-height-2">
-                    多くの方は緊張しながらも楽しみにして来られます。<br>
-                    まずは少しだけ違和感を感じると思いますが、<br>
-                    1〜２週間して歯が動き出すと<br>
-                    「おおっー」と嬉しくなると思いますよ。<br>
-                    ゴールはまだまだ先ですが「過程」も是非、楽しんでください。
-                </p>
-            </div>
-            <div class="col-sm-6 col-md-5 col-md-offset-1">
+            <div class="col-sm-6 col-md-5 col-sm-push-6 col-md-push-7">
+                <div class="visible-xs" style="height: 60px;">
+                </div>
+
                 <div style="position: relative;">
                     <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img6.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/treatment/img6@2x.jpg 2x">
                     <div style="position: absolute; top: -50px; width: 100%; left: 0; text-align: center">
@@ -181,6 +193,22 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                     </div>
                 </div>
             </div>
+            <div class="col-sm-6 col-md-5 col-sm-pull-6 col-md-pull-5">
+                <div class="visible-xs" style="height: 30px;">
+                </div>
+
+                <h4><span class="round-border-title tracking-1">装置セット・治療開始</span></h4>
+                <br>
+                <h4 class="bold">笑顔ので暮らす治療のはじまりです。</h4>
+                <p class="line-height-2">
+                    多くの方は緊張しながらも楽しみにして来られます。<br>
+                    まずは少しだけ違和感を感じると思いますが、<br>
+                    1〜２週間して歯が動き出すと<br>
+                    「おおっー」と嬉しくなると思いますよ。<br>
+                    ゴールはまだまだ先ですが「過程」も是非、楽しんでください。
+                </p>
+            </div>
+
         </div><!-- /.row -->
 
     </div><!-- /.container -->
