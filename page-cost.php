@@ -66,7 +66,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
         </div><!-- /.row -->
 
         <div class="row" style="margin-top: 100px;">
-            <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
+            <div class="col-xs-11 col-sm-6 col-xs-offset-1 col-sm-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<? bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 220px;">
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
@@ -75,7 +75,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                     <span class="cost-borderd-box roboto-condensed">250,000<small class="color-default bold">円</small> ~ 300,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
-            <div class="col-sm-5 col-xs-11 col-xs-offset-1">
+            <div class="col-xs-11 col-sm-5 col-xs-offset-1 col-sm-offset-0">
                 <div class="hidden-xs" style="margin-top: -40px;">
                 </div>
                 <div class="visible-xs" style="margin-top: 40px;">
@@ -119,7 +119,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <?php include(dirname(__FILE__) . '/compass/images/cost/chart2.svg'); ?>
 
             </div>
-            <div class="col-sm-5 col-xs-11 col-xs-offset-1">
+            <div class="col-sm-5 col-xs-11 col-xs-offset-1 col-sm-offset-0">
                 <div class="hidden-xs" style="margin-top: -70px;">
                 </div>
                 <div class="visible-xs" style="margin-top: 40px;">
@@ -146,7 +146,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                     <span class="cost-borderd-box roboto-condensed">20,000<small class="color-default bold">円</small></span>
                 </h3>
             </div>
-            <div class="col-sm-5 col-xs-11 col-xs-offset-1">
+            <div class="col-xs-11 col-sm-5 col-xs-offset-1 col-sm-offset-0">
                 <div class="hidden-xs" style="margin-top: -40px;">
                 </div>
                 <div class="visible-xs" style="margin-top: 40px;">
@@ -230,7 +230,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <?php include(dirname(__FILE__) . '/compass/images/cost/chart2.svg'); ?>
 
             </div>
-            <div class="col-sm-5 col-xs-11 col-xs-offset-1">
+            <div class="col-sm-5 col-xs-11 col-xs-offset-1 col-sm-offset-0">
                 <div class="hidden-xs" style="margin-top: -70px;">
                 </div>
                 <div class="visible-xs" style="margin-top: 40px;">
@@ -257,7 +257,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                     <span class="cost-borderd-box roboto-condensed">20,000<small class="color-default bold">円</small></span>
                 </h3>
             </div>
-            <div class="col-sm-5 col-xs-11 col-xs-offset-1">
+            <div class="col-sm-5 col-xs-11 col-xs-offset-1 col-sm-offset-0">
                 <div class="hidden-xs" style="margin-top: -40px;">
                 </div>
                 <div class="visible-xs" style="margin-top: 40px;">
