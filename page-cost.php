@@ -10,7 +10,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
 <div class="fullscreen cost">
     <div class="middle">
         <div class="text-center" style="margin-top: -100px; line-height: 5;">
-            <img src="<? bloginfo('template_directory') ?>/compass/images/cost-title.png"><br>
+            <img src="<? bloginfo('template_directory') ?>/compass/images/cost-title.png" srcset="<? bloginfo('template_directory') ?>/compass/images/cost-title@2x.png 2x"><br>
             <img src="<? bloginfo('template_directory') ?>/compass/images/wave-white.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-white@2x.png 2x">
             <h4 class="bold tracking-1">料金について</h4>
         </div>
