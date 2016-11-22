@@ -10,6 +10,5 @@
 	<polyline class="st0" points="316.3,1.8 341.6,1.8 341.6,126 316.3,126 	"/>
 	<rect x="57.2" y="25.9" class="st1" width="219.8" height="69.9"/>
 	<text transform="matrix(1 0 0 1 108.199 120.0297)" class="st2  ">*2 : 3ヶ月に1回程度</text>
-	<text transform="matrix(1 0 0 1 147.5037 51.623)" class="st2 bold ">調節料</text>
-	<text transform="matrix(1 0 0 1 89.4569 78.4336)"><tspan x="0" y="0" class="st2 bold ">観察料 … 3,000</tspan><tspan x="93.5" y="0" class="st2 bold  st6">円</tspan><tspan x="100.1" y="0" class="st2 bold ">（毎回</tspan><tspan x="139.3" y="0" class="st2 bold  st6">）</tspan><tspan x="145.9" y="-3.4" class="st2  st7">*2</tspan></text>
+	<text transform="matrix(1 0 0 1 89.4569 68)"><tspan x="0" y="0" class="st2 bold ">観察料 … 3,000</tspan><tspan x="93.5" y="0" class="st2 bold  st6">円</tspan><tspan x="100.1" y="0" class="st2 bold ">（毎回</tspan><tspan x="139.3" y="0" class="st2 bold  st6">）</tspan><tspan x="145.9" y="-3.4" class="st2  st7">*2</tspan></text>
 </svg>
