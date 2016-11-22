@@ -194,13 +194,13 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-5 col-sm-pull-6 col-md-pull-5">
+            <div class="col-sm-6 col-sm-pull-6 col-md-pull-5">
                 <div class="visible-xs" style="height: 30px;">
                 </div>
 
                 <h4><span class="round-border-title tracking-1">装置セット・治療開始</span></h4>
                 <br>
-                <h4 class="bold">笑顔で暮らす治療のはじまりです。</h4>
+                <h4 class="bold">笑顔で暮らす治療のはじまりです</h4>
                 <p class="line-height-2">
                     多くの方は緊張しながらもこの日を楽しみにして来院されます。<br>
                     まずは少しだけ違和感を感じると思いますが、<br>
