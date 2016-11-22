@@ -309,7 +309,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
     </svg>
 
     <div class="container" style="padding-top: 60px; padding-bottom: 160px;">
-        <h1 class="text-center tracking-1 bold">ORTHOTIC DEVICE</h1>
+        <h1 class="text-center tracking-1 bold">ORTHODONTHIC DEVICE</h1>
         <br>
         <h5 class="text-center bold tracking-1">成人の方の矯正装置の費用</h5>
         <br>
