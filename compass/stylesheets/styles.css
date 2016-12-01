@@ -8862,7 +8862,13 @@ body {
   background-image: -webkit-image-set(url("../images/cost/bg-top.jpg") 1x, url("../images/cost/bg-top@2x.jpg") 2x);
   background-image: image-set(url("../images/cost/bg-top.jpg") 1x, url("../images/cost/bg-top@2x.jpg") 2x);
 }
-/* line 81, ../sass/components/global.scss */
+/* line 80, ../sass/components/global.scss */
+.fullscreen.reservation {
+  background-image: url("../images/reservation/bg-top.jpg");
+  background-image: -webkit-image-set(url("../images/reservation/bg-top.jpg") 1x, url("../images/reservation/bg-top@2x.jpg") 2x);
+  background-image: image-set(url("../images/reservation/bg-top.jpg") 1x, url("../images/reservation/bg-top@2x.jpg") 2x);
+}
+/* line 87, ../sass/components/global.scss */
 .fullscreen > .middle {
   position: absolute;
   top: 50%;
@@ -8870,7 +8876,7 @@ body {
   width: 100%;
 }
 
-/* line 89, ../sass/components/global.scss */
+/* line 95, ../sass/components/global.scss */
 .round-border-title {
   font-weight: bold;
   background-color: #ffffff;
@@ -8879,7 +8885,7 @@ body {
   padding: 10px 30px;
 }
 
-/* line 97, ../sass/components/global.scss */
+/* line 103, ../sass/components/global.scss */
 .bg-flag {
   position: relative;
   width: 300px;
@@ -8890,12 +8896,12 @@ body {
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 768px) {
-  /* line 97, ../sass/components/global.scss */
+  /* line 103, ../sass/components/global.scss */
   .bg-flag {
     width: 319px;
   }
 }
-/* line 108, ../sass/components/global.scss */
+/* line 114, ../sass/components/global.scss */
 .bg-flag .cover-flag {
   position: absolute;
   top: 10px;
@@ -8909,67 +8915,67 @@ body {
   mix-blend-mode: multiply;
 }
 @media only screen and (min-width: 768px) {
-  /* line 108, ../sass/components/global.scss */
+  /* line 114, ../sass/components/global.scss */
   .bg-flag .cover-flag {
     width: 318px;
   }
 }
-/* line 123, ../sass/components/global.scss */
+/* line 129, ../sass/components/global.scss */
 .bg-flag h1, .bg-flag h2, .bg-flag h3 {
   position: absolute;
   color: #000;
 }
-/* line 127, ../sass/components/global.scss */
+/* line 133, ../sass/components/global.scss */
 .bg-flag .year {
   font-size: 20px;
   top: 15px;
   left: 30px;
 }
-/* line 132, ../sass/components/global.scss */
+/* line 138, ../sass/components/global.scss */
 .bg-flag .month {
   font-size: 20px;
   top: 50px;
   left: 44px;
 }
-/* line 137, ../sass/components/global.scss */
+/* line 143, ../sass/components/global.scss */
 .bg-flag .place {
   font-size: 18px;
   top: 22px;
   left: 157px;
 }
-/* line 142, ../sass/components/global.scss */
+/* line 148, ../sass/components/global.scss */
 .bg-flag .open {
   font-size: 25px;
   top: 55px;
   left: 153px;
 }
 
-/* line 151, ../sass/components/global.scss */
+/* line 157, ../sass/components/global.scss */
 .col-map {
   padding-left: 0px;
   padding-right: 0px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 151, ../sass/components/global.scss */
+  /* line 157, ../sass/components/global.scss */
   .col-map {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-/* line 160, ../sass/components/global.scss */
+/* line 166, ../sass/components/global.scss */
 #map-canvas {
   width: 100%;
   height: 300px;
 }
 @media only screen and (min-width: 768px) {
-  /* line 160, ../sass/components/global.scss */
+  /* line 166, ../sass/components/global.scss */
   #map-canvas {
     height: 500px;
   }
 }
 
-/* line 169, ../sass/components/global.scss */
+/* line 175, ../sass/components/global.scss */
 .hr-black {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -8977,7 +8983,7 @@ body {
   border-top: 3px solid #000000;
 }
 
-/* line 176, ../sass/components/global.scss */
+/* line 182, ../sass/components/global.scss */
 .bg-wave {
   background-image: url("../images/bg-wave.png");
   background-image: -webkit-image-set(url("../images/bg-wave.png") 1x, url("../images/bg-wave@2x.png") 2x);
@@ -8987,7 +8993,7 @@ body {
   background-repeat: repeat-x;
 }
 
-/* line 187, ../sass/components/global.scss */
+/* line 193, ../sass/components/global.scss */
 .btn-egao {
   color: #333;
   background-color: #fff;
@@ -8996,9 +9002,20 @@ body {
   border-width: 3px;
   padding: 15px 60px;
 }
-/* line 195, ../sass/components/global.scss */
+/* line 201, ../sass/components/global.scss */
 .btn-egao:hover {
   background-color: #dcdcdc;
+}
+
+/* line 206, ../sass/components/global.scss */
+.bg-gray-xs {
+  background-color: #f6f6f4;
+}
+@media only screen and (min-width: 768px) {
+  /* line 206, ../sass/components/global.scss */
+  .bg-gray-xs {
+    background-color: inherit;
+  }
 }
 
 /* line 1, ../sass/components/typography.scss */

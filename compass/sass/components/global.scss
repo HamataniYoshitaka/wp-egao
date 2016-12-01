@@ -77,6 +77,12 @@ body {
             '../images/cost/bg-top@2x.jpg'
         );
     }
+    &.reservation {
+        @include bg-2x (
+            '../images/reservation/bg-top.jpg',
+            '../images/reservation/bg-top@2x.jpg'
+        );
+    }
 
     >.middle {
         position: absolute;
@@ -194,5 +200,12 @@ body {
 
     &:hover{
     background-color: #dcdcdc;
+    }
+}
+
+.bg-gray-xs {
+    background-color: #f6f6f4;
+    @media only screen and (min-width: $screen-sm) {
+        background-color: inherit;
     }
 }

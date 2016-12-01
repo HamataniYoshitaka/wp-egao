@@ -20,7 +20,7 @@
             <li role="presentation"><a href="<? echo home_url(); ?>/introduction/">院内の紹介</a></li>
             <li role="presentation"><a href="<? echo home_url(); ?>/treatment/">診療について</a></li>
             <li role="presentation"><a href="<? echo home_url(); ?>/cost/">料金について</a></li>
-
+            <li role="presentation"><a href="<? echo home_url(); ?>/reservation/">ご予約</a></li>
         </ul>
         <div class="drawer-body">
             <p class="text-center">
