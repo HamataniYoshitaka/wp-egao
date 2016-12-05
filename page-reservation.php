@@ -62,6 +62,11 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
             </h4>
             <br>
             <p class="text-center">週1程度 (9:30~17:00) / 曜日不定(診察カレンダーで確認できます)</p>
+            <br>
+            <h4 class="text-center">
+                <a class="btn btn-egao" href="<?php echo home_url(); ?>/#calendar">診療日カレンダーはコチラ&emsp;<i class="fa fa-calendar fa-lg mail"></i></a>
+            </h4>
+
 
             <h4 class="text-center bold tracking-1" style="margin-top: 100px;">お問い合わせ</h4>
             <h1 class="text-center line-height-15">

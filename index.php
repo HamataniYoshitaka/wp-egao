@@ -213,14 +213,14 @@ while ( have_posts() ) : the_post();
         </h4>
 
         <?php include_once(dirname(__FILE__) . '/parts/timetable.php'); ?>
-        
+
         <h4 class="text-center">
             <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-children.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-children@2x.png 2x">
         </h4>
         <br>
         <p class="text-center">週1程度 (9:30~17:00) / 曜日不定(診察カレンダーで確認できます)</p>
 
-        <h4 class="text-center bold tracking-1" style="margin-top: 100px;">診療カレンダー</h4>
+        <h4 id="calendar" class="text-center bold tracking-1" style="margin-top: 100px;">診療カレンダー</h4>
         <h1 class="text-center">
             <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
         </h1>
