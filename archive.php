@@ -10,8 +10,8 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
 
     <div class="container" style="padding-top: 100px; padding-bottom: 100px;">
         <h1 class="text-center line-height-15">
-            <img src="<? bloginfo('template_directory') ?>/compass/images/top-title-news.png" srcset="<? bloginfo('template_directory') ?>/compass/images/top-title-news@2x.png 2x"><br>
-            <img src="<? bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
+            <img src="<?php bloginfo('template_directory') ?>/compass/images/top-title-news.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/top-title-news@2x.png 2x"><br>
+            <img src="<?php bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
         </h1>
         <h4 class="text-center bold tracking-1">お知らせ</h4>
 
@@ -31,24 +31,24 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
                 ?>
                 <div class="row">
                     <div class="col-sm-4">
-                        <a href="<? the_permalink(); ?>">
-                            <img class="img-responsive" src="<? echo $url ?>">
+                        <a href="<?php the_permalink(); ?>">
+                            <img class="img-responsive" src="<?php echo $url ?>">
                             <span class="news-category-tab"><?php echo get_cat_name($cat->term_id); ?></span>
                         </a>
                     </div>
                     <div class="col-sm-8">
-                        <h6><? the_date('Y.m.d') ?></h6>
-                        <h4><a class="bold color-default" href="<? the_permalink(); ?>"><? the_title(); ?></a></h4>
-                        <p><? the_excerpt(); ?></p>
+                        <h6><?php the_date('Y.m.d') ?></h6>
+                        <h4><a class="bold color-default" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                        <p><?php the_excerpt(); ?></p>
                     </div>
                 </div><!-- /.row -->
                 <hr class="hr-dotted">
-            <? endwhile; ?>
+            <?php endwhile; ?>
             </div><!-- /.col -->
             <div class="col-sm-4 col-md-3">
-                <? get_sidebar(); ?>
+                <?php get_sidebar(); ?>
             </div>
         </div><!-- /.row -->
     </div><!-- /.container -->
 </div><!-- /.bg-white -->
-<? get_footer(); ?>
+<?php get_footer(); ?>

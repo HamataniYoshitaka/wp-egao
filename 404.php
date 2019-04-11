@@ -22,9 +22,9 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
         <br>
 
         <h4 class="text-center">
-            <a class="btn btn-egao" href="<? echo home_url(); ?>">TOPへ&emsp;<img class="more" src="<? bloginfo('template_directory') ?>/compass/images/caret-right.png" srcset="<? bloginfo('template_directory') ?>/compass/images/caret-right@2x.png 2x"></a>
+            <a class="btn btn-egao" href="<?php echo home_url(); ?>">TOPへ&emsp;<img class="more" src="<?php bloginfo('template_directory') ?>/compass/images/caret-right.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/caret-right@2x.png 2x"></a>
         </h4>
 
     </div><!-- /.container -->
 </div><!-- /.bg-white -->
-<? get_footer(); ?>
+<?php get_footer(); ?>

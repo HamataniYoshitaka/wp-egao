@@ -4,9 +4,12 @@
 		#chart7 .st3{fill:#FFFFFF;stroke:#231815;stroke-width:2;stroke-miterlimit:10;}
 		#chart7 .st5{fill:none;stroke:#231815;stroke-width:2;stroke-miterlimit:10;}
 	</style>
-	<text transform="matrix(1 0 0 1 16.7309 57.0806)" class="st0  ">透明なマウスピース矯正を希望される場合*</text>
-	<rect x="43" y="81" class="st3" width="202" height="27.5"/>
-	<text transform="matrix(1 0 0 1 55.3601 99.7939)" class="st0 bold ">インビザライン　~800,000円</text>
+	<text transform="matrix(1 0 0 1 236.7309 30.0806)" class="st0  ">*1 *2</text>
+	<text transform="matrix(1 0 0 1 16.7309 47.0806)" class="st0  ">透明なマウスピース矯正を希望される場合</text>
+	<rect x="13" y="61" class="st3" width="258" height="77.5"/>
+	<text transform="matrix(1 0 0 1 25.3601 84.7939)" class="st0 bold ">マウスピース型カスタムメイド矯正装置</text>
+	<text transform="matrix(1 0 0 1 85.3601 100.7939)" class="st0 bold ">(インビザライン)</text>
+	<text transform="matrix(1 0 0 1 95.3601 125.7939)" class="st0 bold ">~800,000円</text>
 	<polyline class="st5" points="27.1,153.4 1.7,153.4 1.7,1.6 27.1,1.6 	"/>
 	<polyline class="st5" points="256.9,1.6 282.3,1.6 282.3,153.4 256.9,153.4 	"/>
 </svg>

@@ -1,4 +1,4 @@
-<?
+<?php 
 /**
 * Template Name: 院内紹介
 */
@@ -10,9 +10,9 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
 <div class="fullscreen introduction">
     <div class="middle">
         <div class="text-center" style="margin-top: -100px; line-height: 5;">
-            <img class="hidden-xs" src="<? bloginfo('template_directory') ?>/compass/images/introduction-title.png" srcset="<? bloginfo('template_directory') ?>/compass/images/introduction-title@2x.png 2x"><br>
-            <img class="visible-xs" style="width: 290px;" src="<? bloginfo('template_directory') ?>/compass/images/introduction-title.png" srcset="<? bloginfo('template_directory') ?>/compass/images/introduction-title@2x.png 2x"><br>
-            <img src="<? bloginfo('template_directory') ?>/compass/images/wave-white.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-white@2x.png 2x">
+            <img class="hidden-xs" src="<?php bloginfo('template_directory') ?>/compass/images/introduction-title.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/introduction-title@2x.png 2x"><br>
+            <img class="visible-xs" style="width: 290px;" src="<?php bloginfo('template_directory') ?>/compass/images/introduction-title.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/introduction-title@2x.png 2x"><br>
+            <img src="<?php bloginfo('template_directory') ?>/compass/images/wave-white.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/wave-white@2x.png 2x">
             <h4 class="bold tracking-1">院内紹介</h4>
         </div>
     </div>
@@ -29,7 +29,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
         <br>
         <h5 class="text-center bold tracking-1">えがお矯正歯科の院内紹介</h5>
         <br>
-        <p class="text-center"><img src="<? bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<? bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
+        <p class="text-center"><img src="<?php bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
         <br>
         <br>
         <p class="text-center bold">当院では「安心・安全」そして「快適」にこだわっております。</p>
@@ -66,7 +66,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
         <br>
         <h5 class="text-center bold tracking-1">矯正歯科egaoの医療器具</h5>
         <br>
-        <p class="text-center"><img src="<? bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<? bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
+        <p class="text-center"><img src="<?php bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
         <br>
         <p class="text-center bold line-height-2">「自分の口の中に喜んで入れられるような状態にする」ということを１つの基準にしてスタッフ一同、<br>器具の滅菌・材料の取り扱いに注意しています。</p>
 
@@ -174,4 +174,4 @@ function moveSlickButton() {
 </script>
 
 
-<? get_footer(); ?>
+<?php get_footer(); ?>

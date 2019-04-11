@@ -16,8 +16,8 @@ $args = array(
 $categories = get_categories( $args );
 foreach ( $categories as $category ) {
 ?>
-	<li><a href="<? echo get_category_link( $category->term_id ) ?>"><? echo $category->name ?></a></li>
-<? } ?>
+	<li><a href="<?php echo get_category_link( $category->term_id ) ?>"><?php echo $category->name ?></a></li>
+<?php } ?>
     </ul>
 </div>
 
@@ -31,7 +31,7 @@ foreach ( $categories as $category ) {
          <path class="sidebar-line" d="M212.7,1.8c-61.4,13.7-146.9,14-211,0"/>
     </svg>
     <ul>
-<?
+<?php 
 $args = array(
     'type'            => 'monthly',
     'post_type'       => 'post',

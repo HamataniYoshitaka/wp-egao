@@ -11,16 +11,16 @@
     </div>
     <div class="drawer-contents">
         <div class="drawer-heading" style="background-color: #ffffff;">
-            <img class="img-responsive" src="<? bloginfo('template_directory') ?>/compass/images/menu-xs-logo.png" srcset="<? bloginfo('template_directory') ?>/compass/images/menu-xs-logo@2x.png 2x">
+            <img class="img-responsive" src="<?php bloginfo('template_directory') ?>/compass/images/menu-xs-logo.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/menu-xs-logo@2x.png 2x">
         </div>
         <ul class="drawer-fullnav">
-            <li role="presentation" class="active"><a href="<? echo home_url(); ?>">TOP</a></li>
-            <li role="presentation"><a href="<? echo home_url(); ?>/news/">お知らせ</a></li>
-            <li role="presentation"><a href="<? echo home_url(); ?>/staff/">人のこと</a></li>
-            <li role="presentation"><a href="<? echo home_url(); ?>/introduction/">院内の紹介</a></li>
-            <li role="presentation"><a href="<? echo home_url(); ?>/treatment/">診療について</a></li>
-            <li role="presentation"><a href="<? echo home_url(); ?>/cost/">料金について</a></li>
-            <li role="presentation"><a href="<? echo home_url(); ?>/reservation/">ご予約</a></li>
+            <li role="presentation" class="active"><a href="<?php echo home_url(); ?>">TOP</a></li>
+            <li role="presentation"><a href="<?php echo home_url(); ?>/news/">お知らせ</a></li>
+            <li role="presentation"><a href="<?php echo home_url(); ?>/staff/">人のこと</a></li>
+            <li role="presentation"><a href="<?php echo home_url(); ?>/introduction/">院内の紹介</a></li>
+            <li role="presentation"><a href="<?php echo home_url(); ?>/treatment/">診療について</a></li>
+            <li role="presentation"><a href="<?php echo home_url(); ?>/cost/">料金について</a></li>
+            <li role="presentation"><a href="<?php echo home_url(); ?>/reservation/">ご予約</a></li>
         </ul>
         <div class="drawer-body">
             <p class="text-center">

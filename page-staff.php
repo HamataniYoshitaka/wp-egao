@@ -1,4 +1,4 @@
-<?
+<?php 
 /**
 * Template Name: 人のこと
 */
@@ -9,8 +9,8 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
 <div class="fullscreen staff">
     <div class="middle">
         <div class="text-center" style="margin-top: -100px; line-height: 5;">
-            <img src="<? bloginfo('template_directory') ?>/compass/images/staff-title.png" srcset="<? bloginfo('template_directory') ?>/compass/images/staff-title@2x.png 2x"><br>
-            <img src="<? bloginfo('template_directory') ?>/compass/images/wave-white.png" srcset="<? bloginfo('template_directory') ?>/compass/images/wave-white@2x.png 2x">
+            <img src="<?php bloginfo('template_directory') ?>/compass/images/staff-title.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/staff-title@2x.png 2x"><br>
+            <img src="<?php bloginfo('template_directory') ?>/compass/images/wave-white.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/wave-white@2x.png 2x">
             <h4 class="bold tracking-1">人のこと</h4>
         </div>
     </div>
@@ -28,7 +28,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
         <br>
         <h5 class="text-center bold tracking-1">医師紹介</h5>
         <br>
-        <p class="text-center"><img src="<? bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<? bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
+        <p class="text-center"><img src="<?php bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
 
         <div class="row" style="margin-top: 60px;">
             <div class="col-sm-6" style="margin-bottom: 30px;">
@@ -36,7 +36,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <br>
                 <h4><small>院長</small>&nbsp;<span class="bold">生野 啓一郎</span></h4>
                 <p class="line-height-2">
-                    1982年生まれ　34歳 / 2001年　県立千葉高校卒業 / 2008年　北海道大学歯学部卒業 / 2009年　北海道大学歯科矯正学教室入局 / 2013年　北海道大学大学院歯学研究科卒業（博士） / 2014年　日本矯正歯科学会認定医取得 / 2016年　「矯正歯科egao」開設
+                    1982年生まれ / 2001年　県立千葉高校卒業 / 2008年　北海道大学歯学部卒業 / 2009年　北海道大学歯科矯正学教室入局 / 2013年　北海道大学大学院歯学研究科卒業（博士） / 2014年　日本矯正歯科学会認定医取得 / 2016年　「矯正歯科egao」開設
                 </p>
             </div>
             <div class="col-sm-6" style="margin-bottom: 30px;">
@@ -45,7 +45,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <br>
                 <h5 class="bold">主な記録</h5>
                 <p class="line-height-2">
-                    フルマラソン記録 : 3時間46分26秒(ネットタイム)  / 献血回数: 20回 / 羊蹄山登頂経験あり
+                    フルマラソン記録 : 3時間46分26秒(ネットタイム)  / 献血回数: 28回(2019年4月現在） / 羊蹄山登頂経験あり
                 </p>
                 <br>
                 <h5 class="bold">院長の目標</h5>
@@ -64,7 +64,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <br>
                 <h4><small>副院長</small>&nbsp;<span class="bold">生野 さやか</span></h4>
                 <p class="line-height-2">
-                    1983年生まれ　33歳 / 2002年　札幌北高校卒業 /  2008年　北海道大学歯学部卒業 / 2008年　北海道大学病院歯科診療センター研修医、第２補綴学教室 / 2009年〜2016年　札幌市内や千葉県柏市にて勤務医 / 2016年　「矯正歯科egao」副院長 / 顎咬合学会　咬み合わせ認定医
+                    1983年生まれ / 2002年　札幌北高校卒業 /  2008年　北海道大学歯学部卒業 / 2008年　北海道大学病院歯科診療センター研修医、第２補綴学教室 / 2009年〜2016年　札幌市内や千葉県柏市にて勤務医 / 2016年　「矯正歯科egao」副院長 / 日本顎咬合学会　咬み合わせ認定医
                 </p>
             </div>
             <div class="col-sm-6 col-sm-pull-6" style="margin-bottom: 30px;">
@@ -97,10 +97,10 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
         <br>
         <h5 class="text-center bold tracking-1">スタッフ紹介</h5>
         <br>
-        <p class="text-center"><img src="<? bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<? bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
+        <p class="text-center"><img src="<?php bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
 
         <div class="row" style="margin-top: 40px;">
-<? // Newsを検索するループを作成
+<?php // Newsを検索するループを作成
 $args = array(
     'post_type' => 'staffs',
     'posts_per_page' => -1,
@@ -121,7 +121,7 @@ while ( $my_query->have_posts() ) : $my_query->the_post();
                 <h6 class="subtitle"><?php echo get_field('staffs_subtitle'); ?></h6>
                 <h5 class="bold title"><?php the_title(); ?></h5>
             </div>
-<?
+<?php 
 endwhile;
 wp_reset_query();
 ?>
@@ -166,4 +166,4 @@ $(document).ready(function(){
 });
 </script>
 
-<? get_footer(); ?>
+<?php get_footer(); ?>

@@ -5,6 +5,6 @@
 	<clipPath id="TOP_SVGID_2">
 		<use xlink:href="#TOP_SVGID_1"  style="overflow:visible;"/>
 	</clipPath>
-	<image style="overflow:visible;clip-path:url(#TOP_SVGID_2);" width="1400" height="756" xlink:href="<? bloginfo('template_directory') ?>/compass/images/top-bg.jpg" >
+	<image style="overflow:visible;clip-path:url(#TOP_SVGID_2);" width="1400" height="756" xlink:href="<?php bloginfo('template_directory') ?>/compass/images/top-bg.jpg" >
 	</image>
 </svg>
