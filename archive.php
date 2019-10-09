@@ -1,4 +1,4 @@
-<?
+<?php 
 /**
 * アーカイブページのテンプレート
 */
@@ -17,7 +17,7 @@ require_once(dirname(__FILE__) . '/parts/nav-pc.php');
 
         <div class="row" style="margin-top: 80px; margin-bottom: 60px;">
             <div class="col-sm-8 col-md-9">
-                <?
+                <?php 
                 while ( have_posts() ) : the_post();
                 if(has_post_thumbnail()) {	// サムネ画像が保存されてたら表示
                     $image_url = wp_get_attachment_image_src(get_post_thumbnail_id(), 'medium');
