@@ -20,3 +20,70 @@
 @import "components/calendar";
 @import "components/rounded-bg";
 @import "components/staff";
+
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+@media only screen and (max-width: 768px) {
+  .px-xs-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .px-sm-4 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .min-height-sm-220 {
+    min-height: 220px;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .px-md-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .px-md-4 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .min-height-md-240 {
+    min-height: 240px;
+  }
+
+}
+@media only screen and (min-width: 1200px) {
+  .min-height-lg-240 {
+    min-height: 240px;
+  }
+}
+
+.border {
+  border: 1px solid #333;
+  position: relative;
+}
+
+.risk-title {
+  position: absolute;
+  top: -17px;
+  width: 100%;
+  >span {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: $body-bg;
+  }
+}
