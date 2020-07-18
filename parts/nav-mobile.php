@@ -24,7 +24,9 @@
         </ul>
         <div class="drawer-body">
             <p class="text-center">
-                <a style="color: #515151;" href="https://www.facebook.com/sapporokyoseishikaegao/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                <a style="color: #515151; margin-right: 3rem;" href="https://www.facebook.com/sapporokyoseishikaegao/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+                
+                <a style="color: #515151;" href="https://www.instagram.com/orthodontic_office_egao/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
             </p>
         </div>
         <div class="drawer-footer text-cener">

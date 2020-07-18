@@ -16,6 +16,9 @@
         <a class="facebook" href="https://www.facebook.com/sapporokyoseishikaegao/" target="_blank">
             <i class="fa fa-facebook fa-lg"></i>
         </a>
+        <a class="instagram" href="https://www.instagram.com/orthodontic_office_egao/" target="_blank">
+            <i class="fa fa-instagram fa-lg"></i>
+        </a>
         <div class="tel roboto-condensed bold">
             T<span style="font-size: 75%;">EL</span> 011-616-1919
         </div>
