@@ -52,7 +52,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <img class="cost-circle" src="<?php bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">初診検査・診断料</h4>
-                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">35,000<small>円</small></span></h3>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">40,000<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
@@ -71,9 +71,9 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="vertical-line" style="width: 220px;">
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">成長期の治療</span></h4>
-                <h4 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">260,000<small class="color-default bold">円</small> ~ 310,000<small class="color-default bold">円</small></span>
-                </h4>
+                <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
+                    <span class="cost-borderd-box roboto-condensed">330,000<small class="color-default bold">円</small></span>
+                </h3>
             </div>
             <div class="col-xs-11 col-sm-5 col-xs-offset-1 col-sm-offset-0">
                 <div class="hidden-xs" style="margin-top: -40px;">
@@ -100,7 +100,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">マルチブラケット装置装着前の検査診断料</h4>
                 <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box">30,000<small>円</small></span>
+                    <span class="cost-borderd-box">10,000<small>円</small></span>
                 </h3>
             </div>
         </div><!-- /.row -->
@@ -111,9 +111,9 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="vertical-line" style="width: 340px;">
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">装置料（表側）</span></h4>
-                <h4 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">260,000<small class="color-default bold">円</small>&nbsp;~&nbsp;310,000<small class="color-default bold">円</small></span>
-                </h4>
+                <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
+                    <span class="cost-borderd-box roboto-condensed">300,000<small class="color-default bold">円</small></span>
+                </h3>
                 <br>
 
                 <?php include(dirname(__FILE__) . '/compass/images/cost/chart2.svg'); ?>
@@ -143,7 +143,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">最終検査・保定装置料</span></h4>
                 <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">20,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">30,000<small class="color-default bold">円</small></span>
                 </h3>
             </div>
             <div class="col-xs-11 col-sm-5 col-xs-offset-1 col-sm-offset-0">
@@ -203,7 +203,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <img class="cost-circle" src="<?php bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">初診検査・診断料</h4>
-                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">35,000<small>円</small></span></h3>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">40,000<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
@@ -254,7 +254,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">最終検査・保定装置料</span></h4>
                 <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">20,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">30,000<small class="color-default bold">円</small></span>
                 </h3>
             </div>
             <div class="col-sm-5 col-xs-11 col-xs-offset-1 col-sm-offset-0">
@@ -344,7 +344,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 </p>
                 <br>
                 <h4 class="bold tracking-1">
-                    <span class="cost-borderd-box roboto-condensed">850,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">920,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
             <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
@@ -366,7 +366,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 </p>
                 <br>
                 <h4 class="bold tracking-1">
-                    <span class="cost-borderd-box roboto-condensed">700,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">770,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
             <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
@@ -410,7 +410,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 </p>
                 <br>
                 <h4 class="bold tracking-1">
-                    <span class="cost-borderd-box roboto-condensed">50,000<small class="color-default bold">円</small>&nbsp;~</span>
+                    <span class="cost-borderd-box roboto-condensed">100,000<small class="color-default bold">円</small>&nbsp;~</span>
                 </h4>
             </div>
             <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
