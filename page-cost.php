@@ -13,6 +13,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
             <img src="<?php bloginfo('template_directory') ?>/compass/images/cost-title.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/cost-title@2x.png 2x"><br>
             <img src="<?php bloginfo('template_directory') ?>/compass/images/wave-white.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/wave-white@2x.png 2x">
             <h4 class="bold tracking-1">料金について</h4>
+	    <h5 class="bold tracking-1">矯正歯科治療は公的健康保険適用外の<br class="visible-xs">自費（自由）診療です。</h5>
         </div>
     </div>
     <div style="position: absolute; left: 0; bottom: -5px; width: 100%;">
@@ -43,7 +44,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <img class="cost-circle" src="<?php bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">相談料</h4>
-                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">2,000<small>円</small></span></h3>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">2,200<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
@@ -52,7 +53,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <img class="cost-circle" src="<?php bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">初診検査・診断料</h4>
-                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">40,000<small>円</small></span></h3>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">44,000<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
@@ -61,7 +62,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <img class="cost-circle" src="<?php bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">唾液検査・歯磨き指導・全体クリーニング</h4>
-                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">5,000<small>円</small></span></h3>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">5,500<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
@@ -72,7 +73,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">成長期の治療</span></h4>
                 <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">330,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">363,000<small class="color-default bold">円</small></span>
                 </h3>
             </div>
             <div class="col-xs-11 col-sm-5 col-xs-offset-1 col-sm-offset-0">
@@ -100,7 +101,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">マルチブラケット装置装着前の検査診断料</h4>
                 <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box">10,000<small>円</small></span>
+                    <span class="cost-borderd-box">11,000<small>円</small></span>
                 </h3>
             </div>
         </div><!-- /.row -->
@@ -112,7 +113,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">装置料（表側）</span></h4>
                 <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">300,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">330,000<small class="color-default bold">円</small></span>
                 </h3>
                 <br>
 
@@ -143,7 +144,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">最終検査・保定装置料</span></h4>
                 <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">30,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">33,000<small class="color-default bold">円</small></span>
                 </h3>
             </div>
             <div class="col-xs-11 col-sm-5 col-xs-offset-1 col-sm-offset-0">
@@ -188,13 +189,14 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
         <h5 class="text-center bold visible-xs" style="margin-top: 100px;">
             <span class="round-border-title">12歳以上（すべて大人の歯の場合）</span>
         </h5>
+	<h5 class="text-center bold" style="margin-top: 20px;">一般的な治療期間2〜3年間、通院回数24〜36回</h5>
 
         <div class="row" style="margin-top: 100px;">
             <div class="col-sm-6 col-sm-offset-1 col-xs-11 col-xs-offset-1" style="position: relative;">
                 <img class="cost-circle" src="<?php bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">相談料</h4>
-                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">2,000<small>円</small></span></h3>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">2,200<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
@@ -203,7 +205,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <img class="cost-circle" src="<?php bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">初診検査・診断料</h4>
-                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">40,000<small>円</small></span></h3>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">44,000<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
@@ -212,7 +214,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <img class="cost-circle" src="<?php bloginfo('template_directory') ?>/compass/images/cost-circle.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/cost-circle@2x.png 2x">
                 <hr class="vertical-line" style="width: 100px;">
                 <h4 class="bold tracking-1">唾液検査・歯磨き指導・全体クリーニング</h4>
-                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">5,000<small>円</small></span></h3>
+                <h3 class="bold roboto-condensed tracking-1" style="margin-top: 30px; margin-left: 10px;"><span class="cost-borderd-box">5,500<small>円</small></span></h3>
             </div>
         </div><!-- /.row -->
 
@@ -223,7 +225,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">装置料（表側）</span></h4>
                 <h4 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">570,000<small class="color-default bold">円</small>&nbsp;~&nbsp;620,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">627,000<small class="color-default bold">円</small>&nbsp;~&nbsp;682,000<small class="color-default bold">円</small></span>
                 </h4>
                 <br>
 
@@ -254,7 +256,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">最終検査・保定装置料</span></h4>
                 <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">30,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">33,000<small class="color-default bold">円</small></span>
                 </h3>
             </div>
             <div class="col-sm-5 col-xs-11 col-xs-offset-1 col-sm-offset-0">
@@ -296,10 +298,12 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
             </div>
         </div><!-- /.row -->
         <br>
-        <p class="text-center">*1 完成物薬機法対象外の矯正歯科装置であり、医薬品副作用被害救済制度の対象外となる場合があります。</p>
+        <p class="text-center">*1 マウスピース型矯正装置（インビザライン）は医薬品医療機器等法（薬機法）の承認を受けていない未承認医薬品です。<br>
+	* マウスピース型矯正装置（インビザライン）は米国アライン・テクノロジー社の製品であり、インビザライン・ジャパン株式会社を介して入手しています。<br>
+* 国内にもマウスピース型矯正装置として医療品医療機器等法（薬機法）の承認を受けているものは複数存在します。<br>
+* マウスピース型矯正装置（インビザライン）は1998年にFDA（米国食品医薬品局）により医療機器として認証を受けています。<br>
+* マウスピース型矯正装置（インビザライン）は完成物薬機法対象外の矯正装置であり、承認薬品を対象とする医薬品副作用被害救済制度の対象外となる場合があります。</p>
         <p class="text-center">*2 インビザライン・MTMとも「相談料」「検査診断料」「最終検査・保定装置料」は必要となります。</p>
-
-
 
     </div><!-- /.container -->
 </div><!-- /.bg-white -->
@@ -325,7 +329,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 </p>
                 <br>
                 <h4 class="bold tracking-1">
-                    <span class="cost-borderd-box roboto-condensed">570,000<small class="color-default bold">円</small>&nbsp;~&nbsp;620,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">627,000<small class="color-default bold">円</small>&nbsp;~&nbsp;682,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
             <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
@@ -344,7 +348,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 </p>
                 <br>
                 <h4 class="bold tracking-1">
-                    <span class="cost-borderd-box roboto-condensed">920,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">1,012,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
             <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
@@ -366,7 +370,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 </p>
                 <br>
                 <h4 class="bold tracking-1">
-                    <span class="cost-borderd-box roboto-condensed">770,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">847,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
             <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
@@ -385,11 +389,15 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <img class="img-responsive visible-xs" src="<?php bloginfo('template_directory'); ?>/compass/images/cost/img4.jpg" srcset="<?php bloginfo('template_directory'); ?>/compass/images/cost/img4@2x.jpg 2x">
                 <p class="line-height-2">
                     透明な取り外し式の装置です。１日20時間以上装着する必要があります。非常に見えにくいのが一番のメリットでしょう。その他にもメリット・デメリット、この装置の得意な症例（歯並び）、苦手な症例（歯並び）がありますのでまずはご相談下さい。<br>
-                    <small>* 完成物薬機法対象外の矯正歯科装置であり、医薬品副作用被害救済制度の対象外となる場合があります。</small>
+		    <small>* マウスピース型矯正装置（インビザライン）は医薬品医療機器等法（薬機法）の承認を受けていない未承認医薬品です。</small><br>
+		    <small>* マウスピース型矯正装置（インビザライン）は米国アライン・テクノロジー社の製品であり、インビザライン・ジャパン株式会社を介して入手しています。</small><br>
+		    <small>* 国内にもマウスピース型矯正装置として医療品医療機器等法（薬機法）の承認を受けているものは複数存在します。</small><br>
+		    <small>* マウスピース型矯正装置（インビザライン）は1998年にFDA（米国食品医薬品局）により医療機器として認証を受けています。</small><br>
+		    <small>* マウスピース型矯正装置（インビザライン）は完成物薬機法対象外の矯正装置であり、承認薬品を対象とする医薬品副作用被害救済制度の対象外となる場合があります。</small><br>
                 </p>
                 <br>
                 <h4 class="bold tracking-1">
-                    <span class="cost-borderd-box roboto-condensed">~&nbsp;850,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">~&nbsp;935,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
             <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
@@ -410,7 +418,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 </p>
                 <br>
                 <h4 class="bold tracking-1">
-                    <span class="cost-borderd-box roboto-condensed">100,000<small class="color-default bold">円</small>&nbsp;~</span>
+                    <span class="cost-borderd-box roboto-condensed">110,000<small class="color-default bold">円</small>&nbsp;~</span>
                 </h4>
             </div>
             <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
@@ -420,7 +428,6 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
 
         <div style="border: 2px solid #222; padding: 20px; margin-top: 80px;">
             <ul class="line-height-2">
-                <li>費用はすべて税抜き表示です。</li>
                 <li>各種クレジットカードでのお支払いが可能です。</li>
                 <li>無金利での分割払いも承ります、お問い合わせ下さい。</li>
                 <li>医療費控除の対象になる場合があります、診断時にご説明致します。</li>
