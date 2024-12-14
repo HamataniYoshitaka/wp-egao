@@ -292,8 +292,141 @@ while ( have_posts() ) : the_post();
         <h4 class="text-center">
             <a class="btn btn-egao" href="mailto:info@egao-kyousei-sapporo.com">メールを送る&emsp;<img class="mail" src="<?php bloginfo('template_directory') ?>/compass/images/envelope.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/envelope@2x.png 2x"></a>
         </h4>
+        <div class="text-center" style="margin-top:20px;">
+            <button id="btn-certificate-modal" class="btn btn-egao" style="display:inline-flex;align-items:center;gap:10px;padding:13px 20px;background-color:#bfd9a2;">
+              <div class="text-left">
+                <div class="">当歯科医院の施設基準について</div>
+                <small>厚生労働省北海道厚生局に届出を行っています</small>
+              </div>
+              <svg class="more" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.27 8.18" width="16" height="8">
+                <polygon points="11.87 0 11.19 .73 14.26 3.59 0 3.59 0 4.59 14.26 4.59 11.19 7.45 11.87 8.18 16.27 4.09 11.87 0"/>
+              </svg>
+            </button>
+        </div>
 
     </div><!-- /.container -->
 </div>
+<!-- Modal -->
+<div class="modal fade" id="certificateModal" tabindex="-1" role="dialog" aria-labelledby="certificate">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content" style="border-radius:0;border:2px solid black; padding:16px;">
+      <div style="display:flex;justify-content:end;">
+          <button type="button" class="btn btn-link" data-dismiss="modal" style="">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 20" width="40" height="20">
+              <line x1="1" y1="1" x2="39" y2="19" stroke="black" stroke-width="2"/>
+              <line x1="1" y1="19" x2="39" y2="1" stroke="black" stroke-width="2"/>
+            </svg>
+          </button>
+        </div>
+      <h4 class="bold text-center" style="line-height:2;">
+        当医院は、以下の施設基準等に適合している旨、<br class="hidden-xs" />
+        厚生労働省北海道厚生局に届出を行っています。
+      </h4>
+      <br/>
+      <p class="text-center"><img src="<?php bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
+      <br/>
+      <br/>
+      <div style="max-width:620px;margin-left:auto; margin-right:auto;">
+        <h4 class="bold">
+        歯科点数表の初診料の注1に規定する施設基準【歯初診】
+        </h4>
+        <p style="line-height:2;">
+          当院では口腔内で使用する歯科医療機器等について、患者様ごとの交換、専用の機器を用いた洗浄・滅菌 処理の徹底等、十分な院内感染防止対策を行っています。<br/>
+          当院には歯科外来診療の院内感染防止対策に係る標準予防策及び新興感染症に対する対策の研修を4年に1回以上、定期的に受講している常勤の歯科医師が1名以上配置されています。<br/>
+          また、職員を対象とした院内感染防止対策にかかる標準予防策及び新興感染症に対する対策等の院内研修等を実施しています。
+        </p>
+        <br/>
+      <br/>
 
+        <h4 class="bold">
+        医療情報取得加算
+        </h4>
+        <p style="line-height:2;">
+        当院は、マイナ保険証で受診ができる「オンライン資格確認」を導入しています。<br/>
+        マイナ保険証の利用や問診票などを通じて患者様の診療情報を取得・活用することにより、質の高い医療の提供に努めています。
+        </p>
+        <br/>
+      <br/>
+
+        <h4 class="bold">
+        明細書発行体制
+        </h4>
+        <p style="line-height:2;">
+        算定した診療報酬の区分、項目の名称及びその点数又は金額を記載した詳細な明細書の発行を無料で 行っています。<br/>
+        公費医療の(自己負担のない)患者様にも無料で発行しています。なお、必要のない場合は事前に窓口にお伝えください。
+        </p>
+        <br/>
+      <br/>
+
+        <h4 class="bold">
+        一般名処方加算
+        </h4>
+        <p style="line-height:2;">
+        薬剤の一般的名称を記載する処方箋を交付する場合には、医薬品の供給状況等を踏まえつつ、一般名処方の趣旨を患者に十分に説明を実施しています。<br/>
+        医薬品の供給状況等や、令和6年10月より長期収載品について医療上の必要性があると認められない場合に患者様の希望を踏まえ処方等した場合は選定療養となること等を踏まえつつ、一般名処方の趣旨を患者様に十分に説明します。
+        </p>
+        <br/>
+      <br/>
+
+        <h4 class="bold">
+        医療DX推進体制整備加算【医療DX】
+        </h4>
+        <p style="line-height:2;">
+        電子処方箋の発行及び電子カルテ情報共有サービスなどの医療DXにかかる取り組みを実施し、オンライン資格確認等システムで得た医療情報を活用し、質の高い医療を提供できるよう取り組んでいます。
+        </p>
+        <br/>
+      <br/>
+
+        <h4 class="bold">
+        歯科外来診療感染対策加算【外感染1】
+        </h4>
+        <p style="line-height:2;">
+        歯科外来診療における診療感染対策に十分な体制の整備、十分な機器を有し、研修を受けた者が常勤し、院内感染防止に努めています。
+        </p>
+        <br/>
+      <br/>
+
+        <h4 class="bold">
+        クラウン・ブリッジ維持管理料【補管】
+        </h4>
+        <p style="line-height:2;">
+        当院で装着した冠やブリッジにおいて、2年間の維持管理を行っています。異常があればそのままにせず、早めにお知らせください。
+        </p>
+        <br/>
+      <br/>
+
+        <h4 class="bold">
+        歯科矯正診断料【矯診】
+        </h4>
+        <p style="line-height:2;">
+        歯科矯正セファログラム(頭部エックス線規格写真)が行える機器を設置しています。 歯科矯正に関する医療を担当する病院歯科と連携しています。
+        </p>
+        <br/>
+        <br/>
+
+        <h4 class="bold">
+        歯科外来・在宅ベースアップ評価料【歯外在ベI】
+        </h4>
+        <p style="line-height:2;">
+        職員の賃金の改善を行い、働きやすい職場の環境づくりに努めています。
+        </p>
+        <br/>
+        <div style="display:flex;justify-content:end;">
+          <p>
+            矯正歯科 egao<br/>
+            011-616-1919<br/>
+            2024年10月現在
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+$(document).ready(function(){
+    $('#btn-certificate-modal').click(function(){
+        $('#certificateModal').modal();
+    });
+});
+</script>
 <?php get_footer(); ?>
