@@ -73,7 +73,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">成長期の治療</span></h4>
                 <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">363,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">396,000<small class="color-default bold">円</small></span>
                 </h3>
             </div>
             <div class="col-xs-11 col-sm-5 col-xs-offset-1 col-sm-offset-0">
@@ -144,7 +144,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">最終検査・保定装置料</span></h4>
                 <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">33,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">44,000<small class="color-default bold">円</small></span>
                 </h3>
             </div>
             <div class="col-xs-11 col-sm-5 col-xs-offset-1 col-sm-offset-0">
@@ -225,7 +225,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">装置料（表側）</span></h4>
                 <h4 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">627,000<small class="color-default bold">円</small>&nbsp;~&nbsp;682,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">660,000<small class="color-default bold">円</small>&nbsp;~&nbsp;715,000<small class="color-default bold">円</small></span>
                 </h4>
                 <br>
 
@@ -256,7 +256,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr class="hr-dot-black hidden-xs" style="position: absolute; top: 2px; width: 100%; left: 10px;">
                 <h4 class="bold tracking-1"><span style="position: relative; background-color: #fff; padding-right: 10px; padding-left: 3px;">最終検査・保定装置料</span></h4>
                 <h3 class="bold tracking-1" style="margin-top: 30px; margin-left: 10px;">
-                    <span class="cost-borderd-box roboto-condensed">33,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">44,000<small class="color-default bold">円</small></span>
                 </h3>
             </div>
             <div class="col-sm-5 col-xs-11 col-xs-offset-1 col-sm-offset-0">
@@ -329,7 +329,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 </p>
                 <br>
                 <h4 class="bold tracking-1">
-                    <span class="cost-borderd-box roboto-condensed">627,000<small class="color-default bold">円</small>&nbsp;~&nbsp;682,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">660,000<small class="color-default bold">円</small>&nbsp;~&nbsp;715,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
             <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
@@ -348,7 +348,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 </p>
                 <br>
                 <h4 class="bold tracking-1">
-                    <span class="cost-borderd-box roboto-condensed">1,012,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">1,045,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
             <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
@@ -370,7 +370,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 </p>
                 <br>
                 <h4 class="bold tracking-1">
-                    <span class="cost-borderd-box roboto-condensed">847,000<small class="color-default bold">円</small></span>
+                    <span class="cost-borderd-box roboto-condensed">880,000<small class="color-default bold">円</small></span>
                 </h4>
             </div>
             <div class="col-sm-5 col-md-4 col-md-offset-1 hidden-xs">
