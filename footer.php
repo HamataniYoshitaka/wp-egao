@@ -12,7 +12,7 @@
 
     <div class="text-center" style="padding-bottom: 50px;">
             <a href="https://lin.ee/PFANo7c" target="_blank" rel="noopener">
-                <img src="<?php bloginfo('template_directory') ?>/compass/images/line-banner.png" alt="LINE" style="width: 500px; height: auto;">
+                <img src="<?php bloginfo('template_directory') ?>/compass/images/line-banner.png" alt="LINE" style="width: 90%; max-width: 500px; height: auto;">
             </a>
         </div>
 

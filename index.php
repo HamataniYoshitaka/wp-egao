@@ -226,7 +226,7 @@ while ( have_posts() ) : the_post();
         <p class="text-center">週1程度 (9:30~17:00) / 曜日不定(診察カレンダーで確認できます)</p>
         <div class="text-center" style="padding-top: 20px; padding-bottom: 20px;">
             <a href="https://lin.ee/PFANo7c" target="_blank" rel="noopener">
-                <img src="<?php bloginfo('template_directory') ?>/compass/images/line-banner.png" alt="LINE" style="width: 500px; height: auto;">
+                <img src="<?php bloginfo('template_directory') ?>/compass/images/line-banner.png" alt="LINE" style="width: 100%; max-width: 500px; height: auto;">
             </a>
         </div>
         <p class="text-center">※１週間以内の予約希望はお電話で</p>

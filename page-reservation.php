@@ -49,7 +49,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
         </div><!-- /.row -->
         <div class="text-center" style="padding-top: 20px; padding-bottom: 20px;">
             <a href="https://lin.ee/PFANo7c" target="_blank" rel="noopener">
-                <img src="<?php bloginfo('template_directory') ?>/compass/images/line-banner.png" alt="LINE" style="width: 500px; height: auto;">
+                <img src="<?php bloginfo('template_directory') ?>/compass/images/line-banner.png" alt="LINE" style="width: 100%; max-width: 500px; height: auto;">
             </a>
         </div>
         <p class="text-center">※１週間以内の予約希望はお電話で</p>
