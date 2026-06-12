@@ -35,4 +35,7 @@
     </div>
 </div>
 
-<a class="btn-tel-xs visible-xs" href="tel:011-616-1919"><i class="fa fa-phone fa-2x"></i></a>
+<a class="btn-tel-xs visible-xs" href="tel:011-616-1919"><i class="fa fa-phone"></i></a>
+<a class="btn-line-xs visible-xs" href="https://lin.ee/PFANo7c" target="_blank" rel="noopener">
+    <img src="<?php bloginfo('template_directory') ?>/compass/images/line-icon.png" alt="LINE">
+</a>

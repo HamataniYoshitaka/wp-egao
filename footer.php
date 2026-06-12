@@ -18,7 +18,7 @@
 
     <p class="josefin text-center bold">Copyright <?php echo date('Y') ?> 矯正歯科egao. All Rights Reserved.</p>
     <p class="josefin text-center">
-        <a style="color: #ffffff;" href="http://landmark-design.net" target="_blank">Powerd by LANDMARK</a>
+        <a style="color: #ffffff;" href="https://landmark-design.net" target="_blank">Powerd by LANDMARK</a>
     </p>
 </footer>
 

@@ -8,7 +8,7 @@ header('X-UA-Compatible: IE=edge,chrome=1');
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title><?php wp_title('|', true, 'right'); bloginfo('name');?></title>
-	<link rel="shortcut icon" href="http://egao-kyousei-sapporo.com/favicon.ico">
+	<link rel="shortcut icon" href="https://egao-kyousei-sapporo.com/favicon.ico">
 	<!-- Google fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700|Roboto+Condensed' rel='stylesheet' type='text/css'>
 	<script src="<?php bloginfo('template_directory')?>/compass/javascripts/jquery-2.2.0.min.js" type="text/javascript"></script>

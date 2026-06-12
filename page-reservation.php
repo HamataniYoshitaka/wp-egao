@@ -58,7 +58,7 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
         <div style="background-color: #f6f6f4; padding-top: 50px; padding-bottom: 50px;">
             <h4 class="text-center bold tracking-1">受付は当院の診療時間になります</h4>
             <h1 class="text-center line-height-15">
-                <img src="http://localhost:8888/egao-wp/assets/themes/egao/compass/images/wave-small.png" srcset="http://localhost:8888/egao-wp/assets/themes/egao/compass/images/wave-small@2x.png 2x"><br>
+                <img src="<?php bloginfo('template_directory') ?>/compass/images/wave-small.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/wave-small@2x.png 2x"><br>
             </h1>
             <h4 class="text-center">
                 <img src="<?php bloginfo('template_directory') ?>/compass/images/top-title-timetable.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/top-title-timetable@2x.png 2x">

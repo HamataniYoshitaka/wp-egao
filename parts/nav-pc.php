@@ -23,7 +23,7 @@
                 T<span style="font-size: 75%;">EL</span> 011-616-1919
             </div>
             <a class="line" href="https://lin.ee/PFANo7c" target="_blank" rel="noopener">
-                <img src="<?php bloginfo('template_directory') ?>/compass/images/line-icon.png" alt="LINE" style="width: 100px; height: auto;">
+                <img src="<?php bloginfo('template_directory') ?>/compass/images/line-icon.png" alt="LINE" style="width: 74px; height: auto;">
             </a>
     </div>
 </nav>
