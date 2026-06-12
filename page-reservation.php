@@ -32,9 +32,10 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
         <p class="text-center"><img src="<?php bloginfo('template_directory') ?>/compass/images/half-balls.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/half-balls@2x.png 2x"></p>
         <br><br><br>
         <p class="text-center line-height-2">
-            すべてのご予約は電話で受付をさせて頂いております。<br>
-            以下のお電話番号までお気軽にご連絡ください。<br>
-            お会いできるのを楽しみにお待ちしております。
+            矯正相談のご予約はLINEと電話から受付をさせていただいております。<br/>
+            小児予防歯科、矯正治療の再診のご予約はお電話のみの受付となります。<br/>
+            以下からお気軽にご連絡下さい。<br/>
+            お会いできるのを楽しみにしてお待ちしております。
         </p>
 
         <div class="row">
@@ -46,6 +47,12 @@ require_once(dirname(__FILE__) . '/parts/nav-mobile.php');
                 <hr style="border-top: 3px solid #222;">
             </div>
         </div><!-- /.row -->
+        <div class="text-center" style="padding-top: 20px; padding-bottom: 20px;">
+            <a href="https://lin.ee/PFANo7c" target="_blank" rel="noopener">
+                <img src="<?php bloginfo('template_directory') ?>/compass/images/line-banner.png" alt="LINE" style="width: 500px; height: auto;">
+            </a>
+        </div>
+        <p class="text-center">※１週間以内の予約希望はお電話で</p>
     </div><!-- /.container -->
     <div class="container bg-gray-xs" style="padding-top: 60px; padding-bottom: 100px;">
         <div style="background-color: #f6f6f4; padding-top: 50px; padding-bottom: 50px;">

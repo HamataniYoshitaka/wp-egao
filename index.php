@@ -224,6 +224,12 @@ while ( have_posts() ) : the_post();
         </h4>
         <br>
         <p class="text-center">週1程度 (9:30~17:00) / 曜日不定(診察カレンダーで確認できます)</p>
+        <div class="text-center" style="padding-top: 20px; padding-bottom: 20px;">
+            <a href="https://lin.ee/PFANo7c" target="_blank" rel="noopener">
+                <img src="<?php bloginfo('template_directory') ?>/compass/images/line-banner.png" alt="LINE" style="width: 500px; height: auto;">
+            </a>
+        </div>
+        <p class="text-center">※１週間以内の予約希望はお電話で</p>
 
         <h4 id="calendar" class="text-center bold tracking-1" style="margin-top: 100px;">診療カレンダー</h4>
         <h1 class="text-center">
@@ -293,7 +299,7 @@ while ( have_posts() ) : the_post();
             <a class="btn btn-egao" href="mailto:info@egao-kyousei-sapporo.com">メールを送る&emsp;<img class="mail" src="<?php bloginfo('template_directory') ?>/compass/images/envelope.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/envelope@2x.png 2x"></a>
         </h4>
         <div class="text-center" style="margin-top:20px;">
-            <button id="btn-certificate-modal" class="btn btn-egao" style="display:inline-flex;align-items:center;gap:10px;padding:13px 20px;background-color:#bfd9a2;">
+            <button id="btn-certificate-modal" class="btn btn-egao" style="display:inline-flex;align-items:center;gap:10px;padding:13px 20px;background-color:#E8E7DB;">
               <div class="text-left">
                 <div class="">当歯科医院の施設基準について</div>
                 <small>厚生労働省北海道厚生局に届出を行っています</small>

@@ -6,7 +6,7 @@
     width: 100%;
     transition: top 1.0s;
     &.up {
-        top: -120px;
+        top: -190px;
     }
     .tab {
         background-color: #ffffff;
@@ -49,7 +49,7 @@
         text-align: center;
         position: absolute;
         top: 60px;
-        right: 246px;
+        right: 346px;
         width: 38px;
         height: 38px;
         background-color: #ffffff;
@@ -63,30 +63,42 @@
         }
     }
     .instagram {
-      text-align: center;
-      position: absolute;
-      top: 60px;
-      right: 297px;
-      width: 38px;
-      height: 38px;
-      background-color: #ffffff;
-      border-radius: 19px;
-      padding-top: 10px;
-      color: $text-color;
-      transition: opacity 0.3s;
-      opacity: 1.0;
-      &:hover {
-          opacity: 0.6;
-      }
-    }
+        text-align: center;
+        position: absolute;
+        top: 60px;
+        right: 397px;
+        width: 38px;
+        height: 38px;
+        background-color: #ffffff;
+        border-radius: 19px;
+        padding-top: 10px;
+        color: $text-color;
+        transition: opacity 0.3s;
+        opacity: 1.0;
+        &:hover {
+            opacity: 0.6;
+        }
+        }
     .tel {
         text-align: center;
         position: absolute;
         top: 60px;
-        right: 20px;
+        right: 120px;
         width: 210px;
         height: 38px;
         background-color: #ffffff;
+        border-radius: 19px;
+        font-size: 20px;
+        letter-spacing: 0.1em;
+        padding-top: 5px;
+    }
+    .line{
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        width: 100px;
+        height: auto;
         border-radius: 19px;
         font-size: 20px;
         letter-spacing: 0.1em;

@@ -10,6 +10,12 @@
         <img style="width: 150px;" src="<?php bloginfo('template_directory') ?>/compass/images/top-logo.png" srcset="<?php bloginfo('template_directory') ?>/compass/images/top-logo@2x.png 2x">
     </div>
 
+    <div class="text-center" style="padding-bottom: 50px;">
+            <a href="https://lin.ee/PFANo7c" target="_blank" rel="noopener">
+                <img src="<?php bloginfo('template_directory') ?>/compass/images/line-banner.png" alt="LINE" style="width: 500px; height: auto;">
+            </a>
+        </div>
+
     <p class="josefin text-center bold">Copyright <?php echo date('Y') ?> 矯正歯科egao. All Rights Reserved.</p>
     <p class="josefin text-center">
         <a style="color: #ffffff;" href="http://landmark-design.net" target="_blank">Powerd by LANDMARK</a>
